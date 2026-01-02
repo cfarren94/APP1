@@ -1,0 +1,56 @@
+domain,id,reason,stem
+security_concepts,4,unrecoverable_truncation,Which VPN technology can support a multivendor environment and secure traf-
+security_concepts,41,junk_or_too_short,B ff
+security_concepts,42,junk_or_too_short,C ff
+security_concepts,49,unrecoverable_truncation,Which type of algorithm provides the highest level of protection against brute-
+security_concepts,58,junk_or_too_short,ff
+network_security,83,junk_or_too_short,ff
+network_security,104,unrecoverable_truncation,Which system facilitates deploying microsegmentation and multi-tenancy ser-
+network_security,109,unrecoverable_truncation,"An organization wants to improve its cybersecurity processes and to add intelli- gence to its data. The organization wants to utilize the most current intelligence data for URL filtering, reputations, and vulnerability information that can be integrated with the Cisco FTD and Cisco WSA. What must be done to accom-"
+network_security,143,junk_or_too_short,278
+securing_the_cloud,175,unrecoverable_truncation,Which public cloud provider supports the Cisco Next Generation Firewall Vir-
+securing_the_cloud,181,unrecoverable_truncation,"In an IaaS cloud services model, which security function is the provider respon-"
+securing_the_cloud,184,unrecoverable_truncation,How does Cisco Workload Optimization Manager help mitigate application per-
+securing_the_cloud,195,junk_or_too_short,A ff
+securing_the_cloud,198,junk_or_too_short,ff
+securing_the_cloud,209,junk_or_too_short,287
+content_security,223,junk_or_too_short,B ff
+content_security,225,junk_or_too_short,D ff
+content_security,252,unrecoverable_truncation,Which Cisco product provides proactive endpoint protection and allows admin-
+content_security,272,unrecoverable_truncation,In which two customer environments is the Cisco WSAv connector traffic direc-
+content_security,280,unrecoverable_truncation,313 An engineer is deploying a Cisco Secure Email Gateway and must ensure it reaches the Cisco update servers to retrieve new rules. The engineer must now manually configure the Outbreak Filter rules on an AsyncOS for Cisco Secure Email Gateway. Only outdated rules must be replaced. Up-to-date rules must be retained. Which action must the engineer take next to complete the config-
+endpoint_protection_and_detection,294,unrecoverable_truncation,"In which form of attack is alternate encoding, such as hexadecimal representa-"
+endpoint_protection_and_detection,295,unrecoverable_truncation,Which flaw does an attacker leverage when exploiting SQL injection vulnerabil-
+endpoint_protection_and_detection,304,junk_or_too_short,9
+endpoint_protection_and_detection,310,junk_or_too_short,AB ff
+endpoint_protection_and_detection,315,junk_or_too_short,A ff
+endpoint_protection_and_detection,319,junk_or_too_short,ff
+endpoint_protection_and_detection,324,unrecoverable_truncation,With which components does a southbound API within a software-defined net-
+endpoint_protection_and_detection,328,junk_or_too_short,32 D ff
+endpoint_protection_and_detection,334,junk_or_too_short,A ff
+endpoint_protection_and_detection,360,junk_or_too_short,A ff
+endpoint_protection_and_detection,365,junk_or_too_short,D ff
+endpoint_protection_and_detection,376,unrecoverable_truncation,For which two conditions can an endpoint be checked using ISE posture assess-
+endpoint_protection_and_detection,391,junk_or_too_short,A ff
+endpoint_protection_and_detection,393,unrecoverable_truncation,Which posture assessment requirement provides options to the client for reme-
+endpoint_protection_and_detection,396,unrecoverable_truncation,Which feature is leveraged by advanced antimalware capabilities to be an effec-
+endpoint_protection_and_detection,403,unrecoverable_truncation,"Which solution combines Cisco IOS and IOS XE components to enable admin- istrators to recognize applications, collect and send network metrics to Cisco Prime and other third-party management tools, and prioritize application traf-"
+endpoint_protection_and_detection,420,junk_or_too_short,B ff
+endpoint_protection_and_detection,424,junk_or_too_short,172 D ff
+endpoint_protection_and_detection,425,junk_or_too_short,B ff
+endpoint_protection_and_detection,427,unrecoverable_truncation,Which Cisco security solution determines if an endpoint has the latest OS up-
+endpoint_protection_and_detection,469,junk_or_too_short,226 C ff
+endpoint_protection_and_detection,482,unrecoverable_truncation,Refer to the exhibit. Which command results in these messages when attempt-
+endpoint_protection_and_detection,483,unrecoverable_truncation,"Which technology provides a combination of endpoint protection, endpoint de-"
+endpoint_protection_and_detection,485,unrecoverable_truncation,What is the process in DevSecOps where all changes in the central code reposi-
+endpoint_protection_and_detection,491,unrecoverable_truncation,Which two components do southbound APIs use to communicate with down-
+endpoint_protection_and_detection,493,junk_or_too_short,251 ff
+endpoint_protection_and_detection,498,junk_or_too_short,255 B ff
+endpoint_protection_and_detection,502,junk_or_too_short,D ff
+endpoint_protection_and_detection,519,junk_or_too_short,D ff
+endpoint_protection_and_detection,533,junk_or_too_short,ff
+endpoint_protection_and_detection,541,unrecoverable_truncation,306 Which platform uses Cyber Threat Intelligence as its main source of informa-
+endpoint_protection_and_detection,547,unrecoverable_truncation,What is the purpose of the certificate signing request when adding a new cer-
+endpoint_protection_and_detection,568,junk_or_too_short,B ff
+endpoint_protection_and_detection,576,unrecoverable_truncation,Which action blocks specific IP addresses whenever a computer with Cisco Se-
+secure_network_access_visibility_and_enforcement,620,unrecoverable_truncation,Which Cisco ISE feature helps to detect missing patches and helps with reme-
