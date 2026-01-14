@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>CCNP SCOR APPv1</title>
+  <title>CCNP SCOR APP</title>
 
   <!-- PWA -->
   <link rel="manifest" href="manifest.webmanifest" />
@@ -12,7 +12,7 @@
   <!-- iOS PWA support -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <meta name="apple-mobile-web-app-title" content="CCNP SCOR APPv1" />
+  <meta name="apple-mobile-web-app-title" content="CCNP SCOR APP" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
 
   <link rel="stylesheet" href="style.css" />
@@ -20,9 +20,9 @@
 
 <body>
   <header>
-    <h1>CCNP SCOR APPv1</h1>
-    <p style="font-weight:700;color:#d00">VERSION: APP-V3-DATA-CHOOSE-2026-01-02</p>
-    <p class="sub">Uses JSON choose/correct • Exact-match marking • Back / Next</p>
+    <h1>CCNP SCOR APP</h1>
+    <p style="font-weight:700;color:#d00">VERSION: APP-V4-ISSUES-FIX-2026-01-14</p>
+    <p class="sub">JSON choose/correct • Exact-match marking • Back / Next • Explanations</p>
   </header>
 
   <main>
@@ -48,6 +48,8 @@
       <div class="actions">
         <button id="startBtn" class="primary" type="button">Start</button>
       </div>
+
+      <p id="setupNote" class="hint"></p>
     </section>
 
     <section id="quiz" class="card hidden">
@@ -60,9 +62,12 @@
       <p id="qText" class="qtext"></p>
       <p id="qHint" class="hint"></p>
 
+      <div id="exhibitBox" class="exhibit hidden"></div>
+
       <form id="optionsForm" class="options" autocomplete="off"></form>
 
-      <p id="feedback" class="feedback"></p>
+      <div id="feedback" class="feedback"></div>
+      <p id="explanation" class="hint"></p>
 
       <div class="actions">
         <button id="backBtn" class="ghost" type="button">Back</button>
@@ -74,6 +79,10 @@
     <section id="results" class="card hidden">
       <h2>Results</h2>
       <p id="scoreLine" class="pill"></p>
+      <p id="metaLine" class="hint"></p>
+
+      <h3>Weak areas</h3>
+      <div id="weakAreas"></div>
 
       <h3>Review incorrect</h3>
       <div id="review"></div>

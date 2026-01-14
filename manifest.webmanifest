@@ -1,4 +1,4 @@
-{
+{{
   "name": "CCNP SCOR APPv1",
   "short_name": "SCOR APPv1",
   "start_url": "./",
@@ -11,5 +11,3 @@
     { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
-
-
