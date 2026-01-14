@@ -1,0 +1,1056 @@
+[
+  {
+    "domain": "Network Security",
+    "question": "What is a characteristic of Dynamic ARP Inspection? Suggested Answer: A ￿",
+    "options": {
+      "A": "DAI determines the validity of an ARP packet based on valid IP to MAC address bindings from the DHCP snooping binding database.",
+      "B": "In a typical network, make all ports as trusted except for the ports connecting to switches, which are untrusted.",
+      "C": "DAI associates a trust state with each switch.",
+      "D": "DAI intercepts all ARP requests and responses on trusted ports only. Answer: A Timestamp: Aug. 23, 2021, 11:36 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 1,
+    "topic": 1,
+    "orig_question_num": 73
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which SNMPv3 configuration must be used to support the strongest security possible? Suggested Answer: D ￿",
+    "options": {
+      "A": "asa-host(config)#snmp-server group myv3 v3 priv asa-host(config)#snmp- server user andy myv3 auth sha cisco priv des ciscXXXXXXXX asa- host(config)#snmp-server host inside 10.255.254.1 version 3 andy",
+      "B": "asa-host(config)#snmp-server group myv3 v3 noauth asa-host(config)#snmp- server user andy myv3 auth sha cisco priv aes 256 ciscXXXXXXXX asa- host(config)#snmp-server host inside 10.255.254.1 version 3 andy 40 C. asa-host(config)#snmp-server group myv3 v3 noauth asa-host(config)#snmp- server user andy myv3 auth sha cisco priv 3des ciscXXXXXXXX asa- host(config)#snmp-server host inside 10.255.254.1 version 3 andy",
+      "D": "asa-host(config)#snmp-server group myv3 v3 priv asa-host(config)#snmp- server user andy myv3 auth sha cisco priv aes 256 ciscXXXXXXXX asa- host(config)#snmp-server host inside 10.255.254.1 version 3 andy Answer: D Timestamp: Jan. 18, 2023, 7:51 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 2,
+    "topic": 1,
+    "orig_question_num": 76
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which ASA deployment mode can provide separation of management on a shared appliance? Suggested Answer: C ￿",
+    "options": {
+      "A": "DMZ multiple zone mode",
+      "B": "transparent firewall mode",
+      "C": "multiple context mode",
+      "D": "routed mode Answer: C Timestamp: Dec. 17, 2021, 12:05 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 3,
+    "topic": 1,
+    "orig_question_num": 78
+  },
+  {
+    "domain": "Network Security",
+    "question": "What is a characteristic of Cisco ASA NetFlow v9 Secure Event Logging? Sug- gested Answer: A ￿ Reference:https://www.cisco.com/c/en/us/td/docs/security/asa/asa92/configuration/general/asa- general-cli/monitor-nsel.html",
+    "options": {
+      "A": "It tracks flow-create, flow-teardown, and flow-denied events.",
+      "B": "It provides stateless IP flow tracking that exports all records of a specific flow.",
+      "C": "It tracks the flow continuously and provides updates every 10 seconds.",
+      "D": "Its events match all traﬀic classes in parallel. Answer: A Timestamp: July 4, 2022, 5:51 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 4,
+    "topic": 1,
+    "orig_question_num": 80
+  },
+  {
+    "domain": "Network Security",
+    "question": "An engineer wants to generate NetFlow records on traﬀic traversing the Cisco ASA. Which Cisco ASA command must be used? Suggested Answer: C ￿",
+    "options": {
+      "A": "flow exporter",
+      "B": "ip flow-export destination 1.1.1.1 2055",
+      "C": "flow-export destination inside 1.1.1.1 2055",
+      "D": "ip flow monitor input Answer: C Timestamp: Dec. 8, 2021, 7:57 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 5,
+    "topic": 1,
+    "orig_question_num": 82
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which two tasks allow NetFlow on a Cisco ASA 5500 Series firewall? Suggested Answer: AB ￿",
+    "options": {
+      "A": "Define a NetFlow collector by using the flow-export command",
+      "B": "Create a class map to match interesting traﬀic",
+      "C": "Create an ACL to allow UDP traﬀic on port 9996",
+      "D": "Enable NetFlow Version 9",
+      "E": "Apply NetFlow Exporter to the outside interface in the inbound direction Answer: A 44 Timestamp: March 17, 2021, 3:01 p.m."
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "id": 6,
+    "topic": 1,
+    "orig_question_num": 83
+  },
+  {
+    "domain": "Network Security",
+    "question": "How many interfaces per bridge group does an ASA bridge group deployment support? Suggested Answer: C ￿",
+    "options": {
+      "A": "up to 16",
+      "B": "up to 2",
+      "C": "up to 4",
+      "D": "up to 8 Answer: C Timestamp: May 2, 2021, 8:52 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 7,
+    "topic": 1,
+    "orig_question_num": 86
+  },
+  {
+    "domain": "Network Security",
+    "question": "A network administrator configures Dynamic ARP Inspection on a switch. Af- ter Dynamic ARP Inspection is applied, all users on that switch are unable to communicate with any destination. The network administrator checks the Interface status of all interfaces, and there is no err-disabled interface. What is causing this problem? Suggested Answer: A ￿",
+    "options": {
+      "A": "DHCP snooping has not been enabled on all VLANs 46 B. Dynamic ARP inspection has not been enabled on all VLANs",
+      "C": "The ip arp inspection limit command is applied on all interfaces and is blocking the traﬀic of all users",
+      "D": "The no ip arp inspection trust command is applied on all user host interfaces Answer: A Timestamp: March 17, 2021, 4:41 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 8,
+    "topic": 1,
+    "orig_question_num": 87
+  },
+  {
+    "domain": "Network Security",
+    "question": "Refer to the exhibit. Traﬀic is not passing through IPsec site-to-site VPN on the Firepower Threat Defense appliance. What is causing this issue? Suggested Answer: D ￿",
+    "options": {
+      "A": "Site-to-site VPN preshared keys are mismatched.",
+      "B": "Site-to-site VPN peers are using different encryption algorithms.",
+      "C": "No split-tunnel policy is defined on the Firepower Threat Defense appliance.",
+      "D": "The access control policy is not allowing VPN traﬀic in. Answer: D Timestamp: May 2, 2021, 8:59 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 9,
+    "topic": 1,
+    "orig_question_num": 94
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which policy represents a shared set of that define the aspects of a managed device that are likely to be similar to other managed devices in a deployment? Suggested Answer: D ￿ Reference:https://www.cisco.com/c/en/us/td/docs/security/firepower/622/configuration/guide/fpmc- config-guide-v622/ platform_settings_policies_for_managed_devices.pdf features or parameters",
+    "options": {
+      "A": "group policy",
+      "B": "access control policy",
+      "C": "device management policy",
+      "D": "platform settings policy Answer: D Timestamp: June 21, 2020, 12:47 a.m. 51"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 10,
+    "topic": 1,
+    "orig_question_num": 96
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which two application layer preprocessors are used by Firepower Next Gener- ation Intrusion Prevention System? Suggested Answer: AC ￿ Reference:https://www.cisco.com/c/en/us/td/docs/security/firepower/60/configuration/guide/fpmc- config-guide-v60/Application_Layer_Preprocessors.html",
+    "options": {
+      "A": "SIP",
+      "B": "inline normalization",
+      "C": "SSL",
+      "D": "packet decoder",
+      "E": "modbus Answer: A Timestamp: Sept. 27, 2021, 4:08 p.m. 52"
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "C"
+    ],
+    "explanation": "",
+    "id": 11,
+    "topic": 1,
+    "orig_question_num": 98
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which feature is configured for managed devices in the device platform settings of the Firepower Management Center? Suggested Answer: B ￿",
+    "options": {
+      "A": "quality of service",
+      "B": "time synchronization",
+      "C": "network address translations",
+      "D": "intrusion policy Answer: B Timestamp: July 17, 2020, 5:07 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 12,
+    "topic": 1,
+    "orig_question_num": 99
+  },
+  {
+    "domain": "Network Security",
+    "question": "What is a characteristic of Firepower NGIPS inline deployment mode? Sug- gested Answer: D ￿",
+    "options": {
+      "A": "ASA with Firepower module cannot be deployed",
+      "B": "It cannot take actions such as blocking traﬀic",
+      "C": "It is out-of-band from traﬀic",
+      "D": "It must have inline interface pairs configured Answer: D Timestamp: July 6, 2022, 2:32 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 13,
+    "topic": 1,
+    "orig_question_num": 103
+  },
+  {
+    "domain": "Network Security",
+    "question": "A mall provides security services to customers with a shared appliance. The mall wants separation of management on the shared appliance. Which ASA deployment mode meets these needs? Suggested Answer: C ￿",
+    "options": {
+      "A": "routed mode",
+      "B": "multiple zone mode",
+      "C": "multiple context mode",
+      "D": "transparent mode 55 Answer: C Timestamp: May 19, 2023, 2:04 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 14,
+    "topic": 1,
+    "orig_question_num": 104
+  },
+  {
+    "domain": "Network Security",
+    "question": "What is a key difference between Cisco Firepower and Cisco ASA? Suggested Answer: D ￿",
+    "options": {
+      "A": "Cisco Firepower provides identity based access control while Cisco ASA does not.",
+      "B": "Cisco AS provides access control while Cisco Firepower does not.",
+      "C": "Cisco ASA provides SSL inspection while Cisco Firepower does not.",
+      "D": "Cisco Firepower natively provides intrusion prevention capabilities while Cisco ASA does not. Answer: D Timestamp: Jan. 27, 2023, 10:57 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 15,
+    "topic": 1,
+    "orig_question_num": 109
+  },
+  {
+    "domain": "Network Security",
+    "question": "What is a characteristic of a bridge group in a Cisco ASA Firewall running in transparent mode? Suggested Answer: C ￿",
+    "options": {
+      "A": "It has an IP address on its BVI interface and is used for management traﬀic. 60 B. It allows ARP traﬀic with a single access rule.",
+      "C": "It includes multiple interfaces and access rules between interfaces are cus- tomizable.",
+      "D": "It is a Layer 3 segment and includes one port and customizable access rules. Answer: C Timestamp: Sept. 2, 2021, 12:45 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 16,
+    "topic": 1,
+    "orig_question_num": 114
+  },
+  {
+    "domain": "Network Security",
+    "question": "While using Cisco Firepower’s Security Intelligence policies, which two criteria is blocking based upon? Suggested Answer: AB ￿",
+    "options": {
+      "A": "IP addresses",
+      "B": "URLs",
+      "C": "port numbers",
+      "D": "protocol IDs",
+      "E": "MAC addresses Answer: A Timestamp: Dec. 7, 2021, 11:35 p.m."
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "id": 17,
+    "topic": 1,
+    "orig_question_num": 115
+  },
+  {
+    "domain": "Network Security",
+    "question": "61 What features does Cisco FTDv provide over Cisco ASAv? Suggested Answer: D ￿ Reference:https://www.ciscolive.com/c/dam/r/ciscolive/apjc/docs/2018/pdf/BRKSEC- 2064.pdf",
+    "options": {
+      "A": "Cisco FTDv provides 1GB of firewall throughput while Cisco ASAv does not.",
+      "B": "Cisco FTDv runs on VMware while Cisco ASAv does not.",
+      "C": "Cisco FTDv runs on AWS while Cisco ASAv does not.",
+      "D": "Cisco FTDv supports URL filtering while Cisco ASAv does not. Answer: D Timestamp: June 24, 2021, 2:08 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 18,
+    "topic": 1,
+    "orig_question_num": 116
+  },
+  {
+    "domain": "Network Security",
+    "question": "An administrator is configuring a DHCP server to better secure their environ- ment. They need to be able to rate-limit the traﬀic and ensure that legitimate requests are not dropped. How would this be accomplished? Suggested Answer: A ￿",
+    "options": {
+      "A": "Set a trusted interface for the DHCP server.",
+      "B": "Set the DHCP snooping bit to 1.",
+      "C": "Enable ARP inspection for the required VLAN.",
+      "D": "Add entries in the DHCP snooping database. Answer: A Timestamp: Oct. 6, 2021, 8:03 p.m. 63"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 19,
+    "topic": 1,
+    "orig_question_num": 119
+  },
+  {
+    "domain": "Network Security",
+    "question": "Refer to the exhibit. An administrator is adding a new Cisco FTD device to their network and wants to manage it with Cisco FMC. The Cisco FTD uses a registration key of Cisc392481137 and is not behind a NAT device. Which command is needed to enable this on the Cisco FTD? Suggested Answer: C ￿",
+    "options": {
+      "A": "configure manager add 16",
+      "B": "configure manager add DONTRESOLVE FTD123",
+      "C": "configure manager add",
+      "D": "configure manager add DONTRESOLVE Answer: C Timestamp: May 31, 2021, 12:06 a.m. 68"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 20,
+    "topic": 1,
+    "orig_question_num": 128
+  },
+  {
+    "domain": "Network Security",
+    "question": "A network administrator needs to find out what assets currently exist on the network. Third-party systems need to be able to feed host data into Cisco Firepower.What must be configured to accomplish this? Suggested Answer: C ￿",
+    "options": {
+      "A": "a Network Analysis policy to receive NetFlow data from the host",
+      "B": "a File Analysis policy to send file data into Cisco Firepower",
+      "C": "a Network Discovery policy to receive data from the host",
+      "D": "a Threat Intelligence policy to download the data from the host Answer: C Timestamp: Dec. 26, 2021, 7:01 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 21,
+    "topic": 1,
+    "orig_question_num": 129
+  },
+  {
+    "domain": "Network Security",
+    "question": "An organization deploys multiple Cisco FTD appliances and wants to manage them using one centralized solution. The organization does not have a local VM but does have existing Cisco ASA that must migrate over to Cisco FTDs. Which solution meets the needs of the organization? Suggested Answer: A ￿",
+    "options": {
+      "A": "Cisco FMC",
+      "B": "CDO",
+      "C": "CSM",
+      "D": "Cisco FDM Answer: A Timestamp: Sept. 5, 2021, 8:49 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 22,
+    "topic": 1,
+    "orig_question_num": 133
+  },
+  {
+    "domain": "Network Security",
+    "question": "72 An engineer has been tasked with configuring a Cisco FTD to analyze protocol fields and detect anomalies in the traﬀic from industrial systems. What must be done to meet these requirements? Suggested Answer: C ￿",
+    "options": {
+      "A": "Enable traﬀic analysis in the Cisco FTD.",
+      "B": "Implement pre-filter policies for the CIP preprocessor.",
+      "C": "Configure intrusion rules for the DNP3 preprocessor.",
+      "D": "Modify the access control policy to trust the industrial traﬀic. Answer: C Timestamp: Aug. 30, 2021, 2:47 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 23,
+    "topic": 1,
+    "orig_question_num": 136
+  },
+  {
+    "domain": "Network Security",
+    "question": "What is a functional difference between a Cisco ASA and Cisco IOS router with Zone-Based Policy Firewall? Suggested Answer: D ￿",
+    "options": {
+      "A": "The Cisco ASA can be configured for high availability, whereas the Cisco IOS router with Zone-Based Policy Firewall cannot.",
+      "B": "The Cisco IOS router with Zone-Based Policy Firewall can be configured for high availability, whereas the Cisco ASA cannot.",
+      "C": "The Cisco ASA denies all traﬀic by default, whereas the Cisco IOS router with Zone-Based Policy Firewall starts out by allowing all traﬀic, even on untrusted interfaces.",
+      "D": "The Cisco IOS router with Zone-Based Policy Firewall denies all traﬀic by default, whereas Cisco ASA starts out by allowing traﬀic until rules are added. Answer: D Timestamp: Dec. 1, 2021, 8:33 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 24,
+    "topic": 1,
+    "orig_question_num": 140
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which statement about the configuration of Cisco ASA NetFlow v9 Secure Event Logging is true? Suggested Answer: D ￿",
+    "options": {
+      "A": "To view bandwidth usage for NetFlow records, the QoS feature must be enabled.",
+      "B": "A sysopt command can be used to enable NSEL on a specific interface.",
+      "C": "NSEL can be used without a collector configured.",
+      "D": "A flow-export event type must be defined under a policy. Answer: D Timestamp: Sept. 16, 2021, 9:58 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 25,
+    "topic": 1,
+    "orig_question_num": 145
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which policy is used to capture host information on the Cisco Firepower Next Generation Intrusion Prevention System? Suggested Answer: D ￿",
+    "options": {
+      "A": "correlation",
+      "B": "intrusion",
+      "C": "access control",
+      "D": "network discovery Answer: D Timestamp: April 3, 2025, 3:51 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 26,
+    "topic": 1,
+    "orig_question_num": 147
+  },
+  {
+    "domain": "Network Security",
+    "question": "What are two differences between a Cisco WSA that is running in transparent mode and one running in explicit mode? Suggested Answer: AD ￿",
+    "options": {
+      "A": "The Cisco WSA responds with its own IP address only if it is running in explicit mode.",
+      "B": "The Cisco WSA is configured in a web browser only if it is running in trans- parent mode. 104 C. The Cisco WSA responds with its own IP address only if it is running in transparent mode.",
+      "D": "The Cisco WSA uses a Layer 3 device to redirect traﬀic only if it is running in transparent mode.",
+      "E": "When the Cisco WSA is running in transparent mode, it uses the WSA’s own IP address as the HTTP request destination. Answer: A Timestamp: May 16, 2021, 8:53 a.m."
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "D"
+    ],
+    "explanation": "",
+    "id": 27,
+    "topic": 1,
+    "orig_question_num": 197
+  },
+  {
+    "domain": "Network Security",
+    "question": "An organization wants to use Cisco FTD or Cisco ASA devices. Specific URLs must be blocked from being accessed via the firewall, which requires that the 116 administrator input the bad URL categories that the organization wants blocked into the access policy. Which solution should be used to meet this requirement? Suggested Answer: D ￿",
+    "options": {
+      "A": "Cisco FTD because it enables URL filtering and blocks malicious URLs by default, whereas Cisco ASA does not.",
+      "B": "Cisco ASA because it enables URL filtering and blocks malicious URLs by default, whereas Cisco FTD does not.",
+      "C": "Cisco ASA because it includes URL filtering in the access control policy capabilities, whereas Cisco FTD does not.",
+      "D": "Cisco FTD because it includes URL filtering in the access control policy capabilities, whereas Cisco ASA does not. Answer: D Timestamp: Oct. 25, 2021, 6:28 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 28,
+    "topic": 1,
+    "orig_question_num": 219
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which Cisco security solution protects remote users against phishing attacks when they are not connected to the VPN? Suggested Answer: A ￿",
+    "options": {
+      "A": "Cisco Umbrella",
+      "B": "Cisco Firepower NGIPS",
+      "C": "Cisco Stealthwatch",
+      "D": "Cisco Firepower Answer: A Timestamp: June 14, 2021, 2:43 p.m. 145"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 29,
+    "topic": 1,
+    "orig_question_num": 272
+  },
+  {
+    "domain": "Network Security",
+    "question": "An organization has a Cisco Stealthwatch Cloud deployment in their environ- ment. Cloud logging is working as expected, but logs are not being received from the on-premise network. What action will resolve this issue? Suggested Answer: B ￿",
+    "options": {
+      "A": "Deploy a Cisco FTD sensor to send events to Cisco Stealthwatch Cloud.",
+      "B": "Deploy a Cisco Stealthwatch Cloud sensor on the network to send data to Cisco Stealthwatch Cloud.",
+      "C": "Configure security appliances to send syslogs to Cisco Stealthwatch Cloud.",
+      "D": "Configure security appliances to send NetFlow to Cisco Stealthwatch Cloud. Answer: B Timestamp: Oct. 26, 2021, 7:01 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 30,
+    "topic": 1,
+    "orig_question_num": 284
+  },
+  {
+    "domain": "Network Security",
+    "question": "A network engineer must monitor user and device behavior within the on- premises network. This data must be sent to the Cisco Stealthwatch Cloud analytics platform for analysis. What must be done to meet this requirement, 152 using the Ubuntu-based VM appliance deployed in a VMware-based hypervisor? Suggested Answer: C ￿",
+    "options": {
+      "A": "Deploy a Cisco FTD sensor to send network events to Cisco Stealthwatch Cloud.",
+      "B": "Configure a Cisco FMC to send syslogs to Cisco Stealthwatch Cloud.",
+      "C": "Deploy the Cisco Stealthwatch Cloud PNM sensor that sends data to Cisco Stealthwatch Cloud.",
+      "D": "Configure a Cisco FMC to send NetFlow to Cisco Stealthwatch Cloud. Answer: C Timestamp: Aug. 23, 2021, 6:45 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 31,
+    "topic": 1,
+    "orig_question_num": 287
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which baseline form of telemetry is recommended for network infrastructure devices? Suggested Answer: B ￿",
+    "options": {
+      "A": "SDNS",
+      "B": "NetFlow",
+      "C": "passive taps",
+      "D": "SNMP Answer: B Timestamp: Nov. 18, 2022, 5:14 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 32,
+    "topic": 1,
+    "orig_question_num": 326
+  },
+  {
+    "domain": "Network Security",
+    "question": "Refer to the exhibit. What are two indications of the Cisco Firepower Services Module configuration? Suggested Answer: AE ￿",
+    "options": {
+      "A": "The module is operating in IDS mode.",
+      "B": "Traﬀic is blocked if the module fails.",
+      "C": "The module fails to receive redirected traﬀic. 192 D. The module is operating in IPS mode.",
+      "E": "Traﬀic continues to flow if the module fails. Answer: A Timestamp: Sept. 26, 2022, 9:31 a.m."
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "E"
+    ],
+    "explanation": "",
+    "id": 33,
+    "topic": 1,
+    "orig_question_num": 366
+  },
+  {
+    "domain": "Network Security",
+    "question": "An organization must add new firewalls to its infrastructure and wants to use Cisco ASA or Cisco FTD. The chosen firewalls must provide methods of blocking traﬀic that include offering the user the option to bypass the block for certain sites after displaying a warning page and to reset the connection. Which solution should the organization choose? Suggested Answer: A ￿",
+    "options": {
+      "A": "Cisco FTD because it enables interactive blocking and blocking with reset natively, whereas Cisco ASA does not.",
+      "B": "Cisco ASA because it has an additional module that can be installed to provide multiple blocking capabilities, whereas Cisco FTD does not. 197 C. Cisco ASA because it allows for interactive blocking and blocking with reset to be configured via the GUI, whereas FTD does not.",
+      "D": "Cisco FTD because it supports system rate level traﬀic blocking, whereas Cisco ASA does not. Answer: A Timestamp: Feb. 10, 2023, 5:50 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 34,
+    "topic": 1,
+    "orig_question_num": 375
+  },
+  {
+    "domain": "Network Security",
+    "question": "An administrator needs to configure the Cisco ASA via ASDM such that the net- work management system can actively monitor the host using SNMPv3. Which two tasks must be performed for this configuration? Suggested Answer: AB ￿",
+    "options": {
+      "A": "Add an SNMP USM entry.",
+      "B": "Specify an SNMP user group.",
+      "C": "Add an SNMP host access entry.",
+      "D": "Specify the SNMP manager and UDP port.",
+      "E": "Specify a community string. Answer: A Timestamp: Sept. 11, 2022, 8:40 a.m. 199"
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "id": 35,
+    "topic": 1,
+    "orig_question_num": 379
+  },
+  {
+    "domain": "Network Security",
+    "question": "What is a feature of NetFlow Secure Event Logging? Suggested Answer: A ￿ Ref- erence:https://www.cisco.com/c/en/us/td/docs/security/asa/asa91/asdm71/general/asdm_71_general_config/monitor_nsel.pdf",
+    "options": {
+      "A": "It exports only records that indicate significant events in a flow.",
+      "B": "It supports v5 and v8 templates.",
+      "C": "It delivers data records to NSEL collectors through NetFlow over TCP only.",
+      "D": "It filters NSEL events based on the traﬀic and event type through RSVP. Answer: A Timestamp: Dec. 4, 2022, 7:59 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 36,
+    "topic": 1,
+    "orig_question_num": 384
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which Cisco ASA deployment model is used to filter traﬀic between hosts in the same IP subnet using higher-level protocols without readdressing the network? Suggested Answer: D ￿",
+    "options": {
+      "A": "multiple context mode",
+      "B": "single context mode 204 C. routed mode",
+      "D": "transparent mode Answer: D Timestamp: May 19, 2024, 10:47 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 37,
+    "topic": 1,
+    "orig_question_num": 389
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which Cisco ASA Platform mode disables the threat detection features except for Advanced Threat Statistics? Suggested Answer: B ￿",
+    "options": {
+      "A": "cluster",
+      "B": "multiple context",
+      "C": "routed",
+      "D": "transparent Answer: B 206 Timestamp: Nov. 18, 2022, 5:42 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 38,
+    "topic": 1,
+    "orig_question_num": 396
+  },
+  {
+    "domain": "Network Security",
+    "question": "An organization has DHCP servers set up to allocate IP addresses to clients on the LAN. What must be done to ensure the LAN switches prevent malicious DHCP traﬀic while also distributing IP addresses to the correct endpoints? Suggested Answer: D ￿",
+    "options": {
+      "A": "Configure Dynamic ARP inspection and add entries in the DHCP snooping database.",
+      "B": "Configure DHCP snooping and set trusted interfaces for all client connections.",
+      "C": "Configure Dynamic ARP inspection and antispoofing ACLs in the DHCP snooping database.",
+      "D": "Configure DHCP snooping and set a trusted interface for the DHCP server. Answer: D Timestamp: Sept. 11, 2022, 12:37 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 39,
+    "topic": 1,
+    "orig_question_num": 408
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which command is used to log all events 209.165.201.10? Suggested Answer: A ￿ Reference:https://www.cisco.com/c/en/us/td/docs/security/asa/asa84/configuration/guide/asa_84_cli_config/monitor_nsel.html to a destination collector",
+    "options": {
+      "A": "CiscoASA(config-pmap-c)# flow-export 209.165.201.10 event-type all destination",
+      "B": "CiscoASA(config-cmap)# flow-export event-type flow-update destination 209.165.201.10",
+      "C": "CiscoASA(config-pmap-c)# flow-export event-type flow-update destination 209.165.201.10",
+      "D": "CiscoASA(config-cmap)# flow-export event-type all destination 209.165.201.10 Answer: A Timestamp: Nov. 1, 2022, 1:03 p.m. 219"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 40,
+    "topic": 1,
+    "orig_question_num": 425
+  },
+  {
+    "domain": "Network Security",
+    "question": "What is the most commonly used protocol for network telemetry? Suggested Answer: A ￿",
+    "options": {
+      "A": "NetFlow",
+      "B": "SNMP",
+      "C": "TFTP",
+      "D": "SMTP Answer: A Timestamp: Oct. 6, 2022, 10:30 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 41,
+    "topic": 1,
+    "orig_question_num": 435
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which type of data does the Cisco Stealthwatch system collect and analyze from routers, switches, and firewalls? Suggested Answer: D ￿",
+    "options": {
+      "A": "NTP",
+      "B": "SNMP",
+      "C": "syslog",
+      "D": "NetFlow Answer: D Timestamp: Dec. 18, 2022, 6:33 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 42,
+    "topic": 1,
+    "orig_question_num": 439
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which feature must be configured before implementing NetFlow on a router? Suggested Answer: B ￿",
+    "options": {
+      "A": "syslog",
+      "B": "IP routing",
+      "C": "VRF",
+      "D": "SNMPv3 Answer: B Timestamp: Dec. 5, 2022, 5:54 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 43,
+    "topic": 1,
+    "orig_question_num": 459
+  },
+  {
+    "domain": "Network Security",
+    "question": "A company identified a phishing vulnerability during a pentest. What are two ways the company can protect employees from the attack? Sug- gested Answer: BC ￿",
+    "options": {
+      "A": "using an inline IPS/IDS in the network",
+      "B": "using Cisco Umbrella",
+      "C": "using Cisco ESA",
+      "D": "using Cisco ISE",
+      "E": "using Cisco FTD Answer: B Timestamp: Dec. 10, 2022, 8:47 a.m. 243"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "C"
+    ],
+    "explanation": "",
+    "id": 44,
+    "topic": 1,
+    "orig_question_num": 473
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which Cisco security solution stops exfiltration using HTTPS? Suggested An- swer: A ￿",
+    "options": {
+      "A": "Cisco CTA",
+      "B": "Cisco FTD",
+      "C": "Cisco AnyConnect",
+      "D": "Cisco ASA Answer: A Timestamp: Dec. 20, 2022, 7:16 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 45,
+    "topic": 1,
+    "orig_question_num": 494
+  },
+  {
+    "domain": "Network Security",
+    "question": "What is a capability of Cisco ASA NetFlow? Suggested Answer: C ￿",
+    "options": {
+      "A": "It sends NetFlow data records from active and standby ASAs in an active- standby failover pair.",
+      "B": "It logs all event types only to the same collector.",
+      "C": "It filters NSEL events based on traﬀic.",
+      "D": "It generates NSEL events even if the MPF is not configured. Answer: C Timestamp: Jan. 17, 2023, 11:55 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 46,
+    "topic": 1,
+    "orig_question_num": 503
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which two fields are defined in the NetFlow flow? Suggested Answer: AE ￿",
+    "options": {
+      "A": "destination port",
+      "B": "Layer 4 protocol type",
+      "C": "output logical interface",
+      "D": "class of service bits",
+      "E": "type of service byte Answer: A Timestamp: Dec. 22, 2022, 8:37 p.m."
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "E"
+    ],
+    "explanation": "",
+    "id": 47,
+    "topic": 1,
+    "orig_question_num": 519
+  },
+  {
+    "domain": "Network Security",
+    "question": "An engineer is configuring Cisco WSA and needs to ensure end clients are pro- tected against DNS spoofing attacks. Which deployment method accomplishes this goal? Suggested Answer: C ￿",
+    "options": {
+      "A": "transparent mode",
+      "B": "Web Cache Communication Protocol",
+      "C": "explicit forward",
+      "D": "single-context mode Answer: C Timestamp: Feb. 11, 2023, 7:05 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 48,
+    "topic": 1,
+    "orig_question_num": 529
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which Cisco network security device supports contextual awareness? Suggested Answer: A ￿",
+    "options": {
+      "A": "ISE",
+      "B": "Cisco IOS",
+      "C": "Cisco ASA",
+      "D": "Firepower 272 Answer: A Timestamp: April 28, 2023, 6:54 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 49,
+    "topic": 1,
+    "orig_question_num": 532
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which service allows a user export application usage and performance statistics with Cisco Application Visibility and Control? Suggested Answer: A ￿",
+    "options": {
+      "A": "NetFlow",
+      "B": "SNORT",
+      "C": "SNMP",
+      "D": "802.1X Answer: A Timestamp: July 16, 2023, 5:04 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 50,
+    "topic": 1,
+    "orig_question_num": 536
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which Cisco Firewall solution requires zone definition? Suggested Answer: C ￿",
+    "options": {
+      "A": "CBAC",
+      "B": "Cisco AMP",
+      "C": "ZBFW",
+      "D": "Cisco ASA Answer: C Timestamp: May 15, 2023, 5:19 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 51,
+    "topic": 1,
+    "orig_question_num": 544
+  },
+  {
+    "domain": "Network Security",
+    "question": "Refer to the exhibit.The DHCP snooping database resides on router R1, and dynamic ARP inspection is configured only on switch SW2. Which ports must be configured as untrusted so that dynamic ARP inspection operates normally? Suggested Answer: D ￿",
+    "options": {
+      "A": "P2 and P3 only",
+      "B": "P5, P6, and P7 only",
+      "C": "P1, P2, P3, and P4 only",
+      "D": "P2, P3, and P6 only Answer: D Timestamp: June 1, 2023, 2:58 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 52,
+    "topic": 1,
+    "orig_question_num": 561
+  },
+  {
+    "domain": "Network Security",
+    "question": "A network administrator is setting up a site-to-site VPN from a Cisco FTD to a cloud environment. After the administrator configures the VPN on both sides, they still cannot reach the cloud environment. Which command must the administrator run on the FTD to verify that the VPN is encrypting traﬀic in both directions? Suggested Answer: A ￿",
+    "options": {
+      "A": "show crypto ipsec sa",
+      "B": "show crypto ipsec stats",
+      "C": "show vpn-sessiondb detail l2l",
+      "D": "show crypto isakmp sa Answer: A Timestamp: Oct. 21, 2023, 3:06 p.m. 291"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 53,
+    "topic": 1,
+    "orig_question_num": 571
+  },
+  {
+    "domain": "Network Security",
+    "question": "What describes the function of the crypto isakmp key C1$c451090787 address 0.0.0.0 0.0.0.0 command when configuring an IPsec VPN tunnel on a Cisco IOS router? Suggested Answer: A ￿",
+    "options": {
+      "A": "It allows connections from any hosts using the defined preshared key.",
+      "B": "It defines that all data is going to be encrypted via the VPN.",
+      "C": "It configures the IP address and subnet mask of the VPN server.",
+      "D": "It drops spoofed VPN traﬀic using 0.0.0.0 as the source or destination IP address. Answer: A Timestamp: Oct. 12, 2024, 12:58 a.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 54,
+    "topic": 1,
+    "orig_question_num": 576
+  },
+  {
+    "domain": "Network Security",
+    "question": "What is the ideal deployment mode to use when you need to manage separate security policies for multiple customers on a Cisco ASA device? Suggested Answer: D ￿",
+    "options": {
+      "A": "spanned cluster mode",
+      "B": "IRB mode",
+      "C": "VRF mode",
+      "D": "multiple context mode Answer: D Timestamp: July 10, 2024, 2:41 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 55,
+    "topic": 1,
+    "orig_question_num": 578
+  },
+  {
+    "domain": "Network Security",
+    "question": "Which two devices support WCCP for traﬀic redirection? Sug- gested Answer: AE ￿",
+    "options": {
+      "A": "Cisco IOS",
+      "B": "Cisco Secure Web Appliance",
+      "C": "Cisco IPS 296 D. proxy server",
+      "E": "Cisco ASA Answer: A Timestamp: Aug. 22, 2024, 6:16 p.m."
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "E"
+    ],
+    "explanation": "",
+    "id": 56,
+    "topic": 1,
+    "orig_question_num": 589
+  },
+  {
+    "domain": "Network Security",
+    "question": "A network administrator needs a solution to match traﬀic and allow or deny the traﬀic based on the type of application, not just the source or destination address and port used. Which kind of security product must the network administrator implement to meet this requirement? Suggested Answer: A ￿",
+    "options": {
+      "A": "nextgeneration firewall",
+      "B": "web application firewall",
+      "C": "next generation intrusion prevention system",
+      "D": "intrusion detection system Answer: A Timestamp: March 13, 2025, 1:11 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 57,
+    "topic": 1,
+    "orig_question_num": 604
+  },
+  {
+    "domain": "Network Security",
+    "question": "326 Which solution should a network administrator deploy to protect a webserver from SQL injection attacks? Suggested Answer: D ￿",
+    "options": {
+      "A": "IDS",
+      "B": "Secure Web Appliance",
+      "C": "ISE",
+      "D": "IPS Answer: D Timestamp: Sept. 6, 2024, 8:38 p.m."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 58,
+    "topic": 1,
+    "orig_question_num": 653
+  }
+]
