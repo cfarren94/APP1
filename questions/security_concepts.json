@@ -1,0 +1,1046 @@
+[
+  {
+    "domain": "Security Concepts",
+    "question": "Which functions of an SDN architecture require southbound APIs to enable communication?",
+    "options": {
+      "A": "SDN controller and the network elements",
+      "B": "management console and the SDN controller",
+      "C": "management console and the cloud",
+      "D": "SDN controller and the cloud"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 1,
+    "topic": 1,
+    "orig_question_num": 1
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "The main function of northbound APIs in the SDN architecture is to enable communication between which two areas of a network?",
+    "options": {
+      "A": "SDN controller and the cloud",
+      "B": "management console and the SDN controller",
+      "C": "management console and the cloud",
+      "D": "SDN controller and the management solution"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 2,
+    "topic": 1,
+    "orig_question_num": 3
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What is a feature of the open platform capabilities of Cisco DNA Center? Sug- gested",
+    "options": {
+      "A": "application adapters",
+      "B": "domain integration",
+      "C": "intent-based APIs",
+      "D": "automation adapters"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 3,
+    "topic": 1,
+    "orig_question_num": 4
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which form of attack is launched using botnets?",
+    "options": {
+      "A": "TCP flood",
+      "B": "DDOS",
+      "C": "DOS",
+      "D": "virus"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 4,
+    "topic": 1,
+    "orig_question_num": 6
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which attack is commonly associated with C and C++ programming languages?",
+    "options": {
+      "A": "cross-site scripting 6 B. water holing",
+      "C": "DDoS",
+      "D": "buffer overflow"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 5,
+    "topic": 1,
+    "orig_question_num": 12
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What are two DDoS attack categories?",
+    "options": {
+      "A": "protocol",
+      "B": "source-based",
+      "C": "database",
+      "D": "sequential",
+      "E": "volume-based"
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "E"
+    ],
+    "explanation": "",
+    "id": 6,
+    "topic": 1,
+    "orig_question_num": 18
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which algorithm provides encryption and authentication for data plane commu- nication?",
+    "options": {
+      "A": "AES-GCM",
+      "B": "SHA-96",
+      "C": "AES-256",
+      "D": "SHA-384"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 7,
+    "topic": 1,
+    "orig_question_num": 28
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What is a language format designed to exchange threat intelligence that can be transported over the TAXII protocol?",
+    "options": {
+      "A": "STIX",
+      "B": "XMPP",
+      "C": "pxGrid",
+      "D": "SMTP"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 8,
+    "topic": 1,
+    "orig_question_num": 32
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which group within Cisco writes and publishes a weekly newsletter to help cybersecurity professionals remain aware of the ongoing and most prevalent threats?",
+    "options": {
+      "A": "Talos",
+      "B": "PSIRT",
+      "C": "SCIRT",
+      "D": "DEVNET"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 9,
+    "topic": 1,
+    "orig_question_num": 38
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What provides the ability to program and monitor networks from somewhere other than the DNAC GUI?",
+    "options": {
+      "A": "ASDM",
+      "B": "NetFlow",
+      "C": "API",
+      "D": "desktop client"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 10,
+    "topic": 1,
+    "orig_question_num": 41
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What is a function of 3DES in reference to cryptography?",
+    "options": {
+      "A": "It encrypts traﬀic.",
+      "B": "It creates one-time use passwords.",
+      "C": "It hashes files.",
+      "D": "It generates private keys."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 11,
+    "topic": 1,
+    "orig_question_num": 42
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "An organization has two machines hosting web applications. Machine 1 is vul- nerable to SQL injection while machine 2 is vulnerable to buffer overflows. What action would allow the attacker to gain access to machine 1 but not machine 2?",
+    "options": {
+      "A": "sniﬀing the packets between the two hosts",
+      "B": "sending continuous pings",
+      "C": "overflowing the buffer’s memory",
+      "D": "inserting malicious commands into the database"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 12,
+    "topic": 1,
+    "orig_question_num": 46
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What is the function of SDN southbound API protocols?",
+    "options": {
+      "A": "to allow for the static configuration of control plane applications",
+      "B": "to enable the controller to use REST",
+      "C": "to enable the controller to make changes",
+      "D": "to allow for the dynamic configuration of control plane applications"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 13,
+    "topic": 1,
+    "orig_question_num": 47
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What are two characteristics of Cisco DNA Center APIs? Sug- gested",
+    "options": {
+      "A": "They are Cisco proprietary.",
+      "B": "They do not support Python scripts.",
+      "C": "They view the overall health of the network.",
+      "D": "They quickly provision new devices.",
+      "E": "Postman is required to utilize Cisco DNA Center API calls."
+    },
+    "choose": 2,
+    "answer": [
+      "C",
+      "D"
+    ],
+    "explanation": "",
+    "id": 14,
+    "topic": 1,
+    "orig_question_num": 56
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Refer to the exhibit. What does the Python script accomplish?",
+    "options": {
+      "A": "It authenticates to a Cisco ISE server using the username or ersad.",
+      "B": "It lists the LDAP users from the external identity store configured on Cisco ISE. 30 C. It authenticates to a Cisco ISE with an SSH connection.",
+      "D": "It allows authentication with TLSv1 SSL protocol."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 15,
+    "topic": 1,
+    "orig_question_num": 58
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What is a difference between GETVPN and IPsec?",
+    "options": {
+      "A": "GETVPN is used to build a VPN network with multiple sites without having to statically configure all devices.",
+      "B": "GETVPN is based on IKEv2 and does not support IKEv1.",
+      "C": "GETVPN provides key management and security association management.",
+      "D": "GETVPN reduces latency and provides encryption over MPLS without the use of a central hub."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 16,
+    "topic": 1,
+    "orig_question_num": 59
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which algorithm provides asymmetric encryption?",
+    "options": {
+      "A": "3DES",
+      "B": "RC4 31 C. AES",
+      "D": "RSA"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 17,
+    "topic": 1,
+    "orig_question_num": 60
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What is a difference between an XSS attack and an SQL injection attack? Sug- gested",
+    "options": {
+      "A": "SQL injection is a hacking method used to attack SQL databases, whereas XSS attack can exist in many different types of applications.",
+      "B": "XSS attacks are used to steal information from databases, whereas SQL injection attacks are used to redirect users to websites where attackers can steal data from them.",
+      "C": "XSS is a hacking method used to attack SQL databases, whereas SQL injec- tion attacks can exist in many different types of applications.",
+      "D": "SQL injection attacks are used to steal information from databases, whereas XSS attacks are used to redirect users to websites where attackers can steal data from them."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 18,
+    "topic": 1,
+    "orig_question_num": 61
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "32 What is a difference between a DoS attack and DDos attack?",
+    "options": {
+      "A": "A DoS attack is where a computer is used to flood a server with TCP packets, whereas DDoS attack is where a computer is used to flood a server with UDP packets.",
+      "B": "A DoS attack is where a computer is used to flood a server with UDP packets, whereas DDoS attack is where a computer is used to flood a server with TCP packets.",
+      "C": "A DoS attack is where a computer is used to flood a server with TCP and UDP packets, whereas DDoS attack is where a computer is used to flood multiple servers that are distributed over a LAN.",
+      "D": "A DoS attack is where a computer is used to flood a server with TCP and UDP packets, whereas DDoS attack is where multiple systems target a single system with a DoS attack."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 19,
+    "topic": 1,
+    "orig_question_num": 62
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which kind of API that is used with Cisco DNA Center provisions SSIDs, QoS policies, and update software versions on switches?",
+    "options": {
+      "A": "event",
+      "B": "intent 35 C. integration",
+      "D": "multivendor"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 20,
+    "topic": 1,
+    "orig_question_num": 67
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What is the result of running the crypto isakmp key ciscXXXXXXXX address 172.16.0.0 command?",
+    "options": {
+      "A": "authenticates the IKEv2 peers in the 172.16.0.0/16 range by using the key ciscXXXXXXXX",
+      "B": "authenticates the IP address of the 172.16.0.0/32 peer by using the key ciscXXXXXXXX",
+      "C": "authenticates the IKEv1 peers in the 172.16.0.0/16 range by using the key ciscXXXXXXXX",
+      "D": "secures all the certificates in the IKE exchange by using the key cis- cXXXXXXXX"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 21,
+    "topic": 1,
+    "orig_question_num": 71
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "50 Refer to the exhibit. A network administrator configured a site-to-site VPN tunnel between two Cisco IOS routers, and hosts are unable to communicate between two sites of VPN. The network administrator runs the debug crypto isakmp sa command to track VPN status. What is the problem according to this command output?",
+    "options": {
+      "A": "interesting traﬀic was not applied",
+      "B": "encryption algorithm mismatch",
+      "C": "authentication key mismatch",
+      "D": "hashing algorithm mismatch"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 22,
+    "topic": 1,
+    "orig_question_num": 95
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which product allows Cisco FMC to push security intelligence observable to its sensors from other products?",
+    "options": {
+      "A": "Threat Intelligence Director",
+      "B": "Encrypted Traﬀic Analytics.",
+      "C": "Cognitive Threat Analytics. 59 D. Cisco Talos Intelligence"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 23,
+    "topic": 1,
+    "orig_question_num": 112
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which term describes when the Cisco Firepower downloads threat intelligence updates from Cisco Talos?",
+    "options": {
+      "A": "authoring",
+      "B": "consumption",
+      "C": "sharing",
+      "D": "analysis"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 24,
+    "topic": 1,
+    "orig_question_num": 118
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which attack is preventable by Cisco ESA but not by the Cisco WSA?",
+    "options": {
+      "A": "SQL injection",
+      "B": "phishing",
+      "C": "buffer overflow",
+      "D": "DoS"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 25,
+    "topic": 1,
+    "orig_question_num": 214
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Why is it important to implement MFA inside of an organization?",
+    "options": {
+      "A": "To prevent brute force attacks from being successful.",
+      "B": "To prevent phishing attacks from being successful.",
+      "C": "To prevent DoS attacks from being successful.",
+      "D": "To prevent man-in-the-middle attacks from being successful."
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 26,
+    "topic": 1,
+    "orig_question_num": 259
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "An engineer enabled SSL decryption for Cisco Umbrella intelligent proxy and needs to ensure that traﬀic is inspected without alerting end-users. Which action accomplishes this goal?",
+    "options": {
+      "A": "Restrict access to only websites with trusted third-party signed certificates.",
+      "B": "Modify the user’s browser settings to suppress errors from Cisco Umbrella.",
+      "C": "Upload the organization root CA to Cisco Umbrella.",
+      "D": "Install the Cisco Umbrella root CA onto the user’s device."
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 27,
+    "topic": 1,
+    "orig_question_num": 311
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which open standard creates a framework for sharing threat intelligence in a machine-digestible format?",
+    "options": {
+      "A": "OpenIOC",
+      "B": "OpenC2",
+      "C": "CybOX",
+      "D": "STIX"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 28,
+    "topic": 1,
+    "orig_question_num": 333
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What are two functionalities of northbound and southbound APIs within Cisco SDN architecture?",
+    "options": {
+      "A": "Northbound APIs utilize RESTful API methods such as GET, POST, and DELETE",
+      "B": "Southbound APIs utilize CLI, SNMP, and RESTCONF 176 C. Southbound APIs are used to define how SDN controllers integrate with applications",
+      "D": "Northbound interfaces utilize OpenFlow and OpFlex to integrate with net- work devices",
+      "E": "Southbound interfaces utilize device configurations such as VLANs and IP addresses"
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "id": 29,
+    "topic": 1,
+    "orig_question_num": 335
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What are two functions of TAXII in threat intelligence sharing?",
+    "options": {
+      "A": "allows users to describe threat motivations and abilities",
+      "B": "determines how threat intelligence information is relayed",
+      "C": "determines the “what” of threat intelligence",
+      "D": "exchanges trusted anomaly intelligence information",
+      "E": "supports STIX information"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "E"
+    ],
+    "explanation": "",
+    "id": 30,
+    "topic": 1,
+    "orig_question_num": 350
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What are two functionalities of SDN Northbound APIs? Sug- gested",
+    "options": {
+      "A": "OpenFlow is a standardized northbound API protocol",
+      "B": "Northbound APIs form the interface between the SDN controller and business applications",
+      "C": "Northbound APIs provide a programmable interface for applications to dy- namically configure the network",
+      "D": "Northbound APIs form the interface between the SDN controller and the network switches or routers",
+      "E": "Northbound APIs use the NETCONF protocol to communicate with appli- cations."
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "C"
+    ],
+    "explanation": "",
+    "id": 31,
+    "topic": 1,
+    "orig_question_num": 351
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "An administrator enables Cisco Threat Intelligence Director on a Cisco FMC. Which process uses STIX and allows uploads and downloads of block lists?",
+    "options": {
+      "A": "editing",
+      "B": "sharing",
+      "C": "authoring",
+      "D": "consumption"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 32,
+    "topic": 1,
+    "orig_question_num": 357
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which method of attack is used by a hacker to send malicious code through a web application to an unsuspecting user to request that the victim’s web browser executes the code?",
+    "options": {
+      "A": "cross-site scripting",
+      "B": "browser WGET",
+      "C": "buffer overflow",
+      "D": "SQL injection"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 33,
+    "topic": 1,
+    "orig_question_num": 362
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which Cisco DNA Center Intent API action is used to retrieve the number of devices known to a DNA Center?",
+    "options": {
+      "A": "GET https://fqdnOrlPofDnaCenterPlatform/dna/intent/api/v1/network- device/count",
+      "B": "GET https://fqdnOrlPofDnaCenterPlatform/dna/intent/api/v1/network- device?parameter1=value¶meter2=vale&…",
+      "C": "GET https://fqdnOrlPofDnaCenterPlatform/dna/intent/api/v1/network- device/startIndex/recordsToReturn",
+      "D": "GET https://fqdnOrlPofDnaCenterPlatform/dna/intent/api/v1/network- device"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 34,
+    "topic": 1,
+    "orig_question_num": 372
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which standard is used to automate exchanging cyber threat information? Sug- gested",
+    "options": {
+      "A": "MITRE",
+      "B": "TAXII",
+      "C": "IoC",
+      "D": "STIX"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 35,
+    "topic": 1,
+    "orig_question_num": 386
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "An engineer is configuring web filtering for a network using Cisco Umbrella Secure Internet Gateway. The requirement is that all traﬀic needs to be filtered. Using the SSL decryption feature, which type of certificate should be presented to the end-user to accomplish this goal?",
+    "options": {
+      "A": "SubCA",
+      "B": "organization owned root",
+      "C": "self-signed",
+      "D": "third-party"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 36,
+    "topic": 1,
+    "orig_question_num": 397
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which two capabilities of Integration APIs are utilized with Cisco DNA Center?",
+    "options": {
+      "A": "Upgrade software on switches and routers",
+      "B": "Third party reporting",
+      "C": "Connect to ITSM platforms",
+      "D": "Create new SSIDs on a wireless LAN controller",
+      "E": "Automatically deploy new virtual routers"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "C"
+    ],
+    "explanation": "",
+    "id": 37,
+    "topic": 1,
+    "orig_question_num": 404
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "An engineer is configuring IPsec VPN and needs an authentication protocol that is reliable and supports ACK and sequence. Which protocol accomplishes this goal?",
+    "options": {
+      "A": "AES-256",
+      "B": "IKEv1",
+      "C": "ESP",
+      "D": "AES-192"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 38,
+    "topic": 1,
+    "orig_question_num": 426
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What are two functions of IKEv1 but not IKEv2?",
+    "options": {
+      "A": "IKEv1 conversations are initiated by the IKE_SA_INIT message.",
+      "B": "With IKEv1, aggressive mode negotiates faster than main mode.",
+      "C": "IKEv1 uses EAP for authentication.",
+      "D": "NAT-T is supported in IKEv1 but not in IKEv2.",
+      "E": "With IKEv1, when using aggressive mode, the initiator and responder iden- tities are passed in cleartext."
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "E"
+    ],
+    "explanation": "",
+    "id": 39,
+    "topic": 1,
+    "orig_question_num": 432
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "When choosing an algorithm to use. what should be considered about Diﬀie Heilman and RSA for key establishment?",
+    "options": {
+      "A": "RSA is a symmetric key establishment algorithm intended to output asym- metric keys.",
+      "B": "DH is an asymmetric key establishment algorithm intended to output sym- metric keys.",
+      "C": "DH is a symmetric key establishment algorithm intended to output asym- metric keys.",
+      "D": "RSA is an asymmetric key establishment algorithm intended to output sym- metric keys."
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 40,
+    "topic": 1,
+    "orig_question_num": 455
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What is provided by the Secure Hash Algorithm in a VPN?",
+    "options": {
+      "A": "authentication",
+      "B": "encryption",
+      "C": "integrity",
+      "D": "key exchange"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 41,
+    "topic": 1,
+    "orig_question_num": 471
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which Cisco DNA Center RESTful PNP API adds and claims a device into a workflow?",
+    "options": {
+      "A": "api/v1/onboarding/workflow",
+      "B": "api/v1/onboarding/pnp-device/import",
+      "C": "api/v1/onboarding/pnp-device",
+      "D": "api/v1/file/config"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 42,
+    "topic": 1,
+    "orig_question_num": 478
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What is the purpose of CA in a PKI?",
+    "options": {
+      "A": "to validate the authenticity of a digital certificate",
+      "B": "to issue and revoke digital certificates",
+      "C": "to certify the ownership of a public key by the named subject",
+      "D": "to create the private key for a digital certificate"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 43,
+    "topic": 1,
+    "orig_question_num": 480
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which Cisco solution integrates Encrypted Traﬀic Analytics to perform en- hanced visibility, promote compliance, shorten response times, and provide ad- ministrators with the information needed to provide educated and automated decisions to secure the environment?",
+    "options": {
+      "A": "Cisco ISE",
+      "B": "Cisco SDN",
+      "C": "Cisco Security Compliance Solution",
+      "D": "Cisco DNA Center"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 44,
+    "topic": 1,
+    "orig_question_num": 484
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which cryptographic process provides origin confidentiality, integrity, and origin authentication for packets?",
+    "options": {
+      "A": "AH",
+      "B": "IKEv1",
+      "C": "IKEv2",
+      "D": "ESP"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 45,
+    "topic": 1,
+    "orig_question_num": 492
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Refer to the exhibit. What is the result of this Python script of the Cisco DNA Center API?",
+    "options": {
+      "A": "adds a switch to Cisco DNA Center",
+      "B": "receives information about a switch",
+      "C": "deletes a switch from Cisco DNA Center",
+      "D": "adds authentication to a switch"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "explanation": "",
+    "id": 46,
+    "topic": 1,
+    "orig_question_num": 530
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which type of encryption uses a public key and a private key?",
+    "options": {
+      "A": "nonlinear",
+      "B": "symmetric",
+      "C": "linear",
+      "D": "asymmetric"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 47,
+    "topic": 1,
+    "orig_question_num": 539
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which two authentication protocols are supported by the Cisco WSA?",
+    "options": {
+      "A": "TLS",
+      "B": "LDAP",
+      "C": "SSL",
+      "D": "WCCP",
+      "E": "NTLM"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "E"
+    ],
+    "explanation": "",
+    "id": 48,
+    "topic": 1,
+    "orig_question_num": 540
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "279 What are two functionalities of SDN southbound APIs? Sug- gested",
+    "options": {
+      "A": "Southbound APIs from the interface between the SDN controller and business applications.",
+      "B": "Application layer programs communicate with the SDN controller through the southbound APIs.",
+      "C": "OpenFlow is a standardized southbound API protocol used between the SDN controller and the switch.",
+      "D": "Southbound APIs form the interface between the SDN controller and the network switches and routers.",
+      "E": "Southbound APIs provide a programmable interface for applications to con- figure the network."
+    },
+    "choose": 2,
+    "answer": [
+      "C",
+      "D"
+    ],
+    "explanation": "",
+    "id": 49,
+    "topic": 1,
+    "orig_question_num": 546
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which algorithm does ISAKMP use to securely derive encryption and integrity keys?",
+    "options": {
+      "A": "RSA",
+      "B": "AES",
+      "C": "3DES",
+      "D": "Diﬀie-Hellman"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "explanation": "",
+    "id": 50,
+    "topic": 1,
+    "orig_question_num": 569
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which two algorithms must be used when an engineer is creating a connection that will have classified data across it?",
+    "options": {
+      "A": "RSA-3072",
+      "B": "ECDSA-256",
+      "C": "AES-256",
+      "D": "RC4",
+      "E": "SHA-384"
+    },
+    "choose": 2,
+    "answer": [
+      "C",
+      "E"
+    ],
+    "explanation": "",
+    "id": 51,
+    "topic": 1,
+    "orig_question_num": 592
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "A Cisco Secure Cloud Analytics administrator is setting up a private network monitor sensor to monitor an on-premises environment. Which two pieces of information from the sensor are used to link to the Secure Cloud Analytics portal?",
+    "options": {
+      "A": "private IP address",
+      "B": "unique service key",
+      "C": "SSL certificate",
+      "D": "public IP address",
+      "E": "NAT ID"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "D"
+    ],
+    "explanation": "",
+    "id": 52,
+    "topic": 1,
+    "orig_question_num": 599
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which attack gives unauthorized access to files on the web server?",
+    "options": {
+      "A": "DHCP snooping",
+      "B": "path traversal",
+      "C": "broadcast storm",
+      "D": "distributed DoS"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 53,
+    "topic": 1,
+    "orig_question_num": 602
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "A website administrator wants to prevent SQL injection attacks against the company’s customer database, which is referenced by the web server. Which two methods help prevent SQL injection attacks?",
+    "options": {
+      "A": "using load balancers with NAT",
+      "B": "performing input validation",
+      "C": "enforcing TLS 1.3 only",
+      "D": "using SSL certificates",
+      "E": "using web application firewalls"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "E"
+    ],
+    "explanation": "",
+    "id": 54,
+    "topic": 1,
+    "orig_question_num": 628
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "Which API technology with SDN architecture is used to communicate with a controller and network devices such as routers and switches?",
+    "options": {
+      "A": "rest APIs",
+      "B": "northbound APIs",
+      "C": "southbound APIs",
+      "D": "unprotected APIs"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 55,
+    "topic": 1,
+    "orig_question_num": 652
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "A network engineer configures a site-to-site VPN with a colleague. During testing, the engineer discovers that only phase 1 is up, and application traﬀic cannot pass. Which configuration parameter must be checked on each device?",
+    "options": {
+      "A": "hash algorithm",
+      "B": "peer IP address",
+      "C": "encryption domain",
+      "D": "preshared key"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "id": 56,
+    "topic": 1,
+    "orig_question_num": 657
+  },
+  {
+    "domain": "Security Concepts",
+    "question": "What is a difference between an SQL injection and a cross-site scripting attack?",
+    "options": {
+      "A": "SQL injection intercepts user information, and XSS causes false or unpre- dictable results.",
+      "B": "SQL injection modifies SQL queries, and XSS cloaks by encoding tags.",
+      "C": "SQL injection detects environments, and XSS cloaks by encoding tags.",
+      "D": "SQL injection modifies SQL queries, and XSS allows access to files beyond the root folder."
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "id": 57,
+    "topic": 1,
+    "orig_question_num": 685
+  }
+]

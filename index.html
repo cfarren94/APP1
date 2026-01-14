@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>App 1 - SCOR Questions</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="theme-colour" content="#111111">
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <h1>App 1</h1>
+      <p class="sub">CCNP SCOR practice questions (domain selection)</p>
+    </header>
+
+    <main id="screen-select" class="card">
+      <h2>Select a domain</h2>
+      <div class="row">
+        <label for="domainSelect">Domain</label>
+        <select id="domainSelect"></select>
+      </div>
+      <div class="row">
+        <label for="shuffleToggle">Shuffle questions</label>
+        <input id="shuffleToggle" type="checkbox" checked />
+      </div>
+      <div class="actions">
+        <button id="startBtn" class="primary">Start</button>
+      </div>
+      <p class="tiny" id="bankInfo"></p>
+    </main>
+
+    <main id="screen-quiz" class="card hidden">
+      <div class="topbar">
+        <div class="meta">
+          <div id="progress"></div>
+          <div id="domainLabel" class="pill"></div>
+        </div>
+        <div class="meta-right">
+          <button id="backBtn" class="ghost">Back</button>
+          <button id="quitBtn" class="ghost">Quit</button>
+        </div>
+      </div>
+
+      <div id="questionArea"></div>
+
+      <div class="actions">
+        <button id="submitBtn" class="primary">Submit</button>
+        <button id="nextBtn" class="primary hidden">Next</button>
+      </div>
+
+      <div id="feedback" class="feedback hidden"></div>
+    </main>
+
+    <main id="screen-result" class="card hidden">
+      <h2>Results</h2>
+      <p id="resultSummary"></p>
+      <div class="actions">
+        <button id="restartBtn" class="primary">Start again</button>
+      </div>
+    </main>
+
+    <footer class="footer tiny">
+      <span>Offline-ready (PWA). Questions sourced from uploaded PDF.</span>
+    </footer>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
