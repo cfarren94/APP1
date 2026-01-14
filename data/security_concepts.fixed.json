@@ -1,0 +1,864 @@
+[
+  {
+    "id": 1,
+    "domain": "Security Concepts",
+    "question": "An attacker needs to perform reconnaissance on a target system to help gain access to it. The system has weak passwords, no encryption on the VPN links, and software bugs on the system’s applications. Which vulnerability allows the attacker to see the passwords being transmitted in clear text?",
+    "options": {
+      "A": "unencrypted links for traffic",
+      "B": "weak passwords for authentication",
+      "C": "improper file security",
+      "D": "software bugs on applications"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "Unencrypted links transmit data in clear text, so anyone who can sniff the traffic can read passwords."
+  },
+  {
+    "id": 2,
+    "domain": "Security Concepts",
+    "question": "Which algorithm provides encryption and authentication for data plane communication?",
+    "options": {
+      "A": "AES-GCM",
+      "B": "SHA-96",
+      "C": "AES-256",
+      "D": "SHA-384"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "AES-GCM provides authenticated encryption, so it gives both confidentiality and integrity/authentication for data-plane traffic."
+  },
+  {
+    "id": 3,
+    "domain": "Security Concepts",
+    "question": "Which two descriptions of AES encryption are true?",
+    "options": {
+      "A": "AES is less secure than 3DES.",
+      "B": "AES is more secure than 3DES.",
+      "C": "AES can use a 168-bit key for encryption.",
+      "D": "AES can use a 256-bit key for encryption.",
+      "E": "AES encrypts and decrypts a key three times in sequence."
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "choose": 2,
+    "status": "valid",
+    "explanation": "AES is a modern symmetric block cipher and is generally considered stronger than 3DES. AES supports key sizes up to 256 bits."
+  },
+  {
+    "id": 5,
+    "domain": "Security Concepts",
+    "question": "Which technology must be used to implement secure VPN connectivity among company branches over a private IP cloud with any-to-any scalable connectivity?",
+    "options": {
+      "A": "DMVPN",
+      "B": "FlexVPN",
+      "C": "IPsec DVTI",
+      "D": "GET VPN"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "GET VPN is designed for private WANs (like MPLS) and keeps any-to-any connectivity by encrypting traffic without hub-and-spoke tunnels."
+  },
+  {
+    "id": 6,
+    "domain": "Security Concepts",
+    "question": "What is a commonality between DMVPN and FlexVPN technologies?",
+    "options": {
+      "A": "FlexVPN and DMVPN use the new key management protocol, IKEv2",
+      "B": "FlexVPN and DMVPN use IS-IS routing protocol to communicate with spokes",
+      "C": "IOS routers run the same NHRP code for DMVPN and FlexVPN",
+      "D": "FlexVPN and DMVPN use the same hashing algorithms"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "DMVPN and FlexVPN are both Cisco IOS VPN frameworks. They reuse common IOS components and support scalable spoke connectivity."
+  },
+  {
+    "id": 7,
+    "domain": "Security Concepts",
+    "question": "Which protocol provides the strongest throughput performance when using",
+    "options": {
+      "A": "DTLSv1",
+      "B": "TLSv1",
+      "C": "TLSv1.1",
+      "D": "TLSv1.2"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is A because it best matches the requirement described. DTLSv1"
+  },
+  {
+    "id": 8,
+    "domain": "Security Concepts",
+    "question": "An organization has two machines hosting web applications. Machine 1 is vulnerable to SQL injection while machine 2 is vulnerable to buer overflows. What action would allow the attacker to gain access to machine 1 but not machine 2?",
+    "options": {
+      "A": "sniffing the packets between the two hosts",
+      "B": "sending continuous pings",
+      "C": "overflowing the buffer’s memory",
+      "D": "inserting malicious commands into the database"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. inserting malicious commands into the database"
+  },
+  {
+    "id": 9,
+    "domain": "Security Concepts",
+    "question": "Refer to the exhibit. What does the Python script accomplish?",
+    "options": {
+      "A": "It authenticates to a Cisco ISE server using the username or ersad.",
+      "B": "It lists the LDAP users from the external identity store configured on Cisco ISE.",
+      "C": "It authenticates to a Cisco ISE with an SSH connection.",
+      "D": "It allows authentication with TLSv1 SSL protocol."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "invalid",
+    "explanation": "The correct choice is A because it best matches the requirement described. It authenticates to a Cisco ISE server using the username or ersad."
+  },
+  {
+    "id": 12,
+    "domain": "Security Concepts",
+    "question": "What is a dierence between an XSS attack and an SQL injection attack?",
+    "options": {
+      "A": "SQL injection is a hacking method used to attack SQL databases, whereas XSS attack can exist in many different types of applications.",
+      "B": "XSS attacks are used to steal information from databases, whereas SQL injection attacks are used to redirect users to websites where attackers can steal data from them.",
+      "C": "XSS is a hacking method used to attack SQL databases, whereas SQL injection attacks can exist in many different types of applications.",
+      "D": "SQL injection attacks are used to steal information from databases, whereas XSS attacks are used to redirect users to websites where attackers can steal data from them."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "SQL injection manipulates database queries on the server side. XSS injects script content that runs in the victim’s browser."
+  },
+  {
+    "id": 13,
+    "domain": "Security Concepts",
+    "question": "Refer to the exhibit. An engineer is implementing a certificate based VPN.",
+    "options": {
+      "A": "Only an IKEv2 peer that has an OU certificate attribute set to MANGLER establishes an IKEv2 SA successfully.",
+      "B": "The OU of the IKEv2 peer certificate is used as the identity when matching an IKEv2 authorization policy.",
+      "C": "The OU of the IKEv2 peer certificate is set to MANGLER.",
+      "D": "The OU of the IKEv2 peer certificate is encrypted when the OU is set to MANGLER."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "status": "invalid",
+    "explanation": "In certificate-based IKE, certificate fields (like the OU) can be used as identities to match authorisation policies. This helps restrict which peers can form an SA."
+  },
+  {
+    "id": 14,
+    "domain": "Security Concepts",
+    "question": "A network engineer needs to select a VPN type that provides the most stringent security, multiple security associations for the connections, and eicient VPN establishment with the least bandwidth consumption. Why should the engineer",
+    "options": {
+      "A": "DMVPN because it uses multiple SAs and FlexVPN does not.",
+      "B": "DMVPN because it supports IKEv2 and FlexVPN does not.",
+      "C": "FlexVPN because it supports IKEv2 and DMVPN does not.",
+      "D": "FlexVPN because it uses multiple SAs and DMVPN does not."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "FlexVPN can use multiple SAs per session and supports scalable policy-based designs. It avoids extra tunnel overhead when designed with multiple SAs."
+  },
+  {
+    "id": 15,
+    "domain": "Security Concepts",
+    "question": "Which SNMPv3 configuration must be used to support the strongest security",
+    "options": {
+      "A": "asa-host(config)#snmp-server group myv3 v3 priv asa-host(config)#snmpserver user andy myv3 auth sha cisco priv des ciscXXXXXXXX asahost(config)#snmp-server host inside 10.255.254.1 version 3 andy",
+      "B": "asa-host(config)#snmp-server group myv3 v3 noauth asa-host(config)#snmpserver user andy myv3 auth sha cisco priv aes 256 ciscXXXXXXXX asahost(config)#snmp-server host inside 10.255.254.1 version 3 andy",
+      "C": "asa-host(config)#snmp-server group myv3 v3 noauth asa-host(config)#snmpserver user andy myv3 auth sha cisco priv 3des ciscXXXXXXXX asahost(config)#snmp-server host inside 10.255.254.1 version 3 andy",
+      "D": "asa-host(config)#snmp-server group myv3 v3 priv asa-host(config)#snmpserver user andy myv3 auth sha cisco priv aes 256 ciscXXXXXXXX asahost(config)#snmp-server host inside 10.255.254.1 version 3 andy"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. asa-host(config)#snmp-server group myv3 v3 priv asa-host(config)#snmpserver user andy myv3 auth sha cisco priv aes 256 ciscXXXXXXXX asahost(config)#snmp-server host inside 10.255.254.1 version 3 andy"
+  },
+  {
+    "id": 16,
+    "domain": "Security Concepts",
+    "question": "A network engineer has entered the snmp-server user andy myv3 auth sha cisco priv aes 256 cisc0383320506 command and needs to send SNMP information to D",
+    "options": {
+      "A": "snmp-server host inside 10.255.254.1 snmpv3 andy",
+      "B": "snmp-server host inside 10.255.254.1 version 3 myv3",
+      "C": "snmp-server host inside 10.255.254.1 snmpv3 myv3",
+      "D": "snmp-server host inside 10.255.254.1 version 3 andy"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. snmp-server host inside 10.255.254.1 version 3 andy"
+  },
+  {
+    "id": 17,
+    "domain": "Security Concepts",
+    "question": "A network engineer is configuring DMVPN and entered the crypto isakmp key cisc0383320506 address 0.0.0.0 command on host A. The tunnel is not being established to host B. What action is needed to authenticate the VPN?",
+    "options": {
+      "A": "Change the password on host A to the default password",
+      "B": "Enter the command with a different password on host B",
+      "C": "Enter the same command on host B",
+      "D": "Change isakmp to ikev2 in the command on host A"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is C because it best matches the requirement described. Enter the same command on host B"
+  },
+  {
+    "id": 19,
+    "domain": "Security Concepts",
+    "question": "50 Refer to the exhibit. A network administrator configured a site-to-site VPN tunnel between two Cisco IOS routers, and hosts are unable to communicate between two sites of VPN. The network administrator runs the debug crypto isakmp sa command to track VPN status. What is the problem according to",
+    "options": {
+      "A": "interesting traffic was not applied",
+      "B": "encryption algorithm mismatch",
+      "C": "authentication key mismatch",
+      "D": "hashing algorithm mismatch"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "invalid",
+    "explanation": "The correct choice is C because it best matches the requirement described. authentication key mismatch"
+  },
+  {
+    "id": 20,
+    "domain": "Security Concepts",
+    "question": "A network administrator is configuring SNMPv3 on a new router. The users have already been created, however an additional configuration is needed to facilitate access to the SNMP views. What must the administrator do to accomplish",
+    "options": {
+      "A": "define the encryption algorithm to be used by SNMPv3",
+      "B": "set the password to be used for SNMPv3 authentication",
+      "C": "map SNMPv3 users to SNMP views",
+      "D": "specify the UDP port used by SNMP"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is C because it best matches the requirement described. map SNMPv3 users to SNMP views"
+  },
+  {
+    "id": 21,
+    "domain": "Security Concepts",
+    "question": "Refer to the exhibit. When configuring a remote access VPN solution terminating on the Cisco ASA, an administrator would like to utilize an external token authentication mechanism in conjunction with AAA authentication using machine certificates. Which configuration item must be modified to allow this?",
+    "options": {
+      "A": "Method",
+      "B": "SAML Server",
+      "C": "AAA Server Group",
+      "D": "Group Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "invalid",
+    "explanation": "The correct choice is A because it best matches the requirement described. Method"
+  },
+  {
+    "id": 22,
+    "domain": "Security Concepts",
+    "question": "An engineer is implementing NTP authentication within their network and has configured both the client and server devices with the command ntp authentication-key 1 md5 Cisc392481137. The server at 1.1.1.1 is attempting to authenticate to the client at 1.1.1.2, however is unable to do so. Which command is required to enable the client to accept the server’s authentication",
+    "options": {
+      "A": "ntp server 1.1.1.2 key",
+      "B": "ntp peer 1.1.1.2 key",
+      "C": "ntp server 1.1.1.1 key",
+      "D": "ntp peer 1.1.1.1 key"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is C because it best matches the requirement described. ntp server 1.1.1.1 key"
+  },
+  {
+    "id": 23,
+    "domain": "Security Concepts",
+    "question": "Refer to the exhibit. A network engineer is testing NTP authentication and realizes that any device synchronizes time with this router and that NTP auC",
+    "options": {
+      "A": "The hashing algorithm that was used was MD5, which is unsupported.",
+      "B": "The key was configured in plain text.",
+      "C": "NTP authentication is not enabled.",
+      "D": "The router was not rebooted after the NTP configuration updated."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "invalid",
+    "explanation": "The correct choice is C because it best matches the requirement described. NTP authentication is not enabled."
+  },
+  {
+    "id": 24,
+    "domain": "Security Concepts",
+    "question": "A Cisco FTD engineer is creating a newIKEv2 policy called s2s00123456789 for their organization to allow additional protocols to terminate network devices with.They currently only have one policy established and need the new policy to be a backup in case some devices cannot support the stronger algorithms listed in the primary policy. What should be done in order to support this?",
+    "options": {
+      "A": "Change the encryption to AES* to support all AES algorithms in the primary policy.",
+      "B": "Make the priority for the primary policy 10 and the new policy 1.",
+      "C": "Change the integrity algorithms to SHA* to support all SHA algorithms in the primary policy.",
+      "D": "Make the priority for the new policy 5 and the primary policy 1."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. Make the priority for the new policy 5 and the primary policy 1."
+  },
+  {
+    "id": 25,
+    "domain": "Security Concepts",
+    "question": "What is the function of the crypto isakmp key cisc406143794 address 0.0.0.0 B This command is used to configure pre-shared-key for IPsec remote acess users on the Cisco router. Address is mentioned as 0.0.0.0 0.0.0.0 because the users will be connecting from random ip addresses and it is almost impossible to mention all the ip addresses. Hence, 0.0.0.0 0.0.0.0 is used to allow all public ip addresses.",
+    "options": {
+      "A": "It prevents all IP addresses from connecting to the VPN server.",
+      "B": "It configures the pre-shared authentication key.",
+      "C": "It configures the local address for the VPN server.",
+      "D": "It defines what data is going to be encrypted via the VPN."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is B because it best matches the requirement described. It configures the pre-shared authentication key."
+  },
+  {
+    "id": 26,
+    "domain": "Security Concepts",
+    "question": "139 An engineer adds a custom detection policy to a Cisco AMP deployment and encounters issues with the configuration. The simple detection mechanism is configured, but the dashboard indicates that the hash is not 64 characters and",
+    "options": {
+      "A": "The hash being uploaded is part of a set in an incorrect format.",
+      "B": "The engineer is attempting to upload a file instead of a hash.",
+      "C": "The file being uploaded is incompatible with simple detections and must use advanced detections.",
+      "D": "The engineer is attempting to upload a hash created using MD5 instead of SHA-256."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. The engineer is attempting to upload a hash created using MD5 instead of SHA-256."
+  },
+  {
+    "id": 27,
+    "domain": "Security Concepts",
+    "question": "Which network monitoring solution uses streams and pushes operational 157 quick-start-guide",
+    "options": {
+      "A": "SNMP",
+      "B": "SMTP",
+      "C": "syslog",
+      "D": "model-driven telemetry"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. model-driven telemetry"
+  },
+  {
+    "id": 28,
+    "domain": "Security Concepts",
+    "question": "Which ID store requires that a shadow user be created on Cisco ISE for the",
+    "options": {
+      "A": "RSA SecureID",
+      "B": "Internal Database",
+      "C": "Active Directory",
+      "D": "LDAP"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is A because it best matches the requirement described. RSA SecureID"
+  },
+  {
+    "id": 29,
+    "domain": "Security Concepts",
+    "question": "An engineer is trying to decide between using L2TP or GRE over IPsec for their site-to-site VPN implementation. What must be understood before choosing a",
+    "options": {
+      "A": "L2TP is an IP packet encapsulation protocol, and GRE over IPsec is a tunneling protocol",
+      "B": "GRE over IPsec cannot be used as a standalone protocol, and L2TP can",
+      "C": "L2TP uses TCP port 47 and GRE over IPsec uses UDP port 1701",
+      "D": "GRE over IPsec adds its own header, and L2TP does not"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. GRE over IPsec adds its own header, and L2TP does not"
+  },
+  {
+    "id": 30,
+    "domain": "Security Concepts",
+    "question": "Which method of attack is used by a hacker to send malicious code through a web application to an unsuspecting user to request that the victim’s web browser community/attacks/xss/",
+    "options": {
+      "A": "cross-site scripting",
+      "B": "browser WGET",
+      "C": "buffer overflow",
+      "D": "SQL injection"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is A because it best matches the requirement described. cross-site scripting"
+  },
+  {
+    "id": 31,
+    "domain": "Security Concepts",
+    "question": "A network engineer entered the snmp-server user asmith myv7 auth sha cisco priv aes 256 cisc0123456789 command and needs to send SNMP information to C",
+    "options": {
+      "A": "snmp-server host inside 10.255.255.1 version 3 myv7",
+      "B": "snmp-server host inside 10.255.255.1 snmpv3 myv7",
+      "C": "snmp-server host inside 10.255.255.1 version 3 asmith",
+      "D": "snmp-server host inside 10.255.255.1 snmpv3 asmith"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is C because it best matches the requirement described. snmp-server host inside 10.255.255.1 version 3 asmith"
+  },
+  {
+    "id": 32,
+    "domain": "Security Concepts",
+    "question": "When network telemetry is implemented, what is important to be enabled across all network infrastructure devices to correlate dierent sources? Suggested Answer: C",
+    "options": {
+      "A": "CDP",
+      "B": "syslog",
+      "C": "NTP",
+      "D": "DNS"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "Accurate time synchronisation (NTP) is essential to correlate telemetry and logs across devices. Without aligned timestamps, correlation is unreliable."
+  },
+  {
+    "id": 34,
+    "domain": "Security Concepts",
+    "question": "What is a benefit of using GET VPN over FlexVPN within a VPN deployment?",
+    "options": {
+      "A": "GET VPN supports Remote Access VPNs",
+      "B": "GET VPN uses multiple security associations for connections",
+      "C": "GET VPN natively supports MPLS and private IP networks.",
+      "D": "GET VPN interoperates with non-Cisco devices."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "GET VPN is suited to private IP clouds and preserves any-to-any connectivity. It encrypts traffic while keeping original IP headers."
+  },
+  {
+    "id": 35,
+    "domain": "Security Concepts",
+    "question": "An engineer is configuring IPsec VPN and needs an authentication protocol that is reliable and supports ACK and sequence. Which protocol accomplishes this",
+    "options": {
+      "A": "AES-256",
+      "B": "IKEv1",
+      "C": "ESP",
+      "D": "AES-192"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "ESP supports integrity and anti-replay (sequence numbers) and can also encrypt traffic. That makes it the right IPsec protocol here."
+  },
+  {
+    "id": 36,
+    "domain": "Security Concepts",
+    "question": "During a recent security audit, a Cisco IOS router with a working IPSEC configuration using IKEv1 was flagged for using a wildcard mask with the crypto isakmp key command. The VPN peer is a SOHO router with a dynamically assigned IP address. Dynamic DNS has been configured on the SOHO router to map the dynamic IP address to the host name of vpn.sohoroutercompany.com. In addition to the command crypto isakmp key Cisc123456789 hostname vpn.sohoroutercompany.com, what other two commands are now required on the Cisco IOS router far the VPN to continue to function after the wildcard",
+    "options": {
+      "A": "ip host vpn.sohoroutercompany.com",
+      "B": "crypto isakmp identity hostname",
+      "C": "Add the dynamic keyword to the existing crypto map command",
+      "D": "fqdn vpn.sohoroutercompany.com",
+      "E": "ip name-server"
+    },
+    "correct": [
+      "B",
+      "E"
+    ],
+    "choose": 2,
+    "status": "valid",
+    "explanation": "Use a hostname/FQDN for the peer so the key matches the dynamic address without a broad wildcard. This reduces exposure compared to 0.0.0.0 wildcard keys."
+  },
+  {
+    "id": 38,
+    "domain": "Security Concepts",
+    "question": "Which VPN provides scalability for organizations with many remote sites?",
+    "options": {
+      "A": "DMVPN",
+      "B": "SSLVPN",
+      "C": "GRE over IPsec",
+      "D": "site-to-site IPsec"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is A because it best matches the requirement described. DMVPN"
+  },
+  {
+    "id": 39,
+    "domain": "Security Concepts",
+    "question": "Which two cryptographic algorithms are used with IPsec?",
+    "options": {
+      "A": "HMAC-SHA/SHA2",
+      "B": "AES-BAC",
+      "C": "Triple AMC-CBC",
+      "D": "AES-CBC",
+      "E": "AES-ABC"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "IPsec commonly uses AES for encryption and HMAC-SHA for integrity. These are standard, widely supported IPsec algorithms."
+  },
+  {
+    "id": 40,
+    "domain": "Security Concepts",
+    "question": "Which feature must be configured before implementing NetFlow on a router?",
+    "options": {
+      "A": "syslog",
+      "B": "IP routing",
+      "C": "VRF",
+      "D": "SNMPv3"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "NetFlow records are built from forwarded traffic flows. IP routing must be enabled so traffic is actually forwarded through the router."
+  },
+  {
+    "id": 43,
+    "domain": "Security Concepts",
+    "question": "An engineer recently completed the system setup on a Cisco WSA. Which URL information does the system send to SensorBase Network servers?",
+    "options": {
+      "A": "complete URL, without obfuscating the path segments",
+      "B": "URL information collected from clients that connect to the Cisco WSA using Cisco AnyConnect",
+      "C": "none because SensorBase Network Participation is disabled by default",
+      "D": "summarized server-name information and MD5-hashed path information"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is A because it best matches the requirement described. complete URL, without obfuscating the path segments"
+  },
+  {
+    "id": 45,
+    "domain": "Security Concepts",
+    "question": "An engineer is deploying Cisco Advanced Malware Protection (AMP) for Endpoints and wants to create a policy that prevents users from executing a file named abc123456789.exe without quarantining that file. What type of Outbreak Control list must the SHA-256 hash value for the file be added to in order",
+    "options": {
+      "A": "Advanced Custom Detection",
+      "B": "Simple Custom Detection",
+      "C": "Isolation",
+      "D": "Blocked Application"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. Blocked Application"
+  },
+  {
+    "id": 47,
+    "domain": "Security Concepts",
+    "question": "An engineer is adding a Cisco router to an existing environment. NTP authentication is configured on all devices in the environment with the command ntp authentication-key 1 md5 Cisc433392759. There are two routers on the network that are configured as NTP servers for redundancy, 192.168.1.110 and 192.168.1.111. 192.168.1.110 is configured as the authoritative time source. What command must be configured on the new router to use 192.168.1.110 as its primary time source without the new router attempting to oer time to",
+    "options": {
+      "A": "ntp server 192.168.1.110 primary key",
+      "B": "ntp server 192.168.1.110 key 1 prefer",
+      "C": "ntp peer 192.168.1.110 prefer key",
+      "D": "ntp peer 192.168.1.110 key 1 primary"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is B because it best matches the requirement described. ntp server 192.168.1.110 key 1 prefer"
+  },
+  {
+    "id": 48,
+    "domain": "Security Concepts",
+    "question": "Which two VPN tunneling protocols support the use of IPsec to provide data inCD",
+    "options": {
+      "A": "Secure Socket Tunneling Protocol",
+      "B": "OpenVPN",
+      "C": "Generic Routing Encapsulation Protocol",
+      "D": "Layer 2 Tunneling Protocol",
+      "E": "Point-to-Point Tunneling Protocol"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is C because it best matches the requirement described. Generic Routing Encapsulation Protocol"
+  },
+  {
+    "id": 50,
+    "domain": "Security Concepts",
+    "question": "When a site-to-site VPN is configured in Cisco FMC, which topology is supported when crypto ACLs are used instead of protected networks to define",
+    "options": {
+      "A": "hub-and-spoke",
+      "B": "full mesh",
+      "C": "DMVPN",
+      "D": "point-to-point"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. point-to-point"
+  },
+  {
+    "id": 51,
+    "domain": "Security Concepts",
+    "question": "For Cisco IOS PKI, which two types of servers are used as a distribution point",
+    "options": {
+      "A": "subordinate CA",
+      "B": "HTTP",
+      "C": "SDP",
+      "D": "LDAP",
+      "E": "SCP"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "choose": 2,
+    "status": "valid",
+    "explanation": "This answer is correct based on standard CCNP SCOR concepts and definitions."
+  },
+  {
+    "id": 52,
+    "domain": "Security Concepts",
+    "question": "Which algorithm does ISAKMP use to securely derive encryption and integrity",
+    "options": {
+      "A": "RSA",
+      "B": "AES",
+      "C": "3DES",
+      "D": "Diffie-Hellman"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. Diffie-Hellman"
+  },
+  {
+    "id": 53,
+    "domain": "Security Concepts",
+    "question": "What describes the function of the crypto isakmp key C1$c451090787 address 0.0.0.0 0.0.0.0 command when configuring an IPsec VPN tunnel on a Cisco IOS",
+    "options": {
+      "A": "It allows connections from any hosts using the defined preshared key.",
+      "B": "It defines that all data is going to be encrypted via the VPN.",
+      "C": "It configures the IP address and subnet mask of the VPN server.",
+      "D": "It drops spoofed VPN traffic using 0.0.0.0 as the source or destination IP address."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is A because it best matches the requirement described. It allows connections from any hosts using the defined preshared key."
+  },
+  {
+    "id": 54,
+    "domain": "Security Concepts",
+    "question": "Which two algorithms must be used when an engineer is creating a connection",
+    "options": {
+      "A": "RSA-3072",
+      "B": "ECDSA-256",
+      "C": "AES-256",
+      "D": "RC4",
+      "E": "SHA-384"
+    },
+    "correct": [
+      "C",
+      "E"
+    ],
+    "choose": 2,
+    "status": "valid",
+    "explanation": "This answer is correct based on standard CCNP SCOR concepts and definitions."
+  },
+  {
+    "id": 55,
+    "domain": "Security Concepts",
+    "question": "Refer to the exhibit. An administrator is configuring a VPN tunnel on a Cisco router. The information provided by the administrator of the remote end of the VPN tunnel was that IKEv1 is the tunnel protocol with a preshared key of C1$c0463835440!. The encryption for both phases is AES and the hash for both phases is SHA-256. The source subnet is 10.10.10.x/24 and the destination subnet is 10.10.20.x/24. The local device cannot establish a VPN tunnel and the debug message shown here is seen in the log file. What must be verified to",
+    "options": {
+      "A": "Ensure that the IKE version is identical on both ends",
+      "B": "Ensure that the ISAKMP policy configuration is identical on both ends",
+      "C": "Ensure that the preshared key is identical on both ends",
+      "D": "Ensure that the ACLs that define interesting traffic are symmetrical on both ends"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "invalid",
+    "explanation": "The correct choice is D because it best matches the requirement described. Ensure that the ACLs that define interesting traffic are symmetrical on both ends"
+  },
+  {
+    "id": 56,
+    "domain": "Security Concepts",
+    "question": "A website administrator wants to prevent SQL injection attacks against the company’s customer database, which is referenced by the web server. Which two methods help prevent SQL injection attacks?",
+    "options": {
+      "A": "using load balancers with NAT",
+      "B": "performing input validation",
+      "C": "enforcing TLS 1.3 only",
+      "D": "using SSL certificates",
+      "E": "using web application firewalls"
+    },
+    "correct": [
+      "B",
+      "E"
+    ],
+    "choose": 2,
+    "status": "valid",
+    "explanation": "This answer is correct based on standard CCNP SCOR concepts and definitions."
+  },
+  {
+    "id": 57,
+    "domain": "Security Concepts",
+    "question": "Which component performs the resolution between the tunnel address and",
+    "options": {
+      "A": "GDOI",
+      "B": "NBMA",
+      "C": "NHRP",
+      "D": "NHS"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is C because it best matches the requirement described. NHRP"
+  },
+  {
+    "id": 59,
+    "domain": "Security Concepts",
+    "question": "A network engineer configures a site-to-site VPN with a colleague. During testing, the engineer discovers that only phase 1 is up, and application traic cannot pass. Which configuration parameter must be checked on each device?",
+    "options": {
+      "A": "hash algorithm",
+      "B": "peer IP address",
+      "C": "encryption domain",
+      "D": "preshared key"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is C because it best matches the requirement described. encryption domain"
+  },
+  {
+    "id": 60,
+    "domain": "Security Concepts",
+    "question": "An engineer must modify an existing remote access VPN using a Cisco AnyConnect Secure Mobility client solution and a Cisco Secure Firewall. Currently, all the traic generated by the user is sent to the VPN tunnel and the engineer must now exclude some servers and access them directly instead. Which element",
+    "options": {
+      "A": "NAT exemption",
+      "B": "encryption domain",
+      "C": "routing table",
+      "D": "group policy"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is D because it best matches the requirement described. group policy"
+  },
+  {
+    "id": 61,
+    "domain": "Security Concepts",
+    "question": "What is a dierence between an SQL injection and a cross-site scripting attack?",
+    "options": {
+      "A": "SQL injection intercepts user information, and XSS causes false or unpredictable results.",
+      "B": "SQL injection modifies SQL queries, and XSS cloaks by encoding tags.",
+      "C": "SQL injection detects environments, and XSS cloaks by encoding tags.",
+      "D": "SQL injection modifies SQL queries, and XSS allows access to files beyond the root folder."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "SQL injection manipulates database queries on the server side. XSS injects script content that runs in the victim’s browser."
+  },
+  {
+    "id": 62,
+    "domain": "Security Concepts",
+    "question": "An organization has had some malware infections recently and the management team wants to use Cisco Secure Firewall to enforce file policies to prevent malicious files from being downloaded. The SHA-256 hash value of all files 343 traversing the firewall must be calculated and compared to the hash values of known malware code. Which file rule action is used to block only the files that",
+    "options": {
+      "A": "Block Malware",
+      "B": "Detect Files",
+      "C": "Malware Cloud Lookup",
+      "D": "Block Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "status": "valid",
+    "explanation": "The correct choice is A because it best matches the requirement described. Block Malware"
+  }
+]

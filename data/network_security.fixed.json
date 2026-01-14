@@ -1,0 +1,1606 @@
+[
+  {
+    "id": 63,
+    "domain": "Network Security",
+    "question": "Which two request methods of REST API are valid on the Cisco ASA Platform?",
+    "options": {
+      "A": "put",
+      "B": "options",
+      "C": "get",
+      "D": "push",
+      "E": "connect"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "put; get. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 64,
+    "domain": "Network Security",
+    "question": "Which two mechanisms are used to control phishing attacks?",
+    "options": {
+      "A": "Enable browser alerts for fraudulent websites.",
+      "B": "Define security group memberships.",
+      "C": "Revoke expired CRL of the websites.",
+      "D": "Use antispyware software.",
+      "E": "Implement email filtering techniques."
+    },
+    "correct": [
+      "A",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "Enable browser alerts for fraudulent websites.; Implement email filtering techniques.. Phishing is best mitigated with  protection and strong  filtering controls.",
+    "status": "valid"
+  },
+  {
+    "id": 65,
+    "domain": "Network Security",
+    "question": "Which two conditions are prerequisites for stateful failover for IPsec? (Choose",
+    "options": {
+      "A": "Only the IKE configuration that is set up on the active device must be du- plicated on the standby device; the IPsec configuration is copied automatically.",
+      "B": "The active and standby devices can run different versions of the Cisco IOS software but must be the same type of device.",
+      "C": "The IPsec configuration that is set up on the active device must be duplicated on the standby device.",
+      "D": "Only the IPsec configuration that is set up on the active device must be duplicated on the standby device; the IKE configuration is copied automatically.",
+      "E": "The active and standby devices must run the same version of the Cisco IOS software and must be the same type of device."
+    },
+    "correct": [
+      "C",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "The IPsec configuration that is set up on the active device must be duplicated on the standby device.; The active and standby devices must run the same version . IPsec VPN behaviour depends on matching policy,  and allowing VPN traffic through the security policy.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 66,
+    "domain": "Network Security",
+    "question": "What are two advantages of using Cisco AnyConnect over DMVPN? (Choose based solution where users can install the client on their machines and can connect to the respective VPN devices ( In order to secure connectivity for Anyconnect Users, one can also create custom access policies to ensure proper conditions are met before access is granted to the VPN user.",
+    "options": {
+      "A": "It provides spoke-to-spoke communications without traversing the hub.",
+      "B": "It enables VPN access for individual users from their machines.",
+      "C": "It allows multiple sites to connect to the data center.",
+      "D": "It allows different routing protocols to work over the tunnel.",
+      "E": "It allows customization of access policies based on user identity."
+    },
+    "correct": [
+      "B",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "It enables VPN access for individual users from their machines.; It allows customization of access policies based on user identity.. AnyConnect provides per-user remote access with client-based VPN and policy control tied to user identity and posture.",
+    "status": "valid"
+  },
+  {
+    "id": 67,
+    "domain": "Network Security",
+    "question": "Which kind of API that is used with Cisco DNA Center provisions SSIDs, QoS",
+    "options": {
+      "A": "event",
+      "B": "intent",
+      "C": "integration",
+      "D": "multivendor"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "intent best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 68,
+    "domain": "Network Security",
+    "question": "D",
+    "options": {
+      "A": "An unassigned interface can communicate with assigned interfaces",
+      "B": "Only one interface can be assigned to a zone.",
+      "C": "An interface can be assigned to multiple zones.",
+      "D": "An interface can be assigned only to one zone."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "An interface can be assigned only to one zone. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 69,
+    "domain": "Network Security",
+    "question": "41 Which ASA deployment mode can provide separation of management on a",
+    "options": {
+      "A": "DMZ multiple zone mode",
+      "B": "transparent firewall mode",
+      "C": "multiple context mode",
+      "D": "routed mode"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "multiple context mode. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 70,
+    "domain": "Network Security",
+    "question": "What is a characteristic of Cisco ASA NetFlow v9 Secure Event Logging? general-",
+    "options": {
+      "A": "It tracks flow-create, flow-teardown, and flow-denied events.",
+      "B": "It provides stateless IP flow tracking that exports all records of a specific flow.",
+      "C": "It tracks the flow continuously and provides updates every 10 seconds.",
+      "D": "Its events match all traffic classes in parallel."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "It tracks flow-create, flow-teardown, and flow-denied events.. On   is enabled by defining export settings and applying policies to match traffic, then exporting",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 71,
+    "domain": "Network Security",
+    "question": "An engineer wants to generate NetFlow records on traffic traversing the Cisco",
+    "options": {
+      "A": "flow exporter",
+      "B": "ip flow-export destination 1.1.1.1",
+      "C": "flow-export destination inside 1.1.1.1",
+      "D": "ip flow monitor input"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "flow-export destination inside 1.1.1.1. On   is enabled by defining export settings and applying policies to match traffic, then exporting",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 72,
+    "domain": "Network Security",
+    "question": "Which two tasks allow NetFlow on a Cisco ASA 5500 Series firewall? (Choose",
+    "options": {
+      "A": "Define a NetFlow collector by using the flow-export command",
+      "B": "Create a class map to match interesting traffic",
+      "C": "Create an ACL to allow UDP traffic on port",
+      "D": "Enable NetFlow Version",
+      "E": "Apply NetFlow Exporter to the outside interface in the inbound direction"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "Define a NetFlow collector by using the flow-export command; Create a class map to match interesting traffic. On   is enabled by defining export settings and applying policies to match traffic, then exporting",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 73,
+    "domain": "Network Security",
+    "question": "How many interfaces per bridge group does an ASA bridge group deployment",
+    "options": {
+      "A": "up to",
+      "B": "up to",
+      "C": "up to",
+      "D": "up to"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "up to. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 74,
+    "domain": "Network Security",
+    "question": "Refer to the exhibit. Traic is not passing through IPsec site-to-site VPN on the Firepower Threat Defense appliance. What is causing this issue?",
+    "options": {
+      "A": "Site-to-site VPN preshared keys are mismatched.",
+      "B": "Site-to-site VPN peers are using different encryption algorithms.",
+      "C": "No split-tunnel policy is defined on the Firepower Threat Defense appliance.",
+      "D": "The access control policy is not allowing VPN traffic in."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "The access control policy is not allowing VPN traffic in.. IPsec VPN behaviour depends on matching policy,  and allowing VPN traffic through the security policy.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 75,
+    "domain": "Network Security",
+    "question": "Which policy represents a shared set of features or parameters that define the aspects of a managed device that are likely to be similar config-guide-v622/ platform_settings_policies_for_managed_devices.pdf",
+    "options": {
+      "A": "group policy",
+      "B": "access control policy",
+      "C": "device management policy",
+      "D": "platform settings policy"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "platform settings policy best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 76,
+    "domain": "Network Security",
+    "question": "Which two application layer preprocessors are used by Firepower Next Gener config-guide-",
+    "options": {
+      "A": "SIP",
+      "B": "inline normalization",
+      "C": "SSL",
+      "D": "packet decoder",
+      "E": "modbus"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "SIP; SSL. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 77,
+    "domain": "Network Security",
+    "question": "Which feature is configured for managed devices in the device platform settings",
+    "options": {
+      "A": "quality of service",
+      "B": "time synchronization",
+      "C": "network address translations",
+      "D": "intrusion policy"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "time synchronization best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 78,
+    "domain": "Network Security",
+    "question": "Which information is required when adding a device to Firepower Management",
+    "options": {
+      "A": "username and password",
+      "B": "encryption method",
+      "C": "device serial number",
+      "D": "registration key"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "registration key. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 79,
+    "domain": "Network Security",
+    "question": "What is a characteristic of Firepower NGIPS inline deployment mode?",
+    "options": {
+      "A": "ASA with Firepower module cannot be deployed",
+      "B": "It cannot take actions such as blocking traffic",
+      "C": "It is out-of-band from traffic",
+      "D": "It must have inline interface pairs configured"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "It must have inline interface pairs configured. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 80,
+    "domain": "Network Security",
+    "question": "A mall provides security services to customers with a shared appliance. The mall wants separation of management on the shared appliance. Which ASA",
+    "options": {
+      "A": "routed mode",
+      "B": "multiple zone mode",
+      "C": "multiple context mode",
+      "D": "transparent mode"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "multiple context mode. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 81,
+    "domain": "Network Security",
+    "question": "An organization is trying to improve their Defense in Depth by blocking mali- cious destinations prior to a connection being established. The solution must be able to block certain applications from being used within the network. Which",
+    "options": {
+      "A": "Cisco Firepower",
+      "B": "Cisco Umbrella",
+      "C": "Cisco ISE",
+      "D": "Cisco AMP"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Umbrella best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 82,
+    "domain": "Network Security",
+    "question": "What is a key difference between Cisco Firepower and Cisco ASA?",
+    "options": {
+      "A": "Cisco Firepower provides identity based access control while Cisco ASA does not.",
+      "B": "Cisco AS provides access control while Cisco Firepower does not.",
+      "C": "Cisco ASA provides SSL inspection while Cisco Firepower does not.",
+      "D": "Cisco Firepower natively provides intrusion prevention capabilities while Cisco ASA does not."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Firepower natively provides intrusion prevention capabilities while Cisco ASA does not.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 84,
+    "domain": "Network Security",
+    "question": "Which product allows Cisco FMC to push security intelligence observable to its",
+    "options": {
+      "A": "Threat Intelligence Director",
+      "B": "Encrypted Traffic Analytics.",
+      "C": "Cognitive Threat Analytics.",
+      "D": "Cisco Talos Intelligence"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Threat Intelligence Director best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 85,
+    "domain": "Network Security",
+    "question": "A Cisco FirePower administrator needs to configure a rule to allow a new ap- plication that has never been seen on the network. Which two actions should be selected to allow the traffic to pass without inspection?",
+    "options": {
+      "A": "permit",
+      "B": "allow",
+      "C": "reset",
+      "D": "trust",
+      "E": "monitor"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "trust. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 86,
+    "domain": "Network Security",
+    "question": "What is a characteristic of a bridge group in a Cisco ASA Firewall running in",
+    "options": {
+      "A": "It has an IP address on its BVI interface and is used for management traffic.",
+      "B": "It allows ARP traffic with a single access rule.",
+      "C": "It includes multiple interfaces and access rules between interfaces are cus- tomizable.",
+      "D": "It is a Layer 3 segment and includes one port and customizable access rules."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "It includes multiple interfaces and access rules between interfaces are cus- tomizable.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 87,
+    "domain": "Network Security",
+    "question": "While using Cisco Firepower’s Security Intelligence policies, which two criteria",
+    "options": {
+      "A": "IP addresses",
+      "B": "URLs",
+      "C": "port numbers",
+      "D": "protocol IDs",
+      "E": "MAC addresses"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "IP addresses; URLs. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 88,
+    "domain": "Network Security",
+    "question": "61 D 2064.pdf",
+    "options": {
+      "A": "Cisco FTDv provides 1GB of firewall throughput while Cisco ASAv does not.",
+      "B": "Cisco FTDv runs on VMware while Cisco ASAv does not.",
+      "C": "Cisco FTDv runs on AWS while Cisco ASAv does not.",
+      "D": "Cisco FTDv supports URL filtering while Cisco ASAv does not."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco FTDv supports URL filtering while Cisco ASAv does not. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 89,
+    "domain": "Network Security",
+    "question": "A network engineer is deciding whether to use stateful or stateless failover when configuring two Cisco ASAs for high availability. What is the connection status",
+    "options": {
+      "A": "need to be reestablished with stateful failover and preserved with stateless failover",
+      "B": "preserved with both stateful and stateless failover",
+      "C": "need to be reestablished with both stateful and stateless failover",
+      "D": "preserved with stateful failover and need to be reestablished with stateless failover"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "preserved with stateful failover and need to be reestablished with stateless failover best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 90,
+    "domain": "Network Security",
+    "question": "Which term describes when the Cisco Firepower downloads threat intelligence",
+    "options": {
+      "A": "authoring",
+      "B": "consumption",
+      "C": "sharing",
+      "D": "analysis"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "consumption. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 91,
+    "domain": "Network Security",
+    "question": "Refer to the exhibit. An administrator is adding a new Cisco FTD device to their network and wants to manage it with Cisco FMC. The Cisco FTD uses a registration key of Cisc392481137 and is not behind a NAT device. Which",
+    "options": {
+      "A": "configure manager add",
+      "B": "configure manager add DONTRESOLVE FTD123",
+      "C": "configure manager add",
+      "D": "configure manager add DONTRESOLVE"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "configure manager add. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 92,
+    "domain": "Network Security",
+    "question": "A network administrator needs to find out what assets currently exist on the network. Third-party systems need to be able to feed host data into Cisco",
+    "options": {
+      "A": "a Network Analysis policy to receive NetFlow data from the host",
+      "B": "a File Analysis policy to send file data into Cisco Firepower",
+      "C": "a Network Discovery policy to receive data from the host",
+      "D": "a Threat Intelligence policy to download the data from the host"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "a Network Discovery policy to receive data from the host best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 93,
+    "domain": "Network Security",
+    "question": "An organization deploys multiple Cisco FTD appliances and wants to manage them using one centralized solution. The organization does not have a local VM but does have existing Cisco ASA that must migrate over to Cisco FTDs.",
+    "options": {
+      "A": "Cisco FMC",
+      "B": "CDO",
+      "C": "CSM",
+      "D": "Cisco FDM"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco FMC. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 94,
+    "domain": "Network Security",
+    "question": "72 An engineer has been tasked with configuring a Cisco FTD to analyze protocol fields and detect anomalies in the traffic from industrial systems. What must",
+    "options": {
+      "A": "Enable traffic analysis in the Cisco FTD.",
+      "B": "Implement pre-filter policies for the CIP preprocessor.",
+      "C": "Configure intrusion rules for the DNP3 preprocessor.",
+      "D": "Modify the access control policy to trust the industrial traffic."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Configure intrusion rules for the DNP3 preprocessor.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 95,
+    "domain": "Network Security",
+    "question": "An organization uses Cisco FMC to centrally manage multiple Cisco FTD de- vices. The default management port conflicts with other communications on the network and must be changed. What must be done to ensure that all devices",
+    "options": {
+      "A": "Change the management port on Cisco FMC so that it pushes the change to all managed Cisco FTD devices.",
+      "B": "Set the sftunnel port to 8305.",
+      "C": "Manually change the management port on Cisco FMC and all managed Cisco FTD devices.",
+      "D": "Set the sftunnel to go through the Cisco FTD."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Manually change the management port on Cisco FMC and all managed Cisco FTD devices.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 96,
+    "domain": "Network Security",
+    "question": "What is a functional difference between a Cisco ASA and Cisco IOS router with",
+    "options": {
+      "A": "The Cisco ASA can be configured for high availability, whereas the Cisco IOS router with Zone-Based Policy Firewall cannot.",
+      "B": "The Cisco IOS router with Zone-Based Policy Firewall can be configured for high availability, whereas the Cisco ASA cannot.",
+      "C": "The Cisco ASA denies all traffic by default, whereas the Cisco IOS router with Zone-Based Policy Firewall starts out by allowing all traffic, even on untrusted interfaces.",
+      "D": "The Cisco IOS router with Zone-Based Policy Firewall denies all traffic by default, whereas Cisco ASA starts out by allowing traffic until rules are added."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "The Cisco IOS router with Zone-Based Policy Firewall denies all traffic by default, whereas Cisco ASA starts out by allowing traffic until rules are added.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 97,
+    "domain": "Network Security",
+    "question": "Which statement about the configuration of Cisco ASA NetFlow v9 Secure Event",
+    "options": {
+      "A": "To view bandwidth usage for NetFlow records, the QoS feature must be enabled.",
+      "B": "A sysopt command can be used to enable NSEL on a specific interface.",
+      "C": "NSEL can be used without a collector configured.",
+      "D": "A flow-export event type must be defined under a policy."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "A flow-export event type must be defined under a policy.. On   is enabled by defining export settings and applying policies to match traffic, then exporting",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 98,
+    "domain": "Network Security",
+    "question": "Which feature requires a network discovery policy on the Cisco Firepower",
+    "options": {
+      "A": "security intelligence",
+      "B": "impact flags",
+      "C": "health monitoring",
+      "D": "URL filtering"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "impact flags. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 99,
+    "domain": "Network Security",
+    "question": "Which policy is used to capture host information on the Cisco Firepower Next",
+    "options": {
+      "A": "correlation",
+      "B": "intrusion",
+      "C": "access control",
+      "D": "network discovery"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "network discovery. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 100,
+    "domain": "Network Security",
+    "question": "Which technology reduces data loss by identifying sensitive informa- cloudlock-cloud-data-security-datasheet.pdf",
+    "options": {
+      "A": "Cisco SDA",
+      "B": "Cisco Firepower",
+      "C": "Cisco HyperFlex",
+      "D": "Cisco Cloudlock"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Cloudlock. A CASB like Cloudlock provides visibility and control of cloud application usage and protects data via API-based enforcement.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 101,
+    "domain": "Network Security",
+    "question": "Which two deployment model configurations are supported for Cisco FTDv in security-virtual-appliance-",
+    "options": {
+      "A": "Cisco FTDv configured in routed mode and managed by an FMCv installed in AWS",
+      "B": "Cisco FTDv with one management interface and two traffic interfaces con figured",
+      "C": "Cisco FTDv configured in routed mode and managed by a physical FMC appliance on premises",
+      "D": "Cisco FTDv with two management interfaces and one traffic interface con figured",
+      "E": "Cisco FTDv configured in routed mode and IPv6 configured"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "Cisco FTDv configured in routed mode and managed by an FMCv installed in AWS; Cisco FTDv configured in routed mode and managed by a physical FMC appliance on pr best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 102,
+    "domain": "Network Security",
+    "question": "An organization is using Cisco Firepower and Cisco Meraki MX for network security and needs to centrally manage cloud policies across these platforms.",
+    "options": {
+      "A": "Cisco Defense Orchestrator",
+      "B": "Cisco Configuration Professional",
+      "C": "Cisco Secureworks",
+      "D": "Cisco DNA Center"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Defense Orchestrator. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 103,
+    "domain": "Network Security",
+    "question": "An organization wants to secure data in a cloud environment. Its security model requires that all users be authenticated and authorized. Security configuration and posture must be continuously validated before access is granted or main- tained to applications and data. There is also a need to allow certain application traffic and deny all other traffic by default. Which technology must be used to",
+    "options": {
+      "A": "virtual routing and forwarding",
+      "B": "access control policy",
+      "C": "virtual LAN",
+      "D": "microsegmentation"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "access control policy best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 105,
+    "domain": "Network Security",
+    "question": "Which technology is used to improve web traffic performance by proxy caching?",
+    "options": {
+      "A": "WSA",
+      "B": "Firepower",
+      "C": "FireSIGHT",
+      "D": "ASA"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "WSA best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 107,
+    "domain": "Network Security",
+    "question": "A network administrator is configuring a rule in an access control policy to block certain URLs and selects the Chat and Instant Messaging category. Which D",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "3",
+      "D": "1"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "1 best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 108,
+    "domain": "Network Security",
+    "question": "An organization wants to use Cisco FTD or Cisco ASA devices. Specific URLs must be blocked from being accessed via the firewall, which requires that the 116 administrator input the bad URL categories that the organization wants blocked into the access policy. Which solution should be used to meet this requirement?",
+    "options": {
+      "A": "Cisco FTD because it enables URL filtering and blocks malicious URLs by default, whereas Cisco ASA does not.",
+      "B": "Cisco ASA because it enables URL filtering and blocks malicious URLs by default, whereas Cisco FTD does not.",
+      "C": "Cisco ASA because it includes URL filtering in the access control policy capabilities, whereas Cisco FTD does not.",
+      "D": "Cisco FTD because it includes URL filtering in the access control policy capabilities, whereas Cisco ASA does not."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco FTD because it includes URL filtering in the access control policy capabilities, whereas Cisco ASA does not.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 110,
+    "domain": "Network Security",
+    "question": "143 Which solution protects hybrid cloud deployment workloads with application vis- data-center-",
+    "options": {
+      "A": "Nexus",
+      "B": "Stealthwatch",
+      "C": "Firepower",
+      "D": "Tetration"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Tetration best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 111,
+    "domain": "Network Security",
+    "question": "Which Cisco security solution protects remote users against phishing attacks",
+    "options": {
+      "A": "Cisco Umbrella",
+      "B": "Cisco Firepower NGIPS",
+      "C": "Cisco Stealthwatch",
+      "D": "Cisco Firepower"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Umbrella. Phishing is best mitigated with  protection and strong  filtering controls.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 112,
+    "domain": "Network Security",
+    "question": "What are two Detection and Analytics Engines of Cognitive Threat Analytics? threat-",
+    "options": {
+      "A": "data exfiltration",
+      "B": "command and control communication",
+      "C": "intelligent proxy",
+      "D": "snort",
+      "E": "URL categorization"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "data exfiltration; command and control communication best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 113,
+    "domain": "Network Security",
+    "question": "An organization is trying to implement micro-segmentation on the network and wants to be able to gain visibility on the applications within the network. The solution must be able to maintain and force compliance. Which product should",
+    "options": {
+      "A": "Cisco Stealthwatch",
+      "B": "Cisco Tetration",
+      "C": "Cisco AMP",
+      "D": "Cisco Umbrella"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Tetration best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 115,
+    "domain": "Network Security",
+    "question": "Which Cisco cloud security software centrally manages policies on multiple plat- forms such as Cisco ASA, Cisco Firepower, Cisco Meraki, and AWS?",
+    "options": {
+      "A": "Cisco Defense Orchestrator",
+      "B": "Cisco Configuration Professional",
+      "C": "Cisco Secureworks",
+      "D": "Cisco DNAC"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Defense Orchestrator. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 116,
+    "domain": "Network Security",
+    "question": "Refer to the exhibit. What is the function of the Python script code snippet for",
+    "options": {
+      "A": "changes the hostname of the Cisco ASA",
+      "B": "adds a global rule into policies",
+      "C": "deletes a global rule from policies",
+      "D": "obtains the saved configuration of the Cisco ASA firewall"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "adds a global rule into policies best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 117,
+    "domain": "Network Security",
+    "question": "An administrator enables Cisco Threat Intelligence Director on a Cisco FMC. Which process uses STIX and allows uploads and downloads of block lists?",
+    "options": {
+      "A": "editing",
+      "B": "sharing",
+      "C": "authoring",
+      "D": "consumption"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "consumption. STIX is a standard format for exchanging structured threat intelligence between systems.",
+    "status": "valid"
+  },
+  {
+    "id": 118,
+    "domain": "Network Security",
+    "question": "A large organization wants to deploy a security appliance in the public cloud to form a site-to-site VPN and link the public cloud environment to the private cloud in the headquarters data center. Which Cisco security appliance meets",
+    "options": {
+      "A": "Cisco Stealthwatch Cloud",
+      "B": "Cisco WSAv",
+      "C": "Cisco Cloud Orchestrator",
+      "D": "Cisco ASAv"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco ASAv best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 119,
+    "domain": "Network Security",
+    "question": "Refer to the exhibit. What are two indications of the Cisco Firepower Services",
+    "options": {
+      "A": "The module is operating in IDS mode.",
+      "B": "Traffic is blocked if the module fails.",
+      "C": "The module fails to receive redirected traffic.",
+      "D": "The module is operating in IPS mode.",
+      "E": "Traffic continues to flow if the module fails."
+    },
+    "correct": [
+      "A",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "The module is operating in IDS mode.; Traffic continues to flow if the module fails.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 120,
+    "domain": "Network Security",
+    "question": "Which technology provides the benefit of Layer 3 through Layer 7 innovative deep packet inspection, enabling the platform to identify and output various",
+    "options": {
+      "A": "Cisco ASAv",
+      "B": "Account on Resolution",
+      "C": "Cisco NBAR2",
+      "D": "Cisco Prime Infrastructure"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Cisco NBAR2 best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 121,
+    "domain": "Network Security",
+    "question": "An organization must add new firewalls to its infrastructure and wants to use Cisco ASA or Cisco FTD. The chosen firewalls must provide methods of blocking traffic that include oering the user the option to bypass the block for certain sites after displaying a warning page and to reset the connection. Which solution",
+    "options": {
+      "A": "Cisco FTD because it enables interactive blocking and blocking with reset natively, whereas Cisco ASA does not.",
+      "B": "Cisco ASA because it has an additional module that can be installed to provide multiple blocking capabilities, whereas Cisco FTD does not.",
+      "C": "Cisco ASA because it allows for interactive blocking and blocking with reset to be configured via the GUI, whereas FTD does not.",
+      "D": "Cisco FTD because it supports system rate level traffic blocking, whereas Cisco ASA does not."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco FTD because it enables interactive blocking and blocking with reset natively, whereas Cisco ASA does not.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 122,
+    "domain": "Network Security",
+    "question": "An administrator needs to configure the Cisco ASA via ASDM such that the net- work management system can actively monitor the host using SNMPv3. Which two tasks must be performed for this configuration?",
+    "options": {
+      "A": "Add an SNMP USM entry.",
+      "B": "Specify an SNMP user group.",
+      "C": "Add an SNMP host access entry.",
+      "D": "Specify the SNMP manager and UDP port.",
+      "E": "Specify a community string."
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "Add an SNMP USM entry.; Specify an SNMP user group.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 123,
+    "domain": "Network Security",
+    "question": "erence: sel.pdf",
+    "options": {
+      "A": "It exports only records that indicate significant events in a flow.",
+      "B": "It supports v5 and v8 templates.",
+      "C": "It delivers data records to NSEL collectors through NetFlow over TCP only.",
+      "D": "It filters NSEL events based on the traffic and event type through RSVP."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 2,
+    "explanation": "It exports only records that indicate significant events in a flow. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 124,
+    "domain": "Network Security",
+    "question": "Which Cisco ASA deployment model is used to filter traffic between hosts in the same IP subnet using higher-level protocols without readdressing the network?",
+    "options": {
+      "A": "multiple context mode",
+      "B": "single context mode",
+      "C": "routed mode",
+      "D": "transparent mode"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "transparent mode. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 125,
+    "domain": "Network Security",
+    "question": "Which Cisco ASA Platform mode disables the threat detection features except",
+    "options": {
+      "A": "cluster",
+      "B": "multiple context",
+      "C": "routed",
+      "D": "transparent"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "multiple context. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 126,
+    "domain": "Network Security",
+    "question": "An engineer needs to configure an access control policy rule to always send traffic for inspection without using the default action. Which action should be",
+    "options": {
+      "A": "monitor",
+      "B": "trust",
+      "C": "allow",
+      "D": "block"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "allow best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 127,
+    "domain": "Network Security",
+    "question": "An administrator is configuring NTP on Cisco ASA via ASDM and needs to en- sure that rogue NTP servers cannot insert themselves as the authoritative time source. Which two steps must be taken to accomplish this task? 78-general-",
+    "options": {
+      "A": "Choose the interface for syncing to the NTP server.",
+      "B": "Specify the NTP version",
+      "C": "Set the NTP DNS hostname",
+      "D": "Set the authentication key.",
+      "E": "Configure the NTP stratum"
+    },
+    "correct": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "choose": 4,
+    "explanation": "Choose the interface for syncing to the NTP server.; Set the NTP DNS hostname; Set the authentication key.; Configure the NTP stratum. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 128,
+    "domain": "Network Security",
+    "question": "Which two capabilities of Integration APIs are utilized with Cisco DNA Center?",
+    "options": {
+      "A": "Upgrade software on switches and routers",
+      "B": "Third party reporting",
+      "C": "Connect to ITSM platforms",
+      "D": "Create new SSIDs on a wireless LAN controller",
+      "E": "Automatically deploy new virtual routers"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "Third party reporting; Connect to ITSM platforms best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 130,
+    "domain": "Network Security",
+    "question": "227 Which two commands are required when configuring a flow-export action on a",
+    "options": {
+      "A": "flow-export event-type",
+      "B": "policy-map",
+      "C": "access-list",
+      "D": "flow-export template timeout-rate",
+      "E": "access-group"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "flow-export event-type; policy-map best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 131,
+    "domain": "Network Security",
+    "question": "Refer to the exhibit. When configuring this access control rule in Cisco FMC, what happens with the traffic destined to the DMZ_inside zone once the con",
+    "options": {
+      "A": "No traffic will be allowed through to the DMZ_inside zone regardless of if it’s trusted or not.",
+      "B": "All traffic from any zone will be allowed to the DMZ_inside zone only after inspection.",
+      "C": "All traffic from any zone to the DMZ_inside zone will be permitted with no further inspection.",
+      "D": "No traffic will be allowed through to the DMZ_inside zone unless it’s already trusted."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "All traffic from any zone to the DMZ_inside zone will be permitted with no further inspection. best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 132,
+    "domain": "Network Security",
+    "question": "A company identified a phishing vulnerability during a pentest. What are two ways the company can protect employees from the attack?",
+    "options": {
+      "A": "using an inline  in the network",
+      "B": "using Cisco Umbrella",
+      "C": "using Cisco ESA",
+      "D": "using Cisco ISE",
+      "E": "using Cisco FTD"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "using Cisco Umbrella. Phishing is best mitigated with  protection and strong  filtering controls.",
+    "status": "valid"
+  },
+  {
+    "id": 133,
+    "domain": "Network Security",
+    "question": "Which solution should be leveraged for secure access of a  pipeline?",
+    "options": {
+      "A": "Duo Network Gateway",
+      "B": "Cisco FTD network gateway",
+      "C": "SSL WebVPN",
+      "D": "remote access client"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Duo Network Gateway best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 134,
+    "domain": "Network Security",
+    "question": "A network engineer has configured a NTP server on a Cisco ASA. The ASA has IP reachability to the NTP server and is not filtering any traffic. The show ntp association detail command indicates that the configured NTP server is unsynchronized and has a stratum of 16. What is the cause of this issue?",
+    "options": {
+      "A": "An access list entry for UDP port 123 on the outside interface is missing.",
+      "B": "Resynchronization of NTP is not forced.",
+      "C": "NTP is not configured to use a working server.",
+      "D": "An access list entry for UDP port 123 on the inside interface is missing."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "NTP is not configured to use a working server.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 135,
+    "domain": "Network Security",
+    "question": "An engineer must deploy a network security management solution to provide the operations team with a unified view of the security environment. The company operates a hybrid cloud with an element of on-premises private hosting for critical applications and data. The operations team requires a single solution that will be used to manage and configure:• Firewalls• Intrusion Prevention System• Application control• URL filtering• Advanced malware protectionWhich Cisco solution must be deployed?",
+    "options": {
+      "A": "Secure Firewall Threat Defense",
+      "B": "Adaptive Security Device Manager",
+      "C": "Next-Generation Firewall",
+      "D": "Secure Firewall Management Center"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Secure Firewall Management Center best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 136,
+    "domain": "Network Security",
+    "question": "Which Cisco security solution stops exfiltration using HTTPS? Suggested An- swer: A",
+    "options": {
+      "A": "Cisco CTA",
+      "B": "Cisco FTD",
+      "C": "Cisco AnyConnect",
+      "D": "Cisco ASA"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco CTA best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 137,
+    "domain": "Network Security",
+    "question": "What are two recommended approaches to stop DNS tunneling for data exfil- AE",
+    "options": {
+      "A": "Use Cisco Umbrella",
+      "B": "Use next generation firewalls.",
+      "C": "Block all ‘TXT’ DNS records.",
+      "D": "Use intrusion prevention system.",
+      "E": "Enforce security over port 53."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Use Cisco Umbrella. DNS  works by encoding data into DNS  that can pass through standard DNS paths.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 139,
+    "domain": "Network Security",
+    "question": "A small organization needs to reduce the VPN bandwidth load on their headend Cisco ASA in order to ensure that bandwidth is available for VPN users needing access to corporate resources on the 10.0.0. local HQ network. How is this accomplished without adding additional devices to the network?",
+    "options": {
+      "A": "Configure VPN load balancing to distribute traffic for the 10.0.0. net- work.",
+      "B": "Configure VPN load balancing to send non-corporate traffic straight to the internet.",
+      "C": "Use split tunneling to tunnel traffic for the 10.0.0. network only.",
+      "D": "Use split tunneling to tunnel all traffic except for the 10.0.0. network."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Use split tunneling to tunnel traffic for the 10.0.0. network only.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 140,
+    "domain": "Network Security",
+    "question": "What is the term for the concept of limiting communication between applications",
+    "options": {
+      "A": "software-defined access",
+      "B": "microservicing",
+      "C": "microsegmentation",
+      "D": "container orchestration"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "microsegmentation best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 141,
+    "domain": "Network Security",
+    "question": "Which Cisco network security device supports contextual awareness?",
+    "options": {
+      "A": "ISE",
+      "B": "Cisco IOS",
+      "C": "Cisco ASA",
+      "D": "Firepower"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "ISE best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 142,
+    "domain": "Network Security",
+    "question": "Which metric is used by the monitoring agent to collect and output packet loss",
+    "options": {
+      "A": "RTP performance",
+      "B": "TCP performance",
+      "C": "WSAv performance",
+      "D": "AVC performance"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "RTP performance best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 144,
+    "domain": "Network Security",
+    "question": "A network administrator is setting up a site-to-site VPN from a Cisco FTD to a cloud environment. After the administrator configures the VPN on both sides, they still cannot reach the cloud environment. Which command must the administrator run on the FTD to verify that the VPN is encrypting traffic in",
+    "options": {
+      "A": "show crypto ipsec sa",
+      "B": "show crypto ipsec stats",
+      "C": "show vpn-sessiondb detail l2l",
+      "D": "show crypto isakmp sa"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "show crypto ipsec sa. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 145,
+    "domain": "Network Security",
+    "question": "What is the ideal deployment mode to use when you need to manage separate security policies for multiple customers on a Cisco ASA device?",
+    "options": {
+      "A": "spanned cluster mode",
+      "B": "IRB mode",
+      "C": "VRF mode",
+      "D": "multiple context mode"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "multiple context mode. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 146,
+    "domain": "Network Security",
+    "question": "Which two devices support WCCP for traffic redirection?",
+    "options": {
+      "A": "Cisco IOS",
+      "B": "Cisco Secure Web Appliance",
+      "C": "Cisco IPS",
+      "D": "proxy server",
+      "E": "Cisco ASA"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco IOS best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 147,
+    "domain": "Network Security",
+    "question": "A network administrator is shipping a Cisco ASA to a remote retail site. The administrator wants to ensure that the device configuration cannot be accessed by someone at the site with physical access and a console cable. Which command",
+    "options": {
+      "A": "aaa authentication console",
+      "B": "config-register 0x00000041",
+      "C": "no service password-recovery",
+      "D": "no service sw-reset-button"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "no service password-recovery. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 149,
+    "domain": "Network Security",
+    "question": "A network administrator needs a solution to match traffic and allow or deny the traffic based on the type of application, not just the source or destination address and port used. Which kind of security product must the network administrator",
+    "options": {
+      "A": "nextgeneration firewall",
+      "B": "web application firewall",
+      "C": "next generation intrusion prevention system",
+      "D": "intrusion detection system"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "nextgeneration firewall best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 150,
+    "domain": "Network Security",
+    "question": "Which IPsec mode must be used when encrypting data over a public network",
+    "options": {
+      "A": "main mode",
+      "B": "aggressive mode",
+      "C": "transport mode",
+      "D": "tunnel mode"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "tunnel mode. IPsec VPN behaviour depends on matching policy,  and allowing VPN traffic through the security policy.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 151,
+    "domain": "Network Security",
+    "question": "What is the default action before identifying the URL during HTTPS inspection",
+    "options": {
+      "A": "reset",
+      "B": "buffer",
+      "C": "drop",
+      "D": "pass"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "pass best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 152,
+    "domain": "Network Security",
+    "question": "Which Cisco firewall solution supports configuration via Cisco Policy Language?",
+    "options": {
+      "A": "NGFW",
+      "B": "CBAC",
+      "C": "IPS",
+      "D": "ZFW"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "ZFW best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 153,
+    "domain": "Network Security",
+    "question": "An engineer needs to configure cloud logging on Cisco ASA with SAL integration. C",
+    "options": {
+      "A": "Events can be viewed only from one regional cloud.",
+      "B": "All CSM versions are supported.",
+      "C": "Onboard Cisco ASA device to CDO is needed.",
+      "D": "Required storage size can be allocated dynamically."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Onboard Cisco ASA device to CDO is needed.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 154,
+    "domain": "Network Security",
+    "question": "What limits communication between applications or containers on the same",
+    "options": {
+      "A": "container orchestration",
+      "B": "microservicing",
+      "C": "software-define access",
+      "D": "microsegmentation"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "microsegmentation best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 155,
+    "domain": "Network Security",
+    "question": "326 Which solution should a network administrator deploy to protect a webserver",
+    "options": {
+      "A": "IDS",
+      "B": "Secure Web Appliance",
+      "C": "ISE",
+      "D": "IPS"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "IPS best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 157,
+    "domain": "Network Security",
+    "question": "An engineer must use Cisco Secure Firewall Management Center to send Cisco Secure Firewall Threat Defense events to the cloud. The engineer performed these actions already: FTD devices were added to FMC FTD devices were 332 assigned licensesWhich action must be taken to complete Cisco Cloud Event",
+    "options": {
+      "A": "Register with Cisco Smart Licensing.",
+      "B": "Enable cloud event connector.",
+      "C": "Create a Cisco Cloud Region.",
+      "D": "Assign a Cloud Event License."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Enable cloud event connector.. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 158,
+    "domain": "Network Security",
+    "question": "Which email security feature protects users from phishing attempts?",
+    "options": {
+      "A": "anti-malware file scanning",
+      "B": "intrusion prevention",
+      "C": "reputation-based filtering",
+      "D": "malicious signature detection"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "reputation-based filtering. Phishing is best mitigated with  protection and strong  filtering controls.",
+    "status": "valid"
+  },
+  {
+    "id": 159,
+    "domain": "Network Security",
+    "question": "337 An organization is trying to implement micro-segmentation on the network and wants to be able to gain visibility on the applications within the network. The solution must be able to maintain and force compliance. Which product should",
+    "options": {
+      "A": "Cisco Secure Workload",
+      "B": "Cisco Secure Network Analytics",
+      "C": "Cisco AMP",
+      "D": "Cisco Umbrella"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Secure Workload best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 160,
+    "domain": "Network Security",
+    "question": "Which Cisco solution integrates industry-leading artificial intelligence and ma- chine learning analytics and an assurance database to review the security pos- ture and maintain visibility of an organizations cloud environment?",
+    "options": {
+      "A": "Cisco Secure Workload",
+      "B": "Cisco CSR1000v",
+      "C": "Cisco DNA",
+      "D": "Cisco FTD"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Cisco DNA best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 161,
+    "domain": "Network Security",
+    "question": "344 An engineer is configuring cloud logging on Cisco ASA and needs events to com- press. Which component must be configured to accomplish this goal?",
+    "options": {
+      "A": "Cisco analytics",
+      "B": "CDO event viewer",
+      "C": "SWC service",
+      "D": "SDC VM"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "SDC VM. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 162,
+    "domain": "Network Security",
+    "question": "When an assessment of cloud services and applications is conducted, which tool is used to show user activity and data usage across the applications?",
+    "options": {
+      "A": "Cisco ASA",
+      "B": "Cisco CloudLock",
+      "C": "Cisco ISE",
+      "D": "Cisco AMP Private Cloud"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco CloudLock best matches the requirement described in the question.",
+    "status": "valid"
+  }
+]

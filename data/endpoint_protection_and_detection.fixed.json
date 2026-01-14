@@ -1,0 +1,4169 @@
+[
+  {
+    "id": 291,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is a feature of the open platform capabilities of Cisco DNA Center?",
+    "options": {
+      "A": "application adapters",
+      "B": "domain integration",
+      "C": "intent-based APIs",
+      "D": "automation adapters"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "intent-based APIs best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 292,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. What does the API do when connected to a Cisco security",
+    "options": {
+      "A": "create an SNMP pull mechanism for managing AMP",
+      "B": "gather network telemetry information from AMP for endpoints",
+      "C": "get the process and PID information from the computers in the network",
+      "D": "gather the network interface information about the computers AMP sees"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "gather the network interface information about the computers AMP sees best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 296,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the difference between deceptive phishing and spear phishing?",
+    "options": {
+      "A": "Deceptive phishing is an attacked aimed at a specific user in the organization who holds a C-level role.",
+      "B": "A spear phishing campaign is aimed at a specific person versus a group of people.",
+      "C": "Spear phishing is when the attack is aimed at the C-level executives of an organization.",
+      "D": "Deceptive phishing hijacks and manipulates the DNS server of the victim and redirects the user to a false webpage."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "A spear phishing campaign is aimed at a specific person versus a group of people.. Phishing is best mitigated with  protection and strong  filtering controls.",
+    "status": "valid"
+  },
+  {
+    "id": 297,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two behavioral patterns characterize a ping of death attack? (Choose",
+    "options": {
+      "A": "The attack is fragmented into groups of 16 octets before transmission.",
+      "B": "The attack is fragmented into groups of 8 octets before transmission.",
+      "C": "Short synchronized bursts of traffic are used to disrupt TCP connections.",
+      "D": "Malformed packets are used to crash systems.",
+      "E": "Publicly accessible DNS servers are typically used to execute the attack."
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "The attack is fragmented into groups of 8 octets before transmission.; Malformed packets are used to crash systems. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 298,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which attack is commonly associated with C and C++ programming languages?",
+    "options": {
+      "A": "cross-site scripting",
+      "B": "water holing",
+      "C": "DDoS",
+      "D": "buffer overflow"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "buffer overflow best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 299,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two prevention techniques are used to mitigate SQL injection attacks?",
+    "options": {
+      "A": "Check integer, float, or Boolean string parameters to ensure accurate values.",
+      "B": "Use prepared statements and parameterized queries.",
+      "C": "Secure the connection between the web and the app tier.",
+      "D": "Write SQL code instead of using object-relational mapping libraries.",
+      "E": "Block SQL code execution in the web application database login."
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "Check integer, float, or Boolean string parameters to ensure accurate values.; Use prepared statements and parameterized queries.. SQL injection is mitigated with input validation and parameterised  statements.",
+    "status": "valid"
+  },
+  {
+    "id": 300,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two kinds of attacks are prevented by multifactor authentication?",
+    "options": {
+      "A": "phishing",
+      "B": "brute force",
+      "C": "man-in-the-middle",
+      "D": "DDOS",
+      "E": "tear drop"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "phishing; brute force best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 302,
+    "domain": "Endpoint Protection and Detection",
+    "question": "8 How is DNS tunneling used to exfiltrate data out of a corporate network?",
+    "options": {
+      "A": "It leverages the DNS server by permitting recursive lookups to spread the attack to other DNS servers",
+      "B": "It encodes the payload with random characters that are broken into short strings and the DNS server rebuilds the exfiltrated data",
+      "C": "It redirects DNS requests to a malicious server used to steal user credentials, which allows further damage and theft on the network",
+      "D": "It corrupts DNS servers by replacing the actual IP address with a rogue address to collect information or start other attacks"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "It encodes the payload with random characters that are broken into short strings and the DNS server rebuilds the exfiltrated data. DNS  works by encoding data into DNS  that can pass through standard DNS paths.",
+    "status": "valid"
+  },
+  {
+    "id": 305,
+    "domain": "Endpoint Protection and Detection",
+    "question": "In which type of attack does the attacker insert their machine between two hosts",
+    "options": {
+      "A": "man-in-the-middle",
+      "B": "LDAP injection",
+      "C": "insecure API",
+      "D": "cross-site scripting"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "man-in-the-middle best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 307,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A user has a device in the network that is receiving too many connection re- quests from multiple machines. Which type of attack is the device undergoing?",
+    "options": {
+      "A": "SYN flood",
+      "B": "slowloris",
+      "C": "phishing",
+      "D": "pharming"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "SYN flood best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 308,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two preventive measures are used to control cross-site scripting? (Choose",
+    "options": {
+      "A": "Enable client-side scripts on a per-domain basis.",
+      "B": "Incorporate contextual output",
+      "C": "Disable cookie inspection in the HTML inspection engine.",
+      "D": "Run untrusted HTML input through an HTML sanitization engine.",
+      "E": "SameSite cookie attribute should not be used."
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "Incorporate contextual output; Run untrusted HTML input through an HTML sanitization engine. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 309,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which threat involves software being used to gain unauthorized access to a",
+    "options": {
+      "A": "ping of death",
+      "B": "HTTP flood",
+      "C": "NTP amplification",
+      "D": "virus"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "virus best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 311,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two key and block sizes are valid for AES?",
+    "options": {
+      "A": "64-bit block size, 112-bit key length",
+      "B": "64-bit block size, 168-bit key length",
+      "C": "128-bit block size, 192-bit key length",
+      "D": "128-bit block size, 256-bit key length",
+      "E": "192-bit block size, 256-bit key length"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "128-bit block size, 192-bit key length; 128-bit block size, 256-bit key length. AES is a modern symmetric cipher and modes like GCM provide confidentiality and integrity in a single construct.",
+    "status": "valid"
+  },
+  {
+    "id": 312,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which group within Cisco writes and publishes a weekly newsletter to help cybersecurity professionals remain aware of the ongoing and most prevalent",
+    "options": {
+      "A": "Talos",
+      "B": "PSIRT",
+      "C": "SCIRT",
+      "D": "DEVNET"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Talos best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 313,
+    "domain": "Endpoint Protection and Detection",
+    "question": "20 When Cisco and other industry organizations publish and inform users of known",
+    "options": {
+      "A": "Common Vulnerabilities, Exploits and Threats",
+      "B": "Common Vulnerabilities and Exposures",
+      "C": "Common Exploits and Vulnerabilities",
+      "D": "Common Security Exploits"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Common Vulnerabilities and Exposures best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 314,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What provides the ability to program and monitor networks from somewhere",
+    "options": {
+      "A": "ASDM",
+      "B": "NetFlow",
+      "C": "API",
+      "D": "desktop client"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "API best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 316,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two activities can be done using Cisco DNA Center?",
+    "options": {
+      "A": "DHCP",
+      "B": "design",
+      "C": "accounting",
+      "D": "DNS",
+      "E": "provision"
+    },
+    "correct": [
+      "B",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "design; provision best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 317,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which PKI enrollment method allows the user to separate authentication and enrollment actions and also provides an option to specify  commands to perform file retrieval from the server?",
+    "options": {
+      "A": "terminal",
+      "B": "selfsigned",
+      "C": "url",
+      "D": "profile"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "profile best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 318,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which type of API is being used when a security application notifies a controller within a software-defined network architecture about a specific security threat?",
+    "options": {
+      "A": "southbound API",
+      "B": "westbound API",
+      "C": "eastbound API",
+      "D": "northbound API"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "northbound API best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 320,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the difference between Cross-site Scripting and SQL Injection attacks?",
+    "options": {
+      "A": "Cross-site Scripting is when executives in a corporation are attacked, whereas SQL Injection is when a database is manipulated.",
+      "B": "Cross-site Scripting is an attack where code is executed from the server side, whereas SQL Injection is an attack where code is executed from the client side.",
+      "C": "Cross-site Scripting is a brute force attack targeting remote sites, whereas SQL Injection is a social engineering attack.",
+      "D": "Cross-site Scripting is an attack where code is injected into a database, whereas SQL Injection is an attack where code is injected into a browser."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cross-site Scripting is an attack where code is executed from the server side, whereas SQL Injection is an attack where code is executed from the client side.. SQL injection is mitigated with input validation and parameterised  statements.",
+    "status": "valid"
+  },
+  {
+    "id": 321,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which type of dashboard does Cisco DNA Center provide for complete control",
+    "options": {
+      "A": "distributed management",
+      "B": "service management",
+      "C": "application management",
+      "D": "centralized management"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "centralized management best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 322,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. What will happen when this Python script is run?",
+    "options": {
+      "A": "The list of computers, policies, and connector statuses will be received from Cisco AMP.",
+      "B": "The list of computers and their current vulnerabilities will be received from Cisco AMP.",
+      "C": "The compromised computers and malware trajectories will be received from Cisco AMP.",
+      "D": "The compromised computers and what compromised them will be received from Cisco AMP."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "The list of computers, policies, and connector statuses will be received from Cisco AMP. best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 323,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. What will happen when the Python script is executed?",
+    "options": {
+      "A": "The hostname will be printed for the client in the client ID field.",
+      "B": "The hostname will be translated to an IP address and printed.",
+      "C": "The script will pull all computer hostnames and print them.",
+      "D": "The script will translate the IP address to FQDN and print it."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "The script will pull all computer hostnames and print them. best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 325,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which method is used to deploy certificates and configure the supplicant on",
+    "options": {
+      "A": "BYOD onboarding",
+      "B": "MAC authentication bypass",
+      "C": "client provisioning",
+      "D": "Simple Certificate Enrollment Protocol"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "BYOD onboarding best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 326,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two characteristics of Cisco DNA Center APIs?",
+    "options": {
+      "A": "They are Cisco proprietary.",
+      "B": "They do not support Python scripts.",
+      "C": "They view the overall health of the network.",
+      "D": "They quickly provision new devices.",
+      "E": "Postman is required to utilize Cisco DNA Center API calls."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "They view the overall health of the network. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 327,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A company discovered an attack propagating through their network via a file. A custom file detection policy was created in order to track this in the future and ensure no other endpoints execute to infected file. In addition, it was discovered during testing that the scans are not detecting the file as an indicator of compromise. What must be done in order to ensure that the policy created",
+    "options": {
+      "A": "Create an IP block list for the website from which the file was downloaded.",
+      "B": "Block the application that the file was using to open.",
+      "C": "Upload the hash for the file into the policy.",
+      "D": "Send the file to Cisco Threat Grid for dynamic analysis."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Upload the hash for the file into the policy. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 329,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the difference between a vulnerability and an exploit? Suggested An- swer: A",
+    "options": {
+      "A": "A vulnerability is a weakness that can be exploited by an attacker.",
+      "B": "A vulnerability is a hypothetical event for an attacker to exploit.",
+      "C": "An exploit is a hypothetical event that causes a vulnerability in the network.",
+      "D": "An exploit is a weakness that can cause a vulnerability in the network."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "A vulnerability is a weakness that can be exploited by an attacker. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 330,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the term for having information about threats and threat actors that helps mitigate harmful events that would otherwise compromise networks or",
+    "options": {
+      "A": "threat intelligence",
+      "B": "Indicators of Compromise",
+      "C": "trusted automated exchange",
+      "D": "The Exploit Database"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "threat intelligence best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 331,
+    "domain": "Endpoint Protection and Detection",
+    "question": "36 Refer to the exhibit. Which command was used to generate this output and to",
+    "options": {
+      "A": "show authentication registrations",
+      "B": "show authentication method",
+      "C": "show dot1x all",
+      "D": "show authentication sessions"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "show authentication sessions best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 332,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. What does the number 15 represent in this configuration?",
+    "options": {
+      "A": "privilege level for an authorized user to this router",
+      "B": "access list that identifies the SNMP devices that can access the router",
+      "C": "interval in seconds between SNMPv3 authentication attempts",
+      "D": "number of possible failed attempts until the SNMPv3 user is locked out"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "access list that identifies the SNMP devices that can access the router best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 333,
+    "domain": "Endpoint Protection and Detection",
+    "question": "37 What is the result of running the crypto isakmp key ciscXXXXXXXX address",
+    "options": {
+      "A": "authenticates the IKEv2 peers in the 172.16.0. range by using the key ciscXXXXXXXX",
+      "B": "authenticates the IP address of the 172.16.0. peer by using the key ciscXXXXXXXX",
+      "C": "authenticates the IKEv1 peers in the 172.16.0. range by using the key ciscXXXXXXXX",
+      "D": "secures all the certificates in the IKE exchange by using the key cis- cXXXXXXXX"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "authenticates the IKEv1 peers in the 172.16.0. range by using the key ciscXXXXXXXX best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 336,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Under which two circumstances is a CoA issued? Suggested An- swer: BD",
+    "options": {
+      "A": "A new authentication rule was added to the policy on the Policy Service node.",
+      "B": "An endpoint is deleted on the Identity Service Engine server.",
+      "C": "A new Identity Source Sequence is created and referenced in the authentica- tion policy.",
+      "D": "An endpoint is profiled for the first time.",
+      "E": "A new Identity Service Engine server is added to the deployment with the Administration persona."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "An endpoint is deleted on the Identity Service Engine server. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 337,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. Which command was used to display this output?  3850- pba.html",
+    "options": {
+      "A": "show dot1x all",
+      "B": "show dot1x",
+      "C": "show dot1x all summary",
+      "D": "show dot1x interface"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "show dot1x all best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 338,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. A network administrator configures command authoriza- tion for the admin5 user. What is the admin5 user able to do on HQ_Router",
+    "options": {
+      "A": "set the IP address of an interface",
+      "B": "add subinterfaces",
+      "C": "complete no configurations",
+      "D": "complete all configurations"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "complete no configurations best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 339,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A network administrator configures Dynamic ARP Inspection on a switch. Af- ter Dynamic ARP Inspection is applied, all users on that switch are unable to communicate with any destination. The network administrator checks the Interface status of all interfaces, and there is no err-disabled interface. What is",
+    "options": {
+      "A": "DHCP snooping has not been enabled on all VLANs",
+      "B": "Dynamic ARP inspection has not been enabled on all VLANs",
+      "C": "The ip arp inspection limit command is applied on all interfaces and is blocking the traffic of all users",
+      "D": "The no ip arp inspection trust command is applied on all user host interfaces"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "DHCP snooping has not been enabled on all VLANs best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 340,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer is trying to securely connect to a router and wants to prevent insecure algorithms from being used. However, the connection is failing. Which",
+    "options": {
+      "A": "Generate the RSA key using the crypto key generate rsa command.",
+      "B": "Configure the port using the ip ssh port 22 command.",
+      "C": "Enable the SSH server using the ip ssh server command.",
+      "D": "Disable telnet using the no ip telnet command."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Generate the RSA key using the crypto key generate rsa command. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 341,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. An organization is using DHCP Snooping within their network. A user on VLAN 41 on a new switch is complaining that an IP address is not being obtained. Which command should be configured on the switch interface in order to provide the user with network connectivity?",
+    "options": {
+      "A": "ip dhcp snooping limit",
+      "B": "ip dhcp snooping verify mac-address",
+      "C": "ip dhcp snooping trust",
+      "D": "ip dhcp snooping vlan"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "ip dhcp snooping trust best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 342,
+    "domain": "Endpoint Protection and Detection",
+    "question": "The Cisco ASA must support TLS proxy for encrypted Cisco Unified Com- munications traffic.Where must the ASA be added on the Cisco UC Manager",
+    "options": {
+      "A": "Certificate Trust List",
+      "B": "Endpoint Trust List",
+      "C": "Enterprise Proxy Service",
+      "D": "Secured Collaboration Proxy"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Certificate Trust List. Cisco firewall platforms enforce policy and features based on the configured deployment mode and applied  policies.",
+    "status": "valid"
+  },
+  {
+    "id": 343,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What can be integrated with Cisco Threat Intelligence Director to provide infor- mation about security threats, which allows the SOC to proactively automate",
+    "options": {
+      "A": "Cisco Umbrella",
+      "B": "External Threat Feeds",
+      "C": "Cisco Threat Grid",
+      "D": "Cisco Stealthwatch"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "External Threat Feeds best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 344,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Cisco command enables authentication, authorization, and accounting",
+    "options": {
+      "A": "aaa server radius dynamic-author",
+      "B": "auth-type all",
+      "C": "aaa new-model",
+      "D": "ip device-tracking"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "aaa new-model best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 345,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer notices traffic interruptions on the network. Upon further inves- tigation, it is learned that broadcast packets have been flooding the network. What must be configured, based on a predefined threshold, to address this issue?",
+    "options": {
+      "A": "Storm Control",
+      "B": "embedded event monitoring",
+      "C": "access control lists",
+      "D": "Bridge Protocol Data Unit guard"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Storm Control best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 346,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is a feature of Cisco NetFlow Secure Event Logging for Cisco ASAs?",
+    "options": {
+      "A": "Multiple NetFlow collectors are supported.",
+      "B": "Advanced NetFlow v9 templates and legacy v5 formatting are supported.",
+      "C": "Secure NetFlow connectors are optimized for Cisco Prime Infrastructure",
+      "D": "Flow-create events are delayed."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Multiple NetFlow collectors are supported.. On   is enabled by defining export settings and applying policies to match traffic, then exporting",
+    "status": "valid"
+  },
+  {
+    "id": 347,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An administrator is configuring a DHCP server to better secure their environ- ment. They need to be able to rate-limit the traffic and ensure that legitimate A",
+    "options": {
+      "A": "Set a trusted interface for the DHCP server.",
+      "B": "Set the DHCP snooping bit to 1.",
+      "C": "Enable ARP inspection for the required VLAN.",
+      "D": "Add entries in the DHCP snooping database."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Set a trusted interface for the DHCP server. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 348,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is a prerequisite when integrating a Cisco ISE server and an AD domain? services-",
+    "options": {
+      "A": "Configure a common administrator account.",
+      "B": "Place the Cisco ISE server and the AD server in the same subnet.",
+      "C": "Synchronize the clocks of the Cisco ISE server and the AD server.",
+      "D": "Configure a common DNS server."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Synchronize the clocks of the Cisco ISE server and the AD server. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 349,
+    "domain": "Endpoint Protection and Detection",
+    "question": "When configuring ISAKMP for IKEv1 Phase 1 on a Cisco IOS router, an admin- istrator needs to input the command crypto isakmp key cisco address 0.0.0.0.The administrator is not sure what the IP address in this command is used for. What would be the eect of changing the IP address from 0.0.0.0 to 1.2.3.4?",
+    "options": {
+      "A": "The key server that is managing the keys for the connection will be at 1.2.3.4.",
+      "B": "The address that will be used as the crypto validation authority.",
+      "C": "All IP addresses other than 1.2.3.4 will be allowed.",
+      "D": "The remote connection will only be allowed from 1.2.3.4."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "The remote connection will only be allowed from 1.2.3.4. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 350,
+    "domain": "Endpoint Protection and Detection",
+    "question": "67 Due to a traffic storm on the network, two interfaces were error-disabled, and both interfaces sent SNMP traps. Which two actions must be taken to ensure",
+    "options": {
+      "A": "Enable the snmp-server enable traps command and wait 300 seconds.",
+      "B": "Use EEM to have the ports return to service automatically in less than 300 seconds",
+      "C": "Ensure that interfaces are configured with the error-disable detection and recovery feature.",
+      "D": "Have Cisco Prime Infrastructure issue an SNMP set command to re-enable the ports after the preconfigured interval.",
+      "E": "Enter the shutdown and no shutdown commands on the interfaces."
+    },
+    "correct": [
+      "C",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "Ensure that interfaces are configured with the error-disable detection and recovery feature.; Enter the shutdown and no shutdown commands on the interfaces. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 351,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which suspicious pattern enables the Cisco Tetration platform to learn the",
+    "options": {
+      "A": "file access from a different user",
+      "B": "user login suspicious behavior",
+      "C": "privilege escalation",
+      "D": "interesting file access"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "file access from a different user best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 352,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which attribute has the ability to change during the RADIUS CoA?",
+    "options": {
+      "A": "authorization",
+      "B": "NTP",
+      "C": "accessibility",
+      "D": "membership"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "authorization. RADIUS relies on the  IP matching what the server expects, so using a consistent source interface can prevent rejects.",
+    "status": "valid"
+  },
+  {
+    "id": 353,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is a benefit of using telemetry over SNMP to configure new routers for",
+    "options": {
+      "A": "Telemetry uses push and pull, which makes it more secure than SNMP.",
+      "B": "Telemetry uses push and pull, which makes it more scalable than SNMP.",
+      "C": "Telemetry uses a push method, which makes it faster than SNMP.",
+      "D": "Telemetry uses a pull method, which makes it more reliable than SNMP."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Telemetry uses a push method, which makes it faster than SNMP. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 354,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An administrator is establishing a new site-to-site VPN connection on a Cisco IOS router. The organization needs to ensure that the ISAKMP key on the hub is used only for terminating traffic from the IP address of 172.19.20.24. Which command on the hub will allow the administrator to accomplish this?",
+    "options": {
+      "A": "crypto isakmp identity address 172.19.20.24",
+      "B": "crypto ca identity 172.19.20.24",
+      "C": "crypto enrollment peer address 172.19.20.24",
+      "D": "crypto isakmp key Cisco0123456789 172.19.20.24"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "crypto isakmp key Cisco0123456789 172.19.20.24 best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 355,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer is configuring their router to send NetfFow data to Stealthwatch which has an IP address of 1.1.1.1 using the flow record Stealthwatch406143794 75 command. Which additional command is required to complete the flow record?",
+    "options": {
+      "A": "cache timeout active",
+      "B": "destination 1.1.1.1",
+      "C": "match ipv4 ttl",
+      "D": "transport udp"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "match ipv4 ttl best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 356,
+    "domain": "Endpoint Protection and Detection",
+    "question": "79 A",
+    "options": {
+      "A": "Traffic storm control drops all broadcast and multicast traffic if the combined traffic exceeds the level within the interval.",
+      "B": "Traffic storm control cannot determine if the packet is unicast or broadcast.",
+      "C": "Traffic storm control monitors incoming traffic levels over a 10-second traffic storm control interval.",
+      "D": "Traffic storm control uses the  bit in the packet source address to determine if the packet is unicast or broadcast."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Traffic storm control drops all broadcast and multicast traffic if the combined traffic exceeds the level within the interval. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 357,
+    "domain": "Endpoint Protection and Detection",
+    "question": "80 Refer to the exhibit. Which statement about the authentication protocol used",
+    "options": {
+      "A": "The authentication request contains only a password",
+      "B": "The authentication request contains only a username",
+      "C": "The authentication and authorization requests are grouped in a single packet.",
+      "D": "There are separate authentication and authorization request packets."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "The authentication and authorization requests are grouped in a single packet. best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 358,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which risk is created when using an Internet browser to access cloud-based",
+    "options": {
+      "A": "misconfiguration of Infra, which allows unauthorized access",
+      "B": "intermittent connection to the cloud connectors",
+      "C": "vulnerabilities within protocol",
+      "D": "insecure implementation of API"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "vulnerabilities within protocol best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 361,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which DevSecOps implementation process gives a weekly or daily update in-",
+    "options": {
+      "A": "pipeline",
+      "B": "container",
+      "C": "orchestration",
+      "D": "security"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "pipeline best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 362,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Where are individual sites specified to be blacklisted in Cisco Umbrella?",
+    "options": {
+      "A": "application settings",
+      "B": "content categories",
+      "C": "security settings",
+      "D": "destination lists"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "destination lists best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 364,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Talos reputation center allows you to track the reputation of IP addresses",
+    "options": {
+      "A": "IP Block List Center",
+      "B": "File Reputation Center",
+      "C": "AMP Reputation Center",
+      "D": "IP and Domain Reputation Center"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "IP and Domain Reputation Center best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 366,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the role of Cisco Umbrella Roaming when it is installed on an endpoint?",
+    "options": {
+      "A": "to establish secure VPN connectivity to the corporate network",
+      "B": "to enforce posture compliance and mandatory software",
+      "C": "to ensure that assets are secure from malicious links on and off the corporate network",
+      "D": "to protect the endpoint against malicious file transfers"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "to ensure that assets are secure from malicious links on and off the corporate network best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 367,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An administrator configures a new destination list in Cisco Umbrella so that the organization can block specific domains for its devices. What should be done to",
+    "options": {
+      "A": "Configure the domain.com address in the block list.",
+      "B": "Configure the *.domain.com address in the block list.",
+      "C": "Configure the *.com address in the block list.",
+      "D": "Configure the *domain.com address in the block list."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Configure the domain.com address in the block list. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 368,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which component of Cisco Umbrella architecture increases reliability of the",
+    "options": {
+      "A": "BGP route reflector",
+      "B": "anycast IP",
+      "C": "AMP Threat Grid",
+      "D": "Cisco Talos"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "anycast IP best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 369,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer needs to add protection for data in transit and have headers in the email message. Which configuration is needed to accomplish this goal?",
+    "options": {
+      "A": "Deploy an encryption appliance.",
+      "B": "Provision the email appliance.",
+      "C": "Map sender IP addresses to a host interface.",
+      "D": "Enable flagged message handling."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Provision the email appliance. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 370,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Cisco platform processes behavior baselines, monitors for deviations, and reviews for malicious processes in data center traﬀic and servers while performing software vulnerability detection?",
+    "options": {
+      "A": "Cisco Tetration",
+      "B": "Cisco ISE",
+      "C": "Cisco AnyConnect",
+      "D": "Cisco AMP for Network"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Tetration best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 371,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which feature within Cisco Umbrella allows for the ability to inspect secure",
+    "options": {
+      "A": "File Analysis",
+      "B": "SafeSearch",
+      "C": "SSL Decryption",
+      "D": "Destination Lists"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "SSL Decryption best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 372,
+    "domain": "Endpoint Protection and Detection",
+    "question": "When web policies are configured in Cisco Umbrella, what provides the ability to ensure that domains are blocked when they host malware, com- Understanding-Security-Categories",
+    "options": {
+      "A": "Application Control",
+      "B": "Security Category Blocking",
+      "C": "Content Category Blocking",
+      "D": "File Analysis"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Security Category Blocking best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 373,
+    "domain": "Endpoint Protection and Detection",
+    "question": "How is Cisco Umbrella configured to log only security events? Suggested An- swer: A management",
+    "options": {
+      "A": "per policy",
+      "B": "in the Reporting settings",
+      "C": "in the Security Settings section",
+      "D": "per network in the Deployments section"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "per policy best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 374,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Cisco solution does Cisco Umbrella integrate with to determine if a URL",
+    "options": {
+      "A": "Cisco AMP",
+      "B": "Cisco AnyConnect",
+      "C": "Cisco Dynamic DNS",
+      "D": "Cisco Talos"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Talos best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 375,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two list types within Cisco AMP for Endpoints Outbreak Control? chapter",
+    "options": {
+      "A": "blocked ports",
+      "B": "simple custom detections",
+      "C": "command and control",
+      "D": "allowed applications",
+      "E": "URL"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "simple custom detections; allowed applications best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 377,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two endpoint measures are used to minimize the chances of falling victim DE",
+    "options": {
+      "A": "Patch for cross-site scripting.",
+      "B": "Perform backups to the private cloud.",
+      "C": "Protect against input validation and character escapes in the endpoint.",
+      "D": "Install a spam and virus email filter.",
+      "E": "Protect systems with an up-to-date antimalware program."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Install a spam and virus email filter. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 378,
+    "domain": "Endpoint Protection and Detection",
+    "question": "126 An engineer used a posture check on a Microsoft Windows endpoint and dis- covered that the MS17-010 patch was not installed, which left the endpoint vulnerable to WannaCry ransomware.Which two solutions mitigate the risk of",
+    "options": {
+      "A": "Configure a posture policy in Cisco Identity Services Engine to install the MS17-010 patch before allowing access on the network.",
+      "B": "Set up a profiling policy in Cisco Identity Services Engine to check an end- point patch level before allowing access on the network.",
+      "C": "Configure a posture policy in Cisco Identity Services Engine to check that an endpoint patch level is met before allowing access on the network.",
+      "D": "Configure endpoint firewall policies to stop the exploit traffic from being allowed to run and replicate throughout the network.",
+      "E": "Set up a well-defined endpoint patching strategy to ensure that endpoints have critical vulnerabilities patched in a timely fashion."
+    },
+    "correct": [
+      "C",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "Configure a posture policy in Cisco Identity Services Engine to check that an endpoint patch level is met before allowing access on the network.; Set up a well- best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 379,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the primary difference between an Endpoint Protection Platform and",
+    "options": {
+      "A": "EPP focuses on prevention, and EDR focuses on advanced threats that evade perimeter defenses.",
+      "B": "EDR focuses on prevention, and EPP focuses on advanced threats that evade perimeter defenses.",
+      "C": "EPP focuses on network security, and EDR focuses on device security.",
+      "D": "EDR focuses on network security, and EPP focuses on device security."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "EPP focuses on prevention, and EDR focuses on advanced threats that evade perimeter defenses. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 380,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer is configuring AMP for endpoints and wants to block certain files from executing.Which outbreak control method is used to accomplish this task?",
+    "options": {
+      "A": "device flow correlation",
+      "B": "simple detections",
+      "C": "application blocking list",
+      "D": "advanced custom detections"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "application blocking list best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 381,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer must force an endpoint to re-authenticate an already authenti- cated session without disrupting the endpoint to apply a new or updated policy",
+    "options": {
+      "A": "Port Bounce",
+      "B": "CoA Terminate",
+      "C": "CoA Reauth",
+      "D": "CoA Session Query"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "CoA Reauth best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 382,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two risks is a company vulnerable to if it does not have a well-established",
+    "options": {
+      "A": "malware",
+      "B": "denial-of-service attacks",
+      "C": "ARP spoofing",
+      "D": "exploits",
+      "E": "eavesdropping"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "malware; exploits best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 383,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer wants to automatically assign endpoints that have a specific OUI into a new endpoint group. Which probe must be enabled for this type of",
+    "options": {
+      "A": "SNMP",
+      "B": "NMAP",
+      "C": "DHCP",
+      "D": "NetFlow"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "DHCP best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 384,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the benefit of installing Cisco AMP for Endpoints on a network?",
+    "options": {
+      "A": "It enables behavioral analysis to be used for the endpoints",
+      "B": "It provides flow-based visibility for the endpoints’ network connections.",
+      "C": "It protects endpoint systems through application control and real-time scan- ning.",
+      "D": "It provides operating system patches on the endpoints for security."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "It enables behavioral analysis to be used for the endpoints best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 385,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What must be configured in Cisco ISE to enforce reauthentication of an endpoint B",
+    "options": {
+      "A": "SNMP probe",
+      "B": "CoA",
+      "C": "external identity source",
+      "D": "posture assessment"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "CoA best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 386,
+    "domain": "Endpoint Protection and Detection",
+    "question": "In which situation should an Endpoint Detection and Response solution be",
+    "options": {
+      "A": "when there is a need to have more advanced detection capabilities",
+      "B": "when there is no firewall on the network",
+      "C": "when there is a need for traditional anti-malware detection",
+      "D": "when there is no need to have the solution centrally managed"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "when there is a need to have more advanced detection capabilities best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 387,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are the two most commonly used authentication factors in multifactor",
+    "options": {
+      "A": "biometric factor",
+      "B": "time factor",
+      "C": "confidentiality factor",
+      "D": "knowledge factor",
+      "E": "encryption factor"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "biometric factor; knowledge factor best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 388,
+    "domain": "Endpoint Protection and Detection",
+    "question": "133 An MDM provides which two advantages to an organization with regards to",
+    "options": {
+      "A": "asset inventory management",
+      "B": "allowed application management",
+      "C": "AD group policy management",
+      "D": "network device management",
+      "E": "critical device management"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "asset inventory management; allowed application management best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 389,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the purpose of the My Devices Portal in a Cisco ISE environment?",
+    "options": {
+      "A": "to register new laptops and mobile devices",
+      "B": "to manage and deploy antivirus definitions and patches on systems owned by the end user",
+      "C": "to provision userless and agentless systems",
+      "D": "to request a newly provisioned mobile device"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "to register new laptops and mobile devices best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 390,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What does Cisco AMP for Endpoints use to help an organization detect dierent",
+    "options": {
+      "A": "Tetra Engine to detect malware when the endpoint is connected to the cloud",
+      "B": "ClamAV Engine to perform email scanning",
+      "C": "Spero Engine with machine learning to perform dynamic analysis",
+      "D": "Ethos Engine to perform fuzzy fingerprinting"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Ethos Engine to perform fuzzy fingerprinting best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 392,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Why is it important to implement MFA inside of an organization?",
+    "options": {
+      "A": "To prevent brute force attacks from being successful.",
+      "B": "To prevent phishing attacks from being successful.",
+      "C": "To prevent DoS attacks from being successful.",
+      "D": "To prevent man-in-the-middle attacks from being successful."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "To prevent brute force attacks from being successful. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 394,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An organization configures Cisco Umbrella to be used for its DNS services. The organization must be able to block traffic based on the subnet that the endpoint is on, but sees only the requests from its public IP addresses instead of each D",
+    "options": {
+      "A": "Install the Microsoft Active Directory Connector to give IP address informa- tion stitched to the requests in the Cisco Umbrella dashboard.",
+      "B": "Use the tenant control features to identify each subnet being used and track the connections within the Cisco Umbrella dashboard.",
+      "C": "Configure an internal domain within Cisco Umbrella to help identify each address and create policy from the domains.",
+      "D": "Set up a Cisco Umbrella virtual appliance to internally field the requests and see the traffic of each IP address."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Set up a Cisco Umbrella virtual appliance to internally field the requests and see the traffic of each IP address.. DNS  works by encoding data into DNS  that can pass through standard DNS paths.",
+    "status": "valid"
+  },
+  {
+    "id": 395,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the benefit of integrating Cisco ISE with a MDM solution?",
+    "options": {
+      "A": "It provides compliance checks for access to the network.",
+      "B": "It provides the ability to update other applications on the mobile device.",
+      "C": "It provides the ability to add applications to the mobile device through Cisco ISE.",
+      "D": "It provides network device administration access."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "It provides compliance checks for access to the network. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 397,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A Cisco AMP for Endpoints administrator configures a custom detection policy to add specific MD5 signatures. The configuration is created in the simple detection policy section, but it does not work. What is the reason for this",
+    "options": {
+      "A": "The administrator must upload the file instead of the hash for Cisco AMP to use.",
+      "B": "The APK must be uploaded for the application that the detection is intended.",
+      "C": "The MD5 hash uploaded to the simple detection policy is in the incorrect format.",
+      "D": "Detections for MD5 signatures must be configured in the advanced custom detection policies."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Detections for MD5 signatures must be configured in the advanced custom detection policies. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 398,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An administrator is adding a new Cisco ISE node to an existing deployment. What must be done to ensure that the addition of the node will be successful",
+    "options": {
+      "A": "Change the IP address of the new Cisco ISE node to the same network as the others.",
+      "B": "Make the new Cisco ISE node a secondary PAN before registering it with the primary.",
+      "C": "Open port 8905 on the firewall between the Cisco ISE nodes.",
+      "D": "Add the DNS entry for the new Cisco ISE node into the DNS server."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Add the DNS entry for the new Cisco ISE node into the DNS server. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 399,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which portion of the network do EPP solutions solely focus on and EDR solu-",
+    "options": {
+      "A": "East-West gateways",
+      "B": "server farm",
+      "C": "core",
+      "D": "perimeter"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "perimeter best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 400,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which benefit does endpoint security provide the overall security posture of an",
+    "options": {
+      "A": "It streamlines the incident response process to automatically perform digital forensics on the endpoint.",
+      "B": "It allows the organization to mitigate web-based attacks as long as the user is active in the domain.",
+      "C": "It allows the organization to detect and respond to threats at the edge of the network.",
+      "D": "It allows the organization to detect and mitigate threats that the perimeter security devices do not detect."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "It allows the organization to detect and mitigate threats that the perimeter security devices do not detect. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 401,
+    "domain": "Endpoint Protection and Detection",
+    "question": "How does Cisco Stealthwatch Cloud provide security for cloud environments? 091919-Simple-IT-Whitepaper.pdf",
+    "options": {
+      "A": "It delivers visibility and threat detection.",
+      "B": "It prevents exfiltration of sensitive data.",
+      "C": "It assigns Internet-based DNS protection for clients and servers.",
+      "D": "It facilitates secure connectivity between public and private networks."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "It delivers visibility and threat detection. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 402,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two characteristics of messenger protocols make data exfiltration diicult",
+    "options": {
+      "A": "Messenger applications cannot be segmented with standard network controls",
+      "B": "Malware infects the messenger application on the user endpoint to send company data",
+      "C": "Traffic is encrypted, which prevents visibility on firewalls and IPS systems",
+      "D": "An exposed API for the messaging platform is used to send large amounts of data",
+      "E": "Outgoing traffic is allowed so users can communicate with outside organiza- tions"
+    },
+    "correct": [
+      "C",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "Traffic is encrypted, which prevents visibility on firewalls and IPS systems; Outgoing traffic is allowed so users can communicate with outside organiza- tions best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 404,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What provides visibility and awareness into what is currently occurring on the",
+    "options": {
+      "A": "CMX",
+      "B": "WMI",
+      "C": "Cisco Prime Infrastructure",
+      "D": "Telemetry"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Telemetry best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 406,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. An engineer configured wired 802.1x on the network and is unable to get a laptop to authenticate. Which port configuration is missing?",
+    "options": {
+      "A": "dot1x reauthentication",
+      "B": "cisp enable",
+      "C": "dot1x pae authenticator",
+      "D": "authentication open"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "dot1x pae authenticator. 802.1X uses a supplicant on the endpoint, an authenticator on the  and an authentication server such as ISE.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 407,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer is configuring 802.1X authentication on Cisco switches in the net- work and is using CoA as a mechanism. Which port on the firewall must be",
+    "options": {
+      "A": "UDP",
+      "B": "TCP",
+      "C": "UDP",
+      "D": "TCP"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "UDP. 802.1X uses a supplicant on the endpoint, an authenticator on the  and an authentication server such as ISE.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 408,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which compliance status is shown when a configured posture policy requirement",
+    "options": {
+      "A": "authorized",
+      "B": "compliant",
+      "C": "unknown",
+      "D": "noncompliant"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "noncompliant best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 411,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which type of DNS abuse exchanges data between two computers even when",
+    "options": {
+      "A": "malware installation",
+      "B": "network footprinting",
+      "C": "command-and-control communication",
+      "D": "data exfiltration"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "command-and-control communication. DNS  works by encoding data into DNS  that can pass through standard DNS paths.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 412,
+    "domain": "Endpoint Protection and Detection",
+    "question": "How is data sent out to the attacker during a DNS tunneling attack?",
+    "options": {
+      "A": "as part of the domain name",
+      "B": "as part of the  packet payload",
+      "C": "as part of the  packet header",
+      "D": "as part of the DNS response packet"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "as part of the domain name. DNS  works by encoding data into DNS  that can pass through standard DNS paths.",
+    "status": "valid"
+  },
+  {
+    "id": 413,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. A Cisco ISE administrator adds a new switch to an 802. 1X deployment and has difficulty with some endpoints gaining access. Most PCs andIP phones can connect and authenticate using their machine certificate credentials; however, printers and video cameras cannot. Based on the interface configuration provided, what must be done to get these devices onto the network using Cisco ISE for authentication and authorization while maintaining security",
+    "options": {
+      "A": "Configure authentication event fail retry 2 action authorize vlan 41 on the interface.",
+      "B": "Add mab to the interface configuration.",
+      "C": "Enable insecure protocols within Cisco ISE in the allowed protocols configu- ration.",
+      "D": "Change the default policy in Cisco ISE to allow all devices not using machine authentication."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Add mab to the interface configuration. best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 414,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Cisco SensorBase gathers threat information from a variety of Cisco products and services and performs analytics to find pattern on threats. Which term",
+    "options": {
+      "A": "authoring",
+      "B": "consumption",
+      "C": "deployment",
+      "D": "sharing"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "sharing best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 415,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which IETF attribute is supported for the RADIUS CoA feature?",
+    "options": {
+      "A": "24 State",
+      "B": "30 Calling-Station-ID",
+      "C": "42 Acct-Session-ID",
+      "D": "81 Message-Authenticator"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "24 State. RADIUS relies on the  IP matching what the server expects, so using a consistent source interface can prevent rejects.",
+    "status": "valid"
+  },
+  {
+    "id": 416,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit.What does the API key do while working with",
+    "options": {
+      "A": "displays client ID",
+      "B": "HTTP authorization",
+      "C": "Imports requests",
+      "D": "HTTP authentication"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "HTTP authentication best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 417,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which technology should be used to help prevent an attacker from stealing C",
+    "options": {
+      "A": "RADIUS-based REAP",
+      "B": "fingerprinting",
+      "C": "Dynamic ARP Inspection",
+      "D": "multifactor authentication"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Dynamic ARP Inspection best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 418,
+    "domain": "Endpoint Protection and Detection",
+    "question": "166 Which solution for remote workers enables protection, detection, and response",
+    "options": {
+      "A": "Cisco AMP for Endpoints",
+      "B": "Cisco AnyConnect",
+      "C": "Cisco Umbrella",
+      "D": "Cisco Duo"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco AMP for Endpoints best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 419,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two actions does the Cisco Identity Services Engine posture module pro-",
+    "options": {
+      "A": "Assignments to endpoint groups are made dynamically, based on endpoint attributes.",
+      "B": "Endpoint supplicant configuration is deployed.",
+      "C": "A centralized management solution is deployed.",
+      "D": "Patch management remediation is performed.",
+      "E": "The latest antivirus updates are applied before access is allowed."
+    },
+    "correct": [
+      "D",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "Patch management remediation is performed.; The latest antivirus updates are applied before access is allowed. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 421,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Cisco platform provides an agentless solution to provide visibility across the network including encrypted traffic analytics to detect malware in encrypted",
+    "options": {
+      "A": "Cisco Advanced Malware Protection",
+      "B": "Cisco Stealthwatch",
+      "C": "Cisco Identity Services Engine",
+      "D": "Cisco AnyConnect"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Stealthwatch best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 422,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which system performs compliance checks and remote wiping? Suggested An- swer: A",
+    "options": {
+      "A": "MDM",
+      "B": "ISE",
+      "C": "AMP",
+      "D": "OTP"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "MDM best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 426,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two parameters are used for device compliance checks?",
+    "options": {
+      "A": "endpoint protection software version",
+      "B": "Windows registry values",
+      "C": "DHCP snooping checks",
+      "D": "DNS integrity checks",
+      "E": "device operating system version"
+    },
+    "correct": [
+      "B",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "Windows registry values; device operating system version best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 428,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which open standard creates a framework for sharing threat intelligence in a",
+    "options": {
+      "A": "OpenIOC",
+      "B": "OpenC2",
+      "C": "CybOX",
+      "D": "STIX"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "OpenIOC best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 429,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is a difference between Cisco AMP for Endpoints and Cisco Umbrella?",
+    "options": {
+      "A": "Cisco AMP for Endpoints is a cloud-based service, and Cisco Umbrella is not",
+      "B": "Cisco AMP for Endpoints automatically researches indicators of compromise and confirms threats and Cisco Umbrella does not",
+      "C": "Cisco AMP for Endpoints prevents, detects, and responds to attacks before damage can be done, and Cisco Umbrella provides the first line of defense against Internet threats",
+      "D": "Cisco AMP for Endpoints prevents connections to malicious destinations, and Cisco Umbrella works at the file level to prevent the initial execution of malware"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Cisco AMP for Endpoints prevents, detects, and responds to attacks before damage can be done, and Cisco Umbrella provides the first line of defense against Inte best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 430,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two functionalities of northbound and southbound APIs within Cisco",
+    "options": {
+      "A": "Northbound APIs utilize RESTful API methods such as GET, POST, and DELETE",
+      "B": "Southbound APIs utilize CLI, SNMP, and RESTCONF",
+      "C": "Southbound APIs are used to define how SDN controllers integrate with applications",
+      "D": "Northbound interfaces utilize OpenFlow and OpFlex to integrate with net- work devices",
+      "E": "Southbound interfaces utilize device configurations such as VLANs and IP addresses"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "Northbound APIs utilize RESTful API methods such as GET, POST, and DELETE; Southbound APIs utilize CLI, SNMP, and RESTCONF. Southbound APIs connect the SDN controller to network devices, while northbound APIs expose controller functions to",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 431,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two functions of secret key cryptography?",
+    "options": {
+      "A": "utilization of less memory",
+      "B": "utilization of large prime number iterations",
+      "C": "utilization of different keys for encryption and decryption",
+      "D": "key selection without integer factorization",
+      "E": "provides the capability to only know the key on one side"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "utilization of less memory; key selection without integer factorization best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 432,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. When creating an access rule for URL filtering a network engineer adds certain categories and individual URLs to block. What is the",
+    "options": {
+      "A": "Only URLs for botnets with a reputation score of 3 will be allowed while the rest will be blocked.",
+      "B": "Only URLs for botnets with reputation scores of 1-3 will be blocked.",
+      "C": "Only URLs for botnets with reputation scores of 3-5 will be blocked.",
+      "D": "Only URLs for botnets with a reputation score of 3 will be blocked."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Only URLs for botnets with reputation scores of 1-3 will be blocked. best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 433,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer must modify a policy to block specific addresses using Cisco Um- brella. The policy is created already and is actively used by devices, using many of the default policy elements. What else must be done to accomplish this task?",
+    "options": {
+      "A": "Create a destination list for addresses to be allowed or blocked",
+      "B": "Use content categories to block or allow specific addresses",
+      "C": "Add the specified addresses to the identities list and create a block action",
+      "D": "Modify the application settings to allow only applications to connect to required addresses"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Create a destination list for addresses to be allowed or blocked best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 434,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer is configuring Cisco Umbrella and has an identity that refer- ences two dierent policies. Which action ensures that the policy that the C precedence",
+    "options": {
+      "A": "Place the policy with the most-specific configuration last in the policy order",
+      "B": "Configure the default policy to redirect the requests to the correct policy",
+      "C": "Make the correct policy first in the policy order",
+      "D": "Configure only the policy with the most recently changed timestamp"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Make the correct policy first in the policy order best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 435,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A Cisco ISE engineer configures Central Web Authentication (CWA) for wireless guest access and must have the guest endpoints redirect to the guest portal for authentication and authorization. While testing the policy, the engineer notices that the device is not redirected and instead gets full guest access. What must",
+    "options": {
+      "A": "Tag the guest portal in the CWA part of the Common Tasks section of the authorization profile for the authorization policy line that the unauthenticated devices hit.",
+      "B": "Create an advanced attribute setting of Cisco:cisco-gateway-id=guest within the authorization profile for the authorization policy line that the unauthenti- cated devices hit.",
+      "C": "Add the DACL name for the Airespace ACL configured on the WLC in the Common Tasks section of the authorization profile for the authorization policy line that the unauthenticated devices hit.",
+      "D": "Use the track movement option within the authorization profile for the au- thorization policy line that the unauthenticated devices hit."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Tag the guest portal in the CWA part of the Common Tasks section of the authorization profile for the authorization policy line that the unauthenticated devices best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 437,
+    "domain": "Endpoint Protection and Detection",
+    "question": "183 What is an advantage of network telemetry over SNMP pulls? Suggested An- swer: B",
+    "options": {
+      "A": "security",
+      "B": "scalability",
+      "C": "accuracy",
+      "D": "encapsulation"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "scalability best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 438,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two functions of TAXII in threat intelligence sharing?",
+    "options": {
+      "A": "allows users to describe threat motivations and abilities",
+      "B": "determines how threat intelligence information is relayed",
+      "C": "determines the “what” of threat intelligence",
+      "D": "exchanges trusted anomaly intelligence information",
+      "E": "supports STIX information"
+    },
+    "correct": [
+      "B",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "determines how threat intelligence information is relayed; supports STIX information best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 439,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two functionalities of SDN Northbound APIs?",
+    "options": {
+      "A": "OpenFlow is a standardized northbound API protocol",
+      "B": "Northbound APIs form the interface between the SDN controller and business applications",
+      "C": "Northbound APIs provide a programmable interface for applications to dy- namically configure the network",
+      "D": "Northbound APIs form the interface between the SDN controller and the network switches or routers",
+      "E": "Northbound APIs use the NETCONF protocol to communicate with appli- cations."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Northbound APIs form the interface between the SDN controller and business applications. Southbound APIs connect the SDN controller to network devices, while northbound APIs expose controller functions to",
+    "status": "valid"
+  },
+  {
+    "id": 440,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the result of the ACME-Router(config)#login block-for 100 attempts",
+    "options": {
+      "A": "If four failures occur in 60 seconds, the router goes to quiet mode for 100 seconds",
+      "B": "After four unsuccessful log in attempts the line is blocked for 100 seconds and only permit IP addresses are permitted in ACL",
+      "C": "After four unsuccessful log in attempts the line is blocked for 60 seconds and only permit IP addresses are permitted in ACL 100",
+      "D": "If four log in attempts fail in 100 seconds, wait for 60 seconds to next log in prompt"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "If four failures occur in 60 seconds, the router goes to quiet mode for 100 seconds best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 441,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is a benefit of using a multifactor authentication strategy?",
+    "options": {
+      "A": "It provides an easy, single sign-on experience against multiple applications",
+      "B": "It provides secure remote access for applications",
+      "C": "It protects data by enabling the use of a second validation of identity",
+      "D": "It provides visibility into devices to establish device trust"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "It protects data by enabling the use of a second validation of identity best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 442,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which endpoint solution protects a user from a phishing attack?",
+    "options": {
+      "A": "Cisco AnyConnect with Network Access Manager module",
+      "B": "Cisco AnyConnect with Umbrella Roaming Security module",
+      "C": "Cisco Identity Services Engine",
+      "D": "Cisco AnyConnect with ISE Posture module"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco AnyConnect with Umbrella Roaming Security module. Phishing is best mitigated with  protection and strong  filtering controls.",
+    "status": "valid"
+  },
+  {
+    "id": 443,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. All servers are in the same  DNS Server-1 and DNS Server-2 must communicate with each other and all servers must com- municate with default gateway multilayer switch. Which type of private VLAN ports should be configured to prevent communication between DNS servers and",
+    "options": {
+      "A": "Configure  as community port,  as promiscuous port,  and  as isolated ports",
+      "B": "Configure  as community port,  as isolated port, and  and  as promiscuous ports",
+      "C": "Configure  as promiscuous port,  as community port, and  and  as isolated ports",
+      "D": "Configure  as promiscuous port,  as isolated port, and  and  as community ports"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Configure as promiscuous port, as isolated port, and and as community ports. DNS  works by encoding data into DNS  that can pass through standard DNS paths.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 444,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. Which configuration item makes it possible to have the",
+    "options": {
+      "A": "aaa authentication enable default enable",
+      "B": "aaa authorization network default group ise",
+      "C": "aaa authentication login console ise",
+      "D": "aaa authorization exec default ise"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "aaa authorization network default group ise best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 445,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the concept of continuous  delivery pipelining?",
+    "options": {
+      "A": "The project code is centrally maintained, and each code change should trigger an automated build and test sequence.",
+      "B": "The project is split into time-limited cycles, and focuses on pair programming for continuous code review.",
+      "C": "The project is split into several phases where one phase cannot start before the previous phase finishes successfully.",
+      "D": "Each project phase is independent from other phases to maintain adaptive- ness and continual improvement."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "The project code is centrally maintained, and each code change should trigger an automated build and test sequence. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 446,
+    "domain": "Endpoint Protection and Detection",
+    "question": "194 Which two functions does the Cisco Advanced Phishing Protection solution perform in trying to protect from phishing attacks?",
+    "options": {
+      "A": "uses a static algorithm to determine malicious",
+      "B": "determines if the email messages are malicious",
+      "C": "provides a defense for on-premises email deployments",
+      "D": "blocks malicious websites and adds them to a block list",
+      "E": "does a real-time user web browsing behavior analysis"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "determines if the email messages are malicious; provides a defense for on-premises email deployments. Phishing is best mitigated with  protection and strong  filtering controls.",
+    "status": "valid"
+  },
+  {
+    "id": 447,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Cisco DNA Center Intent API action is used to retrieve the number of",
+    "options": {
+      "A": "GET",
+      "B": "GET  device?parameter1=value¶meter2=vale&…",
+      "C": "GET",
+      "D": "GET  device"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "GET best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 448,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which function is performed by certificate authorities but is a limitation of",
+    "options": {
+      "A": "CRL publishing",
+      "B": "certificate re-enrollment",
+      "C": "verifying user identity",
+      "D": "accepts enrollment requests"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "CRL publishing best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 449,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A hacker initiated a social engineering attack and stole username and passwords of some users within a company. Which product should be used as a solution",
+    "options": {
+      "A": "Cisco Duo",
+      "B": "Cisco NGFW",
+      "C": "Cisco AnyConnect",
+      "D": "Cisco AMP for Endpoints"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Duo best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 450,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the recommendation in a zero-trust model before granting access to",
+    "options": {
+      "A": "to disconnect from the network when inactive",
+      "B": "to use multifactor authentication",
+      "C": "to use a wired network, not wireless",
+      "D": "to use strong passwords"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "to use multifactor authentication best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 451,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which open source tool does Cisco use to create graphical visualizations driven-telemetry",
+    "options": {
+      "A": "InfluxDB",
+      "B": "SNMP",
+      "C": "Grafana",
+      "D": "Splunk"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Grafana best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 452,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which standard is used to automate exchanging cyber threat information?",
+    "options": {
+      "A": "MITRE",
+      "B": "TAXII",
+      "C": "IoC",
+      "D": "STIX"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "TAXII best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 453,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which endpoint protection and detection feature performs correlation of teleme- try, files, and intrusion events that are flagged as possible active breaches?",
+    "options": {
+      "A": "elastic search",
+      "B": "file trajectory",
+      "C": "indication of compromise",
+      "D": "retrospective detection"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "indication of compromise best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 454,
+    "domain": "Endpoint Protection and Detection",
+    "question": "When NetFlow is applied to an interface, which component creates the flow monitor cache that is used to collect traffic based on the key and nonkey fields",
+    "options": {
+      "A": "flow exporter",
+      "B": "records",
+      "C": "flow sampler",
+      "D": "flow monitor"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "flow monitor. On   is enabled by defining export settings and applying policies to match traffic, then exporting",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 455,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is the term for when an endpoint is associated to a provisioning WLAN that is shared with guest access, and the same guest portal is used as the BYOD",
+    "options": {
+      "A": "single-SSID BYOD",
+      "B": "dual-SSID BYOD",
+      "C": "streamlined access",
+      "D": "multichannel GUI"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "dual-SSID BYOD best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 456,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer is configuring web filtering for a network using Cisco Umbrella Secure Internet Gateway. The requirement is that all traffic needs to be filtered. Using the SSL decryption feature, which type of certificate should be presented",
+    "options": {
+      "A": "SubCA",
+      "B": "organization owned root",
+      "C": "self-signed",
+      "D": "third-party"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "organization owned root best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 457,
+    "domain": "Endpoint Protection and Detection",
+    "question": "How does Cisco Umbrella protect clients when they operate outside of the corpo- roaming.html",
+    "options": {
+      "A": "by forcing DNS queries to the corporate name servers",
+      "B": "by modifying the registry for DNS lookups",
+      "C": "by using the Cisco Umbrella roaming client",
+      "D": "by using Active Directory group policies to enforce Cisco Umbrella DNS servers"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "by using the Cisco Umbrella roaming client best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 458,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which DoS attack uses fragmented packets in an attempt to crash a target",
+    "options": {
+      "A": "teardrop",
+      "B": "smurf",
+      "C": "LAND",
+      "D": "SYN flood"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "teardrop best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 459,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An organization has DHCP servers set up to allocate IP addresses to clients on the LAN. What must be done to ensure the LAN switches prevent malicious DHCP traffic while also distributing IP addresses to the correct endpoints?",
+    "options": {
+      "A": "Configure Dynamic ARP inspection and add entries in the DHCP snooping database.",
+      "B": "Configure DHCP snooping and set trusted interfaces for all client connections.",
+      "C": "Configure Dynamic ARP inspection and antispoofing ACLs in the DHCP snooping database.",
+      "D": "Configure DHCP snooping and set a trusted interface for the DHCP server."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Configure DHCP snooping and set a trusted interface for the DHCP server. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 460,
+    "domain": "Endpoint Protection and Detection",
+    "question": "212 What is the process of performing automated static and dynamic analysis of files in an isolated environment against preloaded behavioral indicators for threat",
+    "options": {
+      "A": "advanced sandboxing",
+      "B": "adaptive scanning",
+      "C": "deep visibility scan",
+      "D": "point-in-time checks"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "advanced sandboxing best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 461,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two benefits of Flexible NetFlow records?",
+    "options": {
+      "A": "They provide accounting and billing enhancements.",
+      "B": "They allow the user to configure flow information to perform customized traffic identification.",
+      "C": "They provide monitoring of a wider range of IP packet information from Layer2 to 4.",
+      "D": "They provide attack prevention by dropping the traffic.",
+      "E": "They converge multiple accounting technologies into one accounting mecha- nism."
+    },
+    "correct": [
+      "B",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "They allow the user to configure flow information to perform customized traffic identification.; They converge multiple accounting technologies into one account. On   is enabled by defining export settings and applying policies to match traffic, then exporting",
+    "status": "valid"
+  },
+  {
+    "id": 462,
+    "domain": "Endpoint Protection and Detection",
+    "question": "217 What is a characteristic of an EDR solution and not of an EPP solution?",
+    "options": {
+      "A": "performs signature-based detection",
+      "B": "decrypts SSL traffic for better visibility",
+      "C": "stops all ransomware attacks",
+      "D": "retrospective analysis"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "retrospective analysis best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 464,
+    "domain": "Endpoint Protection and Detection",
+    "question": "218 Client workstations are experiencing extremely poor response time. An engineer suspects that an attacker is eavesdropping and making independent connections while relaying messages between victims to make them think they are talking to each other over a private connection. Which feature must be enabled and",
+    "options": {
+      "A": "Link Aggregation",
+      "B": "Reverse ARP",
+      "C": "private VLANs",
+      "D": "Dynamic ARP Inspection"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Dynamic ARP Inspection best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 465,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An administrator is testing new configuration on a network device. The network device had a previously established association with the NTP server but is no longer processing time updates. What is the cause of this issue?",
+    "options": {
+      "A": "The server changed its time source to stratum 1.",
+      "B": "The network device is sending the wrong password to the server.",
+      "C": "NTP authentication has been configured on the network device.",
+      "D": "NTP authentication has been configured on the NTP server."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "NTP authentication has been configured on the network device. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 466,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer is configuring device-hardening on a router in order to prevent credentials from being seen if the router configuration was compromised. Which",
+    "options": {
+      "A": "service password-encryption",
+      "B": "username privilege 15 password",
+      "C": "username password",
+      "D": "service password-recovery"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "service password-encryption best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 468,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two functions of IKEv1 but not IKEv2?",
+    "options": {
+      "A": "IKEv1 conversations are initiated by the IKE_SA_INIT message.",
+      "B": "With IKEv1, aggressive mode negotiates faster than main mode.",
+      "C": "IKEv1 uses EAP for authentication.",
+      "D": "NAT-T is supported in IKEv1 but not in IKEv2.",
+      "E": "With IKEv1, when using aggressive mode, the initiator and responder iden- tities are passed in cleartext."
+    },
+    "correct": [
+      "B",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "With IKEv1, aggressive mode negotiates faster than main mode.; With IKEv1, when using aggressive mode, the initiator and responder iden- tities are passed in cl. IPsec VPN behaviour depends on matching policy,  and allowing VPN traffic through the security policy.",
+    "status": "valid"
+  },
+  {
+    "id": 471,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two benefits of using an MDM solution?",
+    "options": {
+      "A": "enhanced DNS security for endpoint devices",
+      "B": "on-device content management",
+      "C": "remote wipe capabilities to protect information on lost or stolen devices",
+      "D": "antimalware and antispyware functionality",
+      "E": "allows for mobile endpoints to be used for authentication methods"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "on-device content management; remote wipe capabilities to protect information on lost or stolen devices best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 472,
+    "domain": "Endpoint Protection and Detection",
+    "question": "For which type of attack is multifactor authentication an eective deterrent?",
+    "options": {
+      "A": "syn flood",
+      "B": "phishing",
+      "C": "teardrop",
+      "D": "ping of death"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "phishing best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 473,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A university policy must allow open access to resources on the Internet for research, but internal workstations are exposed to malware. Which Cisco AMP feature allows the engineering team to determine whether a file is installed on",
+    "options": {
+      "A": "file prevalence",
+      "B": "file discovery",
+      "C": "file conviction",
+      "D": "file manager"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "file prevalence best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 474,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which action must be taken in the AMP for Endpoints console to detect specific A",
+    "options": {
+      "A": "Configure an advanced custom detection list.",
+      "B": "Configure an IP Block & Allow custom detection list",
+      "C": "Configure an application custom detection list",
+      "D": "Configure a simple custom detection list"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Configure an advanced custom detection list. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 476,
+    "domain": "Endpoint Protection and Detection",
+    "question": "When choosing an algorithm to use. what should be considered about Diie",
+    "options": {
+      "A": "RSA is a symmetric key establishment algorithm intended to output asym- metric keys.",
+      "B": "DH is an asymmetric key establishment algorithm intended to output sym- metric keys.",
+      "C": "DH is a symmetric key establishment algorithm intended to output asym- metric keys.",
+      "D": "RSA is an asymmetric key establishment algorithm intended to output sym- metric keys."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "DH is an asymmetric key establishment algorithm intended to output sym- metric keys. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 477,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What provides total management for mobile and PC including managing in- ventory and device tracking, remote view, and live troubleshooting using the",
+    "options": {
+      "A": "mobile access management",
+      "B": "mobile content management",
+      "C": "mobile application management",
+      "D": "mobile device management"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "mobile device management best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 478,
+    "domain": "Endpoint Protection and Detection",
+    "question": "With regard to RFC 5176 compliance, how many IETF attributes are supported",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "10",
+      "D": "12"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "5 best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 479,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer needs to detect and quarantine a file named abc123456789.zip based on the MD5 signature of the file using the Outbreak Control list feature within Cisco Advanced Malware Protection (AMP) for Endpoints. The configured detection method must work on files of unknown disposition. Which Outbreak",
+    "options": {
+      "A": "Simple Custom Detection",
+      "B": "Blocked Application",
+      "C": "Advanced Custom Detection",
+      "D": "Android Custom Detection"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Advanced Custom Detection best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 480,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Talos reputation center allows for tracking the reputation of IP addresses",
+    "options": {
+      "A": "IP Block List Center",
+      "B": "IP and Domain Reputation Center",
+      "C": "Cisco AMP Reputation Center",
+      "D": "File Reputation Center"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "IP and Domain Reputation Center best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 481,
+    "domain": "Endpoint Protection and Detection",
+    "question": "237 A switch with Dynamic ARP Inspection enabled has received a spoofed ARP response on a trusted interface. How does the switch behave in this situation?",
+    "options": {
+      "A": "It drops the packet after validation by using the IP & MAC Binding Table.",
+      "B": "It forwards the packet without validation.",
+      "C": "It forwards the packet after validation by using the IP & MAC Binding Table.",
+      "D": "It drops the packet without validation."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "It forwards the packet without validation. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 484,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is a functional difference between Cisco AMP for Endpoints and Cisco",
+    "options": {
+      "A": "AMP for Endpoints authenticates users and provides segmentation, and the Umbrella Roaming Client allows only for VPN connectivity.",
+      "B": "AMP for Endpoints stops and tracks malicious activity on hosts, and the Umbrella Roaming Client tracks only URL-based threats.",
+      "C": "The Umbrella Roaming Client authenticates users and provides segmentation, and AMP for Endpoints allows only for VPN connectivity.",
+      "D": "The Umbrella Roaming client stops and tracks malicious activity on hosts, and AMP for Endpoints tracks only URL-based threats."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "AMP for Endpoints stops and tracks malicious activity on hosts, and the Umbrella Roaming Client tracks only URL-based threats. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 487,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What does endpoint isolation in Cisco AMP for Endpoints security protect from?",
+    "options": {
+      "A": "an infection spreading across the LDAP or Active Directory domain from a user account",
+      "B": "a malware spreading across the user device",
+      "C": "an infection spreading across the network",
+      "D": "a malware spreading across the LDAP or Active Directory domain from a user account"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "an infection spreading across the network best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 488,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Cisco DNA Center RESTful PNP API adds and claims a device into a",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "This answer best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 489,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which attack type attempts to shut down a machine or network so that users",
+    "options": {
+      "A": "bluesnarfing",
+      "B": "MAC spoofing",
+      "C": "smurf",
+      "D": "IP spoofing"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "smurf best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 490,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Cisco solution integrates Encrypted Traic Analytics to perform en- hanced visibility, promote compliance, shorten response times, and provide ad- ministrators with the information needed to provide educated and automated",
+    "options": {
+      "A": "Cisco ISE",
+      "B": "Cisco SDN",
+      "C": "Cisco Security Compliance Solution",
+      "D": "Cisco DNA Center"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco DNA Center best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 492,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which API method and required attribute are used to add a device into Cisco",
+    "options": {
+      "A": "GET and serialNumber",
+      "B": "userSudiSerlalNos and deviceInfo",
+      "C": "POST and name",
+      "D": "lastSyncTime and pid"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "POST and name best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 495,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which cryptographic process provides origin confidentiality, integrity, and origin",
+    "options": {
+      "A": "AH",
+      "B": "IKEv1",
+      "C": "IKEv2",
+      "D": "ESP"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "ESP best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 496,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two security benefits of an MDM deployment?",
+    "options": {
+      "A": "distributed dashboard",
+      "B": "distributed software upgrade",
+      "C": "privacy control checks",
+      "D": "on-device content management",
+      "E": "robust security policy enforcement"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "on-device content management best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 497,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which solution is made from a collection of secure development practices and guidelines that developers must follow to build secure applications?",
+    "options": {
+      "A": "Radamsa",
+      "B": "Fuzzing Framework",
+      "C": "AFL",
+      "D": "OWASP"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "OWASP best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 499,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An organization is using DNS services for their network and want to help im- prove the security of the DNS infrastructure. Which action accomplishes this",
+    "options": {
+      "A": "Use DNSSEC between the endpoints and Cisco Umbrella DNS servers.",
+      "B": "Modify the Cisco Umbrella configuration to pass queries only to non-DNSSEC capable zones.",
+      "C": "Integrate Cisco Umbrella with Cisco CloudLock to ensure that DNSSEC is functional.",
+      "D": "Configure Cisco Umbrella and use DNSSEC for domain authentication to authoritative servers."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Configure Cisco Umbrella and use DNSSEC for domain authentication to authoritative servers.. DNS  works by encoding data into DNS  that can pass through standard DNS paths.",
+    "status": "valid"
+  },
+  {
+    "id": 500,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which solution is more secure than the traditional use of a username and pass- word and encompasses at least two of the methods of authentication?",
+    "options": {
+      "A": "authentication",
+      "B": "single-sign on",
+      "C": "Kerberos security solution",
+      "D": "multifactor authentication"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "multifactor authentication best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 501,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two capabilities does an MDM provide? Suggested An- swer: BD",
+    "options": {
+      "A": "manual identification and classification of client devices",
+      "B": "unified management of mobile devices, Macs, and PCs from a centralized dashboard",
+      "C": "delivery of network malware reports to an inbox in a schedule",
+      "D": "enforcement of device security policies from a centralized dashboard",
+      "E": "unified management of Android and Apple devices from a centralized dash- board"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "unified management of mobile devices, Macs, and PCs from a centralized dashboard best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 503,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which VMware platform does Cisco ACI integrate with to provide enhanced visibility, provide policy integration and deployment, and implement security",
+    "options": {
+      "A": "VMware horizons",
+      "B": "VMware vRealize",
+      "C": "VMware APIC",
+      "D": "VMware fusion"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "VMware vRealize best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 504,
+    "domain": "Endpoint Protection and Detection",
+    "question": "In which two ways does the Cisco Advanced Phishing Protection solution protect",
+    "options": {
+      "A": "It prevents use of compromised accounts and social engineering.",
+      "B": "It automatically removes malicious emails from users’ inbox.",
+      "C": "It secures all passwords that are shared in video conferences.",
+      "D": "It prevents trojan horse malware using sensors.",
+      "E": "It prevents all zero-day attacks coming from the Internet."
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "It prevents use of compromised accounts and social engineering.; It automatically removes malicious emails from users’ inbox.. Phishing is best mitigated with  protection and strong  filtering controls.",
+    "status": "valid"
+  },
+  {
+    "id": 505,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which capability is provided by application visibility and control?",
+    "options": {
+      "A": "data obfuscation",
+      "B": "deep packet inspection",
+      "C": "reputation filtering",
+      "D": "data encryption"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "deep packet inspection best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 506,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two fields are defined in the NetFlow flow?",
+    "options": {
+      "A": "destination port",
+      "B": "Layer 4 protocol type",
+      "C": "output logical interface",
+      "D": "class of service bits",
+      "E": "type of service byte"
+    },
+    "correct": [
+      "A",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "destination port; type of service byte. On   is enabled by defining export settings and applying policies to match traffic, then exporting",
+    "status": "valid"
+  },
+  {
+    "id": 507,
+    "domain": "Endpoint Protection and Detection",
+    "question": "266 Refer to the exhibit. Consider that any feature of DNS requests, such as the length of the domain name and the number of subdomains, can be used to con struct models of expected behavior to which observed values can be compared. Which type of malicious attack are these values associated with?",
+    "options": {
+      "A": "worm",
+      "B": "HeartBleed SSL Bug",
+      "C": "Eternal Blue Windows",
+      "D": "Spectre Worm"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "worm. DNS  works by encoding data into DNS  that can pass through standard DNS paths.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 508,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which function is included when Cisco AMP is added to web security?",
+    "options": {
+      "A": "detailed analytics of the unknown file’s behavior",
+      "B": "multifactor, authentication-based user identity",
+      "C": "threat prevention on an infected endpoint",
+      "D": "phishing detection on emails"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "detailed analytics of the unknown file’s behavior best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 509,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An organization is moving toward the zero-trust model. Which Cisco solution enables administrators to deploy and control microsegmentation of endpoints that are connected to a Cisco Data Center Virtual Edge, Cisco Application Virtual Switch, Microsoft vSwitch, and VMware vSphere Distributed Switch?",
+    "options": {
+      "A": "Cisco Titration",
+      "B": "Cisco DCNM",
+      "C": "Cisco Stealthwatch",
+      "D": "Cisco ACI"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco ACI best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 510,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is oered by an EPP solution but not an EDR solution?",
+    "options": {
+      "A": "investigation",
+      "B": "containment",
+      "C": "sandboxing",
+      "D": "detection"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "sandboxing best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 511,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Cisco AMP feature allows an engineer to look back to trace past activities,",
+    "options": {
+      "A": "endpoint isolation",
+      "B": "retrospective security",
+      "C": "advanced search",
+      "D": "advanced investigation"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "retrospective security best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 512,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which feature is used in a push model to allow for session identification host",
+    "options": {
+      "A": "CoA request",
+      "B": "carrier-grade NAT",
+      "C": "AAA attributes",
+      "D": "AV pair"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "CoA request best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 513,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. What is the result of this Python script of the Cisco DNA",
+    "options": {
+      "A": "adds a switch to Cisco DNA Center",
+      "B": "receives information about a switch",
+      "C": "deletes a switch from Cisco DNA Center",
+      "D": "adds authentication to a switch"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "adds a switch to Cisco DNA Center best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 514,
+    "domain": "Endpoint Protection and Detection",
+    "question": "When a next-generation endpoint security solution is selected for a company, what are two key deliverables that help justify the implementation? (Choose",
+    "options": {
+      "A": "signature-based endpoint protection on company endpoints",
+      "B": "email integration to protect endpoints from malicious content that is located in email",
+      "C": "real-time feeds from global threat intelligence centers",
+      "D": "macro-based protection to keep connected endpoints safe",
+      "E": "continuous monitoring of all files that are located on connected endpoints"
+    },
+    "correct": [
+      "C",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "real-time feeds from global threat intelligence centers; continuous monitoring of all files that are located on connected endpoints best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 515,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A company recently discovered an attack propagating throughout their Windows network via a file named abc123456789xyz.exe. The malicious file was uploaded to a Simple Custom Detection list in the AMP for Endpoints Portal and the currently applied policy for the Windows clients was updated to reference the detection list. Verification testing scans on known infected systems shows that 273 AMP for Endpoints is not detecting the presence of this file as an indicator of compromise. What must be performed to ensure detection of the malicious file?",
+    "options": {
+      "A": "Check the box in the policy configuration to send the file to Cisco Threat Grid for dynamic analysis.",
+      "B": "Upload the malicious file to the Blocked Application Control List.",
+      "C": "Upload the SHA-256 hash for the file to the Simple Custom Detection List.",
+      "D": "Use an Advanced Custom Detection List instead of a Simple Custom Detec- tion List."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Upload the malicious file to the Blocked Application Control List. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 516,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer must set up 200 new laptops on a network and wants to prevent the users from moving their laptops around to simplify administration. Which",
+    "options": {
+      "A": "aging",
+      "B": "static",
+      "C": "sticky",
+      "D": "maximum"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "sticky best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 517,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which solution allows an administrator to provision, monitor, and secure mo- bile devices on Windows and Mac computers from a centralized dashboard?",
+    "options": {
+      "A": "Cisco Stealthwatch",
+      "B": "Cisco Umbrella",
+      "C": "Cisco AMP for Endpoints",
+      "D": "Cisco ISE"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco ISE best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 518,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which parameter is required when configuring a NetFlow exporter on a Cisco",
+    "options": {
+      "A": "exporter name",
+      "B": "exporter description",
+      "C": "source interface",
+      "D": "DSCP value"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "exporter name. On   is enabled by defining export settings and applying policies to match traffic, then exporting",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 520,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which direction do attackers encode data in DNS requests during exfiltration",
+    "options": {
+      "A": "outbound",
+      "B": "north-south",
+      "C": "east-west",
+      "D": "inbound"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "outbound. DNS  works by encoding data into DNS  that can pass through standard DNS paths.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 521,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which firewall deployment mode allows inspection of traffic between servers in",
+    "options": {
+      "A": "routed",
+      "B": "multicontext",
+      "C": "virtual",
+      "D": "transparent"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "transparent best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 522,
+    "domain": "Endpoint Protection and Detection",
+    "question": "279 What are two functionalities of SDN southbound APIs?",
+    "options": {
+      "A": "Southbound APIs from the interface between the SDN controller and business applications.",
+      "B": "Application layer programs communicate with the SDN controller through the southbound APIs.",
+      "C": "OpenFlow is a standardized southbound API protocol used between the SDN controller and the switch.",
+      "D": "Southbound APIs form the interface between the SDN controller and the network switches and routers.",
+      "E": "Southbound APIs provide a programmable interface for applications to con figure the network."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "OpenFlow is a standardized southbound API protocol used between the SDN controller and the switch.. Southbound APIs connect the SDN controller to network devices, while northbound APIs expose controller functions to",
+    "status": "valid"
+  },
+  {
+    "id": 523,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer must configure Cisco AMP for Endpoints so that it contains a list of files that should not be executed by users. These files must not be quarantined.",
+    "options": {
+      "A": "Modify the advanced custom detection list to include these files.",
+      "B": "Add a list for simple custom detection.",
+      "C": "Identify the network IPs and place them in a blocked list.",
+      "D": "Create an application control blocked applications list."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Create an application control blocked applications list. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 524,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two characteristics of the RESTful architecture used within Cisco",
+    "options": {
+      "A": "REST codes can be compiled with any programming language.",
+      "B": "REST uses HTTP to send a request to a web service.",
+      "C": "The POST action replaces existing data at the URL path.",
+      "D": "REST uses methods such as GET, PUT, POST, and DELETE.",
+      "E": "REST is a Linux platform-based architecture."
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "REST uses HTTP to send a request to a web service.; REST uses methods such as GET, PUT, POST, and DELETE. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 525,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A security audit recently revealed that an administrator is using the same pass- word of C1$c0448845217 for his personal account across multiple systems. What must be implemented by the company to reduce the chances of this happening",
+    "options": {
+      "A": "centralized user authentication",
+      "B": "role based access control",
+      "C": "security awareness training",
+      "D": "strict password policies"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "security awareness training best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 526,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer is implementing DHCP security mechanisms and needs the ability to add additional attributes to profiles that are created within Cisco ISE. Which",
+    "options": {
+      "A": "Use DHCP option 82 to ensure that the request is from a legitimate endpoint and send the information to Cisco ISE.",
+      "B": "Define MAC-to-IP address mappings in the switch to ensure that rogue de- vices cannot get an IP address.",
+      "C": "Modify the DHCP relay and point the IP address to Cisco ISE.",
+      "D": "Configure DHCP snooping on the switch VLANs and trust the necessary interfaces."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Modify the DHCP relay and point the IP address to Cisco ISE. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 527,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit.The DHCP snooping database resides on router R1, and dynamic ARP inspection is configured only on switch SW2. Which ports must be configured as untrusted so that dynamic ARP inspection operates normally?",
+    "options": {
+      "A": "P2 and P3 only",
+      "B": "P5, P6, and P7 only",
+      "C": "P1, P2, P3, and P4 only",
+      "D": "P2, P3, and P6 only"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "P2, P3, and P6 only best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 528,
+    "domain": "Endpoint Protection and Detection",
+    "question": "For a given policy in Cisco Umbrella, how should a customer block websites",
+    "options": {
+      "A": "by adding the website IP addresses to the Cisco Umbrella blocklist",
+      "B": "by adding the websites to a blocked type destination list",
+      "C": "by specifying blocked domains in the policy settings",
+      "D": "by specifying the websites in a custom blocked category"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "by adding the websites to a blocked type destination list best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 529,
+    "domain": "Endpoint Protection and Detection",
+    "question": "290 Which two activities are performed using Cisco DNA Center?",
+    "options": {
+      "A": "accounting",
+      "B": "design",
+      "C": "provision",
+      "D": "DNS",
+      "E": "DHCP"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "design; provision best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 530,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which Cisco AnyConnect module is integrated with Splunk Enterprise to pro- vide monitoring capabilities to administrators to allow them to view endpoint",
+    "options": {
+      "A": "AMP Enabler",
+      "B": "Umbrella Roaming Security",
+      "C": "ISE Posture",
+      "D": "Network Visibility"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Network Visibility. AnyConnect provides per-user remote access with client-based VPN and policy control tied to user identity and posture.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 531,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which common threat can be prevented by implementing port security on switch",
+    "options": {
+      "A": "VLAN hopping attacks",
+      "B": "spoofing attacks",
+      "C": "denial-of-service attacks",
+      "D": "eavesdropping attacks"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "spoofing attacks best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 532,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which file type is supported when performing a bulk upload of destinations into",
+    "options": {
+      "A": "XLS",
+      "B": "RTF",
+      "C": "TXT",
+      "D": "CSV"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "CSV best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 534,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which method must be used to connect Cisco Secure Workload to external or- chestrators at a client site when the client does not allow incoming connections?",
+    "options": {
+      "A": "destination NAT",
+      "B": "reverse tunnel",
+      "C": "source NAT",
+      "D": "GRE tunnel"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "reverse tunnel best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 535,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two methods are valid to be included in an authentication method list?",
+    "options": {
+      "A": "default",
+      "B": "login",
+      "C": "console",
+      "D": "line",
+      "E": "enable"
+    },
+    "correct": [
+      "D",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "line; enable best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 536,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A network administrator is setting up Cisco FMC to send logs to Cisco Security Analytics and Logging (SaaS). The network administrator is anticipating a high volume of logging events from the firewalls and wants to limit the strain on firewall resources. Which method must the administrator use to send these logs",
+    "options": {
+      "A": "direct connection using SNMP traps",
+      "B": "HTTP POST using the Security Analytics FMC plugin",
+      "C": "syslog using the Secure Event Connector",
+      "D": "SFTP using the FMC CLI"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "syslog using the Secure Event Connector. In cloud shared responsibility, the tenant manages more in IaaS than  while providers manage more of the stack in SaaS.",
+    "status": "valid"
+  },
+  {
+    "id": 537,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which attack gives unauthorized access to files on the web server?",
+    "options": {
+      "A": "DHCP snooping",
+      "B": "path traversal",
+      "C": "broadcast storm",
+      "D": "distributed DoS"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "path traversal best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 538,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which key feature of Cisco ZFW is unique among other Cisco IOS firewall",
+    "options": {
+      "A": "SSL inspection",
+      "B": "security levels",
+      "C": "stateless inspection",
+      "D": "security zones"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "security zones best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 539,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. Logins from internal users to a Cisco Adaptive Security Appliance firewall must be performed by using a TACACS server. The firewall is already configured. Which additional configuration must be performed to configure the TACACS+ server group with a key of Cisco4512!?",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "TACACS+ centralises device administration authentication and authorisation, and can be integrated with MFA via an intermediary proxy.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 540,
+    "domain": "Endpoint Protection and Detection",
+    "question": "305 A network engineer must create a workflow to detect when a device joins a network and send the onboarding configuration to the device by using the Cisco DNA Center API. Which two method and endpoint pairs must be used to",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "choose": 2,
+    "explanation": "This answer best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 542,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. Which task is the Python script performing by using the",
+    "options": {
+      "A": "importing malicious domains to Cisco Umbrella Enforcement for additional processing",
+      "B": "importing malicious domains to Cisco Umbrella Enforcement for blocking",
+      "C": "editing malicious domains in Cisco Umbrella Enforcement that have changed status",
+      "D": "editing malicious domains in Cisco Umbrella Enforcement that have changed IP address"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "importing malicious domains to Cisco Umbrella Enforcement for blocking best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 543,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which security mechanism is designed to protect against “oline brute-force”",
+    "options": {
+      "A": "Token",
+      "B": "MFA",
+      "C": "Salt",
+      "D": "CAPTCHA"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Salt best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 544,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which two global commands must the network administrator implement to limit the attack surface of an internet-facing Cisco router?",
+    "options": {
+      "A": "service tcp-keepalives-in",
+      "B": "no service password-recovery",
+      "C": "no cdp run",
+      "D": "no ip http server",
+      "E": "ip ssh version"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "no cdp run; no ip http server best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 545,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A network administrator has configured DHCP snooping on a Cisco switch to prevent unauthorized DHCP servers from assigning IP addresses. During con figuration, a device with MAC address 04:66:96:79:0:AB received an IP address from an unauthorized DHCP server. Which configuration step must the net-",
+    "options": {
+      "A": "Apply DHCP option 82 to identify the trusted DHCP server.",
+      "B": "Configure each device on the network to use authorize DHCP server manually.",
+      "C": "Configure an access control list to only allow DHCP traffic from trusted DHCP server.",
+      "D": "Implement DHCP option 82 to relay DHCP requests to the trusted DHCP server."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Implement DHCP option 82 to relay DHCP requests to the trusted DHCP server. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 546,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two examples of code injection vulnerabilities?",
+    "options": {
+      "A": "XML external entity injection",
+      "B": "cross-site scripting",
+      "C": "session hijacking",
+      "D": "SQL injection",
+      "E": "arbitrary command injection"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "XML external entity injection best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 548,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What is a feature of an endpoint detection and response solution?",
+    "options": {
+      "A": "ensuring the security of network devices by choosing which devices are allowed to reach the network",
+      "B": "capturing and clarifying data on email, endpoints, and servers to mitigate threats",
+      "C": "rapidly and consistently observing and examining data to mitigate threats",
+      "D": "preventing attacks by identifying harmful events with machine learning and conduct-based defense"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "preventing attacks by identifying harmful events with machine learning and conduct-based defense best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 549,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer is configuring DHCP on a Cisco switch and wants to ensure that a DHCP packet will be dropped. Under which condition will this occur?",
+    "options": {
+      "A": "A packet from a DHCP server is received from inside the network or firewall.",
+      "B": "All packets are dropped until the administrator manually enters the approved servers into the DHCP snooping database.",
+      "C": "A packet is received on an untrusted interface, and the source MAC address and the DHCP client hardware address do not match.",
+      "D": "A DHCP relay agent forwards a DHCP packet that includes a relay-agent IP address that is 0.0.0.0."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "A packet is received on an untrusted interface, and the source MAC address and the DHCP client hardware address do not match. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 550,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer is configuring guest WLAN access using Cisco ISE and the Cisco WLC. Which action temporarily gives guest endpoints access dynamically while",
+    "options": {
+      "A": "Configure ISE and the WLC for quest redirection and services using a self- registered portal.",
+      "B": "Modify the WLC configuration to allow any endpoint to access an internet- only VLAN.",
+      "C": "Configure ISE and the WLC for guest redirection and services using a hotspot portal.",
+      "D": "Modify the WLC configuration to require local WLC logins for the authen- tication prompts."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Configure ISE and the WLC for quest redirection and services using a self- registered portal. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 551,
+    "domain": "Endpoint Protection and Detection",
+    "question": "316 Which Cisco platform processes behavior baselines, monitors for deviations, and reviews for malicious processes in data center traﬀic and servers while performing software vulnerability detection?",
+    "options": {
+      "A": "Cisco Secure Client",
+      "B": "Cisco ISE",
+      "C": "Cisco Secure Workload",
+      "D": "Cisco AMP for Network"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Secure Workload best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 552,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A network administrator has installed Secure Endpoint in the network. During setup it was noticed an endpoint has been exhibiting unusual behavior, including slow performance and unexpected network activity. Administrator discovers a suspicious file named abc0467145535.exe running in the background. Which step must the network administrator take to investigate and remediate the potential",
+    "options": {
+      "A": "Isolate the endpoint from the network.",
+      "B": "Reset the endpoint password and enable multi-factor authentication.",
+      "C": "Format and reinstall the operating system on the endpoint.",
+      "D": "Disable all non-essential processes running on the endpoint."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Isolate the endpoint from the network. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 553,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two targets in cross-site scripting attacks?",
+    "options": {
+      "A": "footer",
+      "B": "cookie",
+      "C": "input",
+      "D": "header",
+      "E": "image"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "cookie; input best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 554,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. A network engineer must retrieve the interface configu- ration on a Cisco router by using the NETCONF API. The engineer uses a Python script to automate the activity. Which code snippet completes the",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "This answer best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 555,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which action adds IOCs to customize detections for a new attack?",
+    "options": {
+      "A": "Use the initiate Endpoint 1OC scan feature to gather the IOC information and push it to clients.",
+      "B": "Upload the 10Cs into the Installed Endpoint IOC feature within Cisco Secure Endpoint.",
+      "C": "Add a custom advanced detection to include the 1OCs needed within Cisco Secure Endpoint.",
+      "D": "Modify the base policy within Cisco Secure Endpoint to include simple cus- tom detections."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Add a custom advanced detection to include the 1OCs needed within Cisco Secure Endpoint. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 556,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What has driven an increase in the need for endpoint-based security?",
+    "options": {
+      "A": "minimal endpoint-based security manual configuration and implementation",
+      "B": "increased data volumes and value in data center storage",
+      "C": "increased number of BYOD policies and hybrid remote worker",
+      "D": "stricter control mechanism requirements for enterprise access"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "increased number of BYOD policies and hybrid remote worker best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 557,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A security test performed on one of the applications shows that user input is not validated. Which security vulnerability is the application more susceptible",
+    "options": {
+      "A": "man-in-the-middle",
+      "B": "cross-site request forgery",
+      "C": "SQL injection",
+      "D": "denial-of-service"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "SQL injection best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 558,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which problem is solved by deploying a multicontext firewall? Suggested An- swer: A",
+    "options": {
+      "A": "overlapping IP addressing plan",
+      "B": "resilient high availability design",
+      "C": "faster inspection",
+      "D": "more secure policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "overlapping IP addressing plan best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 559,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What must be configured on Cisco Secure Endpoint to create a custom detection",
+    "options": {
+      "A": "Create an advanced custom detection and upload the hash of each file.",
+      "B": "Add a network IP block allowed list to the configuration and add the blocked files.",
+      "C": "Use the simple custom detection feature and add each detection to the list.",
+      "D": "Configure an application control allowed applications list to block the files."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Use the simple custom detection feature and add each detection to the list. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 560,
+    "domain": "Endpoint Protection and Detection",
+    "question": "An engineer must register a fixed network on a Cisco Umbrella platform. Which two actions must be performed when adding a new public IP address? (Choose",
+    "options": {
+      "A": "Enter a network public IP address.",
+      "B": "Install the Umbrella root certificate.",
+      "C": "Configure the DNS security settings.",
+      "D": "Point DNS to Umbrella platform DNS servers.",
+      "E": "Point DHCP to Umbrella platform DHCP servers."
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "Enter a network public IP address.; Point DNS to Umbrella platform DNS servers. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 561,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which API technology with SDN architecture is used to communicate with a C",
+    "options": {
+      "A": "rest APIs",
+      "B": "northbound APIs",
+      "C": "southbound APIs",
+      "D": "unprotected APIs"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "southbound APIs. Southbound APIs connect the SDN controller to network devices, while northbound APIs expose controller functions to",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 562,
+    "domain": "Endpoint Protection and Detection",
+    "question": "327 Which parameter must be set for an invalid certificate handling on a Cisco",
+    "options": {
+      "A": "Decrypt",
+      "B": "Reject",
+      "C": "Accept",
+      "D": "Scan"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Decrypt best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 563,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A networking team must harden an organization’s network from VLAN hopping attacks. The team disables Dynamic Trunking Protocol and puts any unused ports in an unused VLAN. A trunk port is used as a trunk link. What must the team configure next to harden the network against VLAN hopping attacks?",
+    "options": {
+      "A": "dedicated VLAN ID for all trunk ports",
+      "B": "disable STP on the network devices",
+      "C": "DHCP snooping on all the switches",
+      "D": "enable port-based network access control"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "dedicated VLAN ID for all trunk ports best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 564,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. A network engineer wants to reduce the operational costs of SNMPv3 by using trapping instead of polling. Which code snippet completes the configuration to enable authentication for SNMPv3 trapping?",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "This answer best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 567,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Which type of attack does multifactor authentication help protect against?",
+    "options": {
+      "A": "cross-site scripting",
+      "B": "brute force",
+      "C": "SQL injection",
+      "D": "man-in-the-middle"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "brute force best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 569,
+    "domain": "Endpoint Protection and Detection",
+    "question": "333 An engineer is onboarding a teleworker to Cisco Umbrella. After the worker’s home network identity is configured, which additional action must be taken to",
+    "options": {
+      "A": "Change the public IP addresses from static to dynamic.",
+      "B": "Point the home modem DHCP to Cisco Umbrella DHCP.",
+      "C": "Set up a point-to-point VPN with the head-office.",
+      "D": "Point the home modem DNS to Cisco Umbrella DNS."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Point the home modem DNS to Cisco Umbrella DNS. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 570,
+    "domain": "Endpoint Protection and Detection",
+    "question": "334 A network engineer must use the Cisco DNA Center API to create a configu- ration template to provision a device. Which two method and endpoint pairs",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "This answer best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 571,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A network engineer must create an access control list on a Cisco Adaptive Se- curity Appliance firewall. The access control list must permit HTTP traffic to the internet from the organization’s inside network 192.168.1. Which IOS",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "This answer best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 572,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. Which task is the Python script performing by using the",
+    "options": {
+      "A": "changing the disposition of domains that were previously malicious to clean",
+      "B": "checking the disposition of previously identified domains in bulk",
+      "C": "changing the disposition of domains that were previously clean to malicious",
+      "D": "checking the disposition of potentially malicious domains in bulk"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "checking the disposition of previously identified domains in bulk best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 573,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. A network engineer must implement a new multidevice management solution and must retrieve information about all the Cisco devices that are directly attached to a Cisco IOS router. Which IOS command must the engineer use to display detailed information about the attached devices?",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "This answer best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 574,
+    "domain": "Endpoint Protection and Detection",
+    "question": "Refer to the exhibit. Network access control is implemented on the LAN and an engineer must now configure the switch port level so that users with new corporate devices can connect to the corporate LAN without issues. What",
+    "options": {
+      "A": "clear port-security dynamic",
+      "B": "shut and no shut",
+      "C": "errdisable recovery cause psesecure-violation",
+      "D": "authentication violation replace"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "authentication violation replace best matches the requirement described in the question.",
+    "status": "invalid",
+    "reason": "Missing exhibit"
+  },
+  {
+    "id": 575,
+    "domain": "Endpoint Protection and Detection",
+    "question": "A network engineer must create an access control list on a Cisco Adaptive Se- curity Appliance firewall to permit TCP DNS traffic to the internet from the organization’s inside network 192.168.1. Which IOS command must be",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "DNS  works by encoding data into DNS  that can pass through standard DNS paths.",
+    "status": "valid"
+  },
+  {
+    "id": 577,
+    "domain": "Endpoint Protection and Detection",
+    "question": "How does a Cisco Secure Web Appliance integrated with LDAP handle the permissions of a currently logged in Active Directory group member when the Active Directory administrator changes the permissions of the user’s group mid",
+    "options": {
+      "A": "If the Cisco Secure Client Mobility Client is configured on the endpoint to provide Active Directory updates, the Cisco Secure Web Appliance changes the user’s permissions immediately when alerted by the client.",
+      "B": "If the Cisco Secure Web Appliance is configured to receive real-time updates from the Active Directory user agent, it changes the user’s permissions immedi- ately when the agent sends the update.",
+      "C": "The Cisco Secure Web Appliance terminates the current session and prompts the user to re-authenticate in order to update the effective permissions.",
+      "D": "The Cisco Secure Web Appliance continues to operate using the permissions that were in effect when the user logged in for the duration of the user’s session."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "The Cisco Secure Web Appliance continues to operate using the permissions that were in effect when the user logged in for the duration of the user’s session. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 579,
+    "domain": "Endpoint Protection and Detection",
+    "question": "What are two benefits of adaptive multifactor authentication?",
+    "options": {
+      "A": "no need to remember passwords",
+      "B": "secure remote access",
+      "C": "contextual factor-based authentication",
+      "D": "improved access management",
+      "E": "managed encryption policies"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "contextual factor-based authentication; improved access management best matches the requirement described in the question.",
+    "status": "valid"
+  }
+]

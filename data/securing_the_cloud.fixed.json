@@ -1,0 +1,936 @@
+[
+  {
+    "id": 163,
+    "domain": "Securing the Cloud",
+    "question": "Which functions of an SDN architecture require southbound APIs to enable",
+    "options": {
+      "A": "SDN controller and the network elements",
+      "B": "management console and the SDN controller",
+      "C": "management console and the cloud",
+      "D": "SDN controller and the cloud"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "SDN controller and the network elements. Southbound APIs connect the SDN controller to network devices, while northbound APIs expose controller functions to",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 164,
+    "domain": "Securing the Cloud",
+    "question": "The main function of northbound APIs in the SDN architecture is to enable",
+    "options": {
+      "A": "SDN controller and the cloud",
+      "B": "management console and the SDN controller",
+      "C": "management console and the cloud",
+      "D": "SDN controller and the management solution"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "SDN controller and the management solution. Southbound APIs connect the SDN controller to network devices, while northbound APIs expose controller functions to",
+    "status": "valid"
+  },
+  {
+    "id": 165,
+    "domain": "Securing the Cloud",
+    "question": "Which two features of Cisco DNA Center are used in a Software De-",
+    "options": {
+      "A": "accounting",
+      "B": "assurance",
+      "C": "automation",
+      "D": "authentication",
+      "E": "encryption"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "assurance; automation best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 166,
+    "domain": "Securing the Cloud",
+    "question": "Which deployment model is the most secure when considering risks to cloud",
+    "options": {
+      "A": "public cloud",
+      "B": "hybrid cloud",
+      "C": "community cloud",
+      "D": "private cloud"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "private cloud best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 167,
+    "domain": "Securing the Cloud",
+    "question": "81 What does the Cloudlock Apps Firewall do to mitigate security con ence:",
+    "options": {
+      "A": "It allows the administrator to quarantine malicious files so that the applica- tion can function, just not maliciously.",
+      "B": "It discovers and controls cloud apps that are connected to a company’s cor- porate environment.",
+      "C": "It deletes any application that does not belong in the network.",
+      "D": "It sends the application information to an administrator to act on."
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "It discovers and controls cloud apps that are connected to a company’s cor- porate environment.. A CASB like Cloudlock provides visibility and control of cloud application usage and protects data via API-based enforcement.",
+    "status": "valid"
+  },
+  {
+    "id": 168,
+    "domain": "Securing the Cloud",
+    "question": "Which exfiltration method does an attacker use to hide and encode data inside umbrella.cisco.",
+    "options": {
+      "A": "DNS tunneling",
+      "B": "DNSCrypt",
+      "C": "DNS security",
+      "D": "DNSSEC"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "DNS tunneling best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 169,
+    "domain": "Securing the Cloud",
+    "question": "In which cloud services model is the tenant responsible for virtual machine OS",
+    "options": {
+      "A": "IaaS",
+      "B": "UCaaS",
+      "C": "PaaS",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "IaaS best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 170,
+    "domain": "Securing the Cloud",
+    "question": "A",
+    "options": {
+      "A": "data loss prevention",
+      "B": "controls malicious cloud apps",
+      "C": "detects anomalies",
+      "D": "user and entity behavior analytics"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "data loss prevention best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 171,
+    "domain": "Securing the Cloud",
+    "question": "Which feature is supported when deploying Cisco ASAv within AWS public start-",
+    "options": {
+      "A": "multiple context mode",
+      "B": "user deployment of Layer 3 networks",
+      "C": "IPv6",
+      "D": "clustering"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "user deployment of Layer 3 networks best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 172,
+    "domain": "Securing the Cloud",
+    "question": "Which cloud service model oers an environment for cloud consumers to develop and deploy applications without needing to manage or maintain the underlying",
+    "options": {
+      "A": "PaaS",
+      "B": "XaaS",
+      "C": "IaaS",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "PaaS best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 173,
+    "domain": "Securing the Cloud",
+    "question": "What is the Cisco API-based broker that helps reduce compromises, application risks, and data breaches in an environment that is not on-premise?",
+    "options": {
+      "A": "Cisco AppDynamics",
+      "B": "Cisco Cloudlock",
+      "C": "Cisco Umbrella",
+      "D": "Cisco AMP"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Cloudlock best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 174,
+    "domain": "Securing the Cloud",
+    "question": "Which two aspects of the cloud PaaS model are managed by the customer but",
+    "options": {
+      "A": "middleware",
+      "B": "applications",
+      "C": "virtualization",
+      "D": "operating systems",
+      "E": "data"
+    },
+    "correct": [
+      "B",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "applications; data. In cloud shared responsibility, the tenant manages more in IaaS than  while providers manage more of the stack in SaaS.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 176,
+    "domain": "Securing the Cloud",
+    "question": "A company is experiencing exfiltration of credit card numbers that are not being stored on-premise. The company needs to be able to protect sensitive data throughout the full environment. Which tool should be used to accomplish this",
+    "options": {
+      "A": "Cisco ISE",
+      "B": "Web Security Appliance",
+      "C": "Security Manager",
+      "D": "Cloudlock"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cloudlock best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 177,
+    "domain": "Securing the Cloud",
+    "question": "What are the two types of managed Intercloud Fabric deployment models?",
+    "options": {
+      "A": "Service Provider managed",
+      "B": "User managed",
+      "C": "Public managed",
+      "D": "Hybrid managed",
+      "E": "Enterprise managed"
+    },
+    "correct": [
+      "A",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "Service Provider managed; Enterprise managed best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 178,
+    "domain": "Securing the Cloud",
+    "question": "An engineer needs a cloud solution that will monitor traffic, create incidents based on events, and integrate with other cloud solutions via an API. Which",
+    "options": {
+      "A": "CASB",
+      "B": "Cisco Cloudlock",
+      "C": "Adaptive MFA",
+      "D": "SIEM"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Cloudlock best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 179,
+    "domain": "Securing the Cloud",
+    "question": "Which factor must be considered when choosing the on-premise solution over",
+    "options": {
+      "A": "With an on-premise solution, the provider is responsible for the installation and maintenance of the product, whereas with a cloud-based solution, the cus- tomer is responsible for it.",
+      "B": "With a cloud-based solution, the provider is responsible for the installation, but the customer is responsible for the maintenance of the product.",
+      "C": "With an on-premise solution, the provider is responsible for the installation, but the customer is responsible for the maintenance of the product.",
+      "D": "With an on-premise solution, the customer is responsible for the installa- tion and maintenance of the product, whereas with a cloud-based solution, the provider is responsible for it."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "With an on-premise solution, the customer is responsible for the installa- tion and maintenance of the product, whereas with a cloud-based solution, the provide best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 180,
+    "domain": "Securing the Cloud",
+    "question": "An engineer has been tasked with implementing a solution that can be leveraged for securing the cloud users, data, and applications. There is a requirement to use the Cisco cloud-native CASB and cloud cybersecurity platform. What",
+    "options": {
+      "A": "Cisco NGFW",
+      "B": "Cisco Cloudlock",
+      "C": "Cisco Cloud Email Security",
+      "D": "Cisco Umbrella"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Cloudlock. A CASB like Cloudlock provides visibility and control of cloud application usage and protects data via API-based enforcement.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 182,
+    "domain": "Securing the Cloud",
+    "question": "An organization wants to secure users, data, and applications in the cloud. The solution must be API-based on operate as a cloud-native CASB. Which solution",
+    "options": {
+      "A": "Cisco Cloud Email Security",
+      "B": "Cisco Cloudlock",
+      "C": "Cisco Umbrella",
+      "D": "Cisco Firepower Nest-Generation Firewall"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Cloudlock. A CASB like Cloudlock provides visibility and control of cloud application usage and protects data via API-based enforcement.",
+    "status": "valid"
+  },
+  {
+    "id": 183,
+    "domain": "Securing the Cloud",
+    "question": "Which cloud model is a collaborative eort where infrastructure is shared and jointly accessed by several organizations from a specific group? Suggested An- swer: A",
+    "options": {
+      "A": "community",
+      "B": "private",
+      "C": "public",
+      "D": "hybrid"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "community best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 185,
+    "domain": "Securing the Cloud",
+    "question": "ence:",
+    "options": {
+      "A": "It is an authentication broker to enable single sign-on and multi-factor au- thentication for a cloud solution.",
+      "B": "It scans other cloud solutions being used within the network and identifies vulnerabilities.",
+      "C": "It integrates with other cloud solutions via APIs and monitors and creates incidents based on events from the cloud solution.",
+      "D": "It acts as a security information and event management solution and receives syslog from other cloud solutions."
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "It integrates with other cloud solutions via APIs and monitors and creates incidents based on events from the cloud solution. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 186,
+    "domain": "Securing the Cloud",
+    "question": "An organization has a requirement to collect full metadata information about the traffic going through their AWS cloud services. They want to use this information for behavior analytics and statistics. Which two actions must be",
+    "options": {
+      "A": "Send syslog from AWS to Cisco Stealthwatch Cloud.",
+      "B": "Configure Cisco Stealthwatch Cloud to ingest AWS information.",
+      "C": "Send VPC Flow Logs to Cisco Stealthwatch Cloud.",
+      "D": "Configure Cisco Thousand Eyes to ingest AWS information.",
+      "E": "Configure Cisco ACI to ingest AWS information."
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "Configure Cisco Stealthwatch Cloud to ingest AWS information.; Send VPC Flow Logs to Cisco Stealthwatch Cloud. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 187,
+    "domain": "Securing the Cloud",
+    "question": "98 An organization wants to implement a cloud-delivered and SaaS-based solution to provide visibility and threat detection across the AWS network. The so- lution must be deployed without software agents and rely on AWS VPC flow C",
+    "options": {
+      "A": "NetFlow collectors",
+      "B": "Cisco Cloudlock",
+      "C": "Cisco Stealthwatch Cloud",
+      "D": "Cisco Umbrella"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Stealthwatch Cloud. In cloud shared responsibility, the tenant manages more in IaaS than  while providers manage more of the stack in SaaS.",
+    "status": "valid"
+  },
+  {
+    "id": 188,
+    "domain": "Securing the Cloud",
+    "question": "How does Cisco Umbrella archive logs to an enterprise-owned storage?",
+    "options": {
+      "A": "by using the Application Programming Interface to fetch the logs",
+      "B": "by sending logs via syslog to an on-premises or cloud-based syslog server",
+      "C": "by the system administrator downloading the logs from the Cisco Umbrella web portal",
+      "D": "by being configured to send logs to a self-managed AWS S3 bucket"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "by being configured to send logs to a self-managed AWS S3 bucket best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 189,
+    "domain": "Securing the Cloud",
+    "question": "106 A network administrator is using the Cisco ESA with AMP to upload files to the cloud for analysis. The network is congested and is aecting communication. B",
+    "options": {
+      "A": "The ESA immediately makes another attempt to upload the file.",
+      "B": "The file upload is abandoned.",
+      "C": "AMP calculates the SHA-256 fingerprint, caches it, and periodically attempts the upload.",
+      "D": "The file is queued for upload when connectivity is restored"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "The file upload is abandoned. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 190,
+    "domain": "Securing the Cloud",
+    "question": "What is a benefit of using Cisco CWS compared to an on-premises Cisco WSA? security-",
+    "options": {
+      "A": "Content scanning for SAAS cloud applications is available through Cisco CWS and not available through Cisco WSA.",
+      "B": "URL categories are updated more frequently on Cisco CWS than they are on Cisco WSA.",
+      "C": "Cisco CWS minimizes the load on the internal network and security infras- tructure as compared to Cisco WSA.",
+      "D": "Cisco CWS eliminates the need to backhaul traffic through headquarters for remote workers whereas Cisco WSA does not."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco CWS eliminates the need to backhaul traffic through headquarters for remote workers whereas Cisco WSA does not. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 191,
+    "domain": "Securing the Cloud",
+    "question": "What must be used to share data between multiple security products?",
+    "options": {
+      "A": "Cisco Platform Exchange Grid",
+      "B": "Cisco Rapid Threat Containment",
+      "C": "Cisco Stealthwatch Cloud",
+      "D": "Cisco Advanced Malware Protection"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Platform Exchange Grid best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 192,
+    "domain": "Securing the Cloud",
+    "question": "What are two ways that Cisco Container Platform provides value to customers",
+    "options": {
+      "A": "Allows developers to create code once and deploy to multiple clouds",
+      "B": "helps maintain source code for cloud deployments",
+      "C": "manages Docker containers",
+      "D": "manages Kubernetes clusters",
+      "E": "Creates complex tasks for managing code"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "Allows developers to create code once and deploy to multiple clouds; manages Kubernetes clusters best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 194,
+    "domain": "Securing the Cloud",
+    "question": "Which security product enables administrators to deploy Kubernetes clusters in",
+    "options": {
+      "A": "Cisco Container Controller",
+      "B": "Cisco Cloud Platform",
+      "C": "Cisco Container Platform",
+      "D": "Cisco Content Platform"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Container Platform best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 196,
+    "domain": "Securing the Cloud",
+    "question": "Which two methods must be used to add switches into the fabric so that ad- ministrators can control how switches are added into DCNM for private cloud",
+    "options": {
+      "A": "Cisco Prime Infrastructure",
+      "B": "CDP AutoDiscovery",
+      "C": "Seed IP",
+      "D": "PowerOn Auto Provisioning",
+      "E": "Cisco Cloud Director"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "Seed IP; PowerOn Auto Provisioning best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 197,
+    "domain": "Securing the Cloud",
+    "question": "Which two parameters are used to prevent a data breach in the cloud? (Choose",
+    "options": {
+      "A": "DLP solutions",
+      "B": "complex cloud-based web proxies",
+      "C": "strong user authentication",
+      "D": "antispoofing programs",
+      "E": "encryption"
+    },
+    "correct": [
+      "A",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "DLP solutions; encryption best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 199,
+    "domain": "Securing the Cloud",
+    "question": "An engineer is configuring Dropbox integration with Cisco Cloudlock. Which action must be taken before granting API access in the Dropbox admin console?",
+    "options": {
+      "A": "Add Dropbox to the Cloudlock Authentication and API section in the Cloud- lock portal.",
+      "B": "Add Cloudlock to the Dropbox admin portal.",
+      "C": "Send an API request to Cloudlock from Dropbox admin portal.",
+      "D": "Authorize Dropbox within the Platform settings in the Cloudlock portal."
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Authorize Dropbox within the Platform settings in the Cloudlock portal.. A CASB like Cloudlock provides visibility and control of cloud application usage and protects data via API-based enforcement.",
+    "status": "valid"
+  },
+  {
+    "id": 200,
+    "domain": "Securing the Cloud",
+    "question": "Which cloud service oering allows customers to access a web application that is being hosted, managed, and maintained by a cloud service provider?",
+    "options": {
+      "A": "IaC",
+      "B": "IaaS",
+      "C": "PaaS",
+      "D": "SaaS"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "SaaS best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 201,
+    "domain": "Securing the Cloud",
+    "question": "An engineer is trying to decide whether to use Cisco Umbrella. Cisco CloudLock. Cisco Stealthwatch. or Cisco AppDynamics Cloud Monitoring for visibility into data transfers as well as protection against data exfiltration. Which solution",
+    "options": {
+      "A": "Cisco AppDynamics Cloud Monitoring",
+      "B": "Cisco CloudLock",
+      "C": "Cisco Stealthwatch",
+      "D": "Cisco Umbrella"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco CloudLock. A CASB like Cloudlock provides visibility and control of cloud application usage and protects data via API-based enforcement.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 202,
+    "domain": "Securing the Cloud",
+    "question": "Which Cisco solution extends network visibility, threat detection, and analytics",
+    "options": {
+      "A": "Cisco Stealthwatch Cloud",
+      "B": "Cisco Umbrella",
+      "C": "Cisco AppDynamics",
+      "D": "Cisco CloudLock"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Stealthwatch Cloud best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 203,
+    "domain": "Securing the Cloud",
+    "question": "Which solution detects threats across a private network, public clouds, and",
+    "options": {
+      "A": "Cisco Encrypted Traffic Analytics",
+      "B": "Cisco Stealthwatch",
+      "C": "Cisco CTA",
+      "D": "Cisco Umbrella"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Stealthwatch best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 204,
+    "domain": "Securing the Cloud",
+    "question": "Which Cisco security solution provides patch management in the cloud?",
+    "options": {
+      "A": "Cisco Umbrella",
+      "B": "Cisco ISE",
+      "C": "Cisco CloudLock",
+      "D": "Cisco Tetration"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Tetration best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 205,
+    "domain": "Securing the Cloud",
+    "question": "What do tools like Jenkins, Octopus Deploy, and Azure DevOps provide in",
+    "options": {
+      "A": "cloud application security broker",
+      "B": "compile-time instrumentation",
+      "C": "container orchestration",
+      "D": "continuous integration and continuous deployment"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "continuous integration and continuous deployment best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 206,
+    "domain": "Securing the Cloud",
+    "question": "An engineer is configuring cloud logging using a company-managed Amazon S3 bucket for Cisco Umbrella logs. What benefit does this configuration provide",
+    "options": {
+      "A": "It can grant third-party SIEM integrations write access to the S3 bucket.",
+      "B": "Data can be stored offline for 30 days.",
+      "C": "No other applications except Cisco Umbrella can write to the S3 bucket.",
+      "D": "It is included in the license cost for the multi-org console of Cisco Umbrella."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "It can grant third-party SIEM integrations write access to the S3 bucket. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 207,
+    "domain": "Securing the Cloud",
+    "question": "What are the two distribution methods available to an administrator when performing a fresh rollout of the Cisco AnyConnect Secure Mobility Client?",
+    "options": {
+      "A": "web deploy",
+      "B": "SFTP",
+      "C": "TFTP",
+      "D": "cloud update",
+      "E": "predeploy"
+    },
+    "correct": [
+      "A",
+      "E"
+    ],
+    "choose": 2,
+    "explanation": "web deploy; predeploy. AnyConnect provides per-user remote access with client-based VPN and policy control tied to user identity and posture.",
+    "status": "valid"
+  },
+  {
+    "id": 208,
+    "domain": "Securing the Cloud",
+    "question": "Which Cisco security solution integrates with cloud applications like Dropbox D",
+    "options": {
+      "A": "Cisco Stealthwatch Cloud",
+      "B": "Cisco Talos",
+      "C": "Cisco Umbrella Investigate",
+      "D": "Cisco Cloudlock"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Cloudlock best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 210,
+    "domain": "Securing the Cloud",
+    "question": "Which entity is responsible for encrypting data in transit using an IaaS model",
+    "options": {
+      "A": "Cloud Application Developer for IaaS and Cloud SLA Manager for SaaS",
+      "B": "Cloud SLA Manager for IaaS and Cloud Application Developer for SaaS",
+      "C": "Cloud Service Provider for IaaS and Cloud Service Customer for SaaS",
+      "D": "Cloud Service Customer for IaaS and Cloud Service Provider for SaaS"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cloud Service Customer for IaaS and Cloud Service Provider for SaaS. In cloud shared responsibility, the tenant manages more in IaaS than  while providers manage more of the stack in SaaS.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 211,
+    "domain": "Securing the Cloud",
+    "question": "288 Which two aspects of the IaaS cloud service model are managed by the service",
+    "options": {
+      "A": "virtual machines",
+      "B": "physical network",
+      "C": "applications",
+      "D": "hypervisors",
+      "E": "virtual network"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "physical network; hypervisors. In cloud shared responsibility, the tenant manages more in IaaS than  while providers manage more of the stack in SaaS.",
+    "status": "valid"
+  },
+  {
+    "id": 212,
+    "domain": "Securing the Cloud",
+    "question": "289 Which solution provides end-to-end visibility of applications and insights about",
+    "options": {
+      "A": "Cisco AppDynamics",
+      "B": "Cisco Tetration",
+      "C": "Cisco Secure Cloud Analytics",
+      "D": "Cisco Cloudlock"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco AppDynamics best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 213,
+    "domain": "Securing the Cloud",
+    "question": "An organization is using CSR1000v routers in their private cloud infrastructure. They must upgrade their code to address vulnerabilities within their running",
+    "options": {
+      "A": "The organization must update the code for the devices they manage.",
+      "B": "The cloud vendor is responsible for updating all code hosted in the cloud.",
+      "C": "The cloud service provider must be asked to perform the upgrade.",
+      "D": "The CSR1000v is upgraded automatically as new code becomes available."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "The organization must update the code for the devices they manage. best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 214,
+    "domain": "Securing the Cloud",
+    "question": "In which cloud services model is the customer responsible for scanning for and",
+    "options": {
+      "A": "VMaaS",
+      "B": "IaaS",
+      "C": "PaaS",
+      "D": "SaaS"
+    },
+    "correct": [
+      "B"
+    ],
+    "choose": 1,
+    "explanation": "IaaS best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 215,
+    "domain": "Securing the Cloud",
+    "question": "A Cisco Secure Cloud Analytics administrator is setting up a private network monitor sensor to monitor an on-premises environment. Which two pieces of information from the sensor are used to link to the Secure Cloud Analytics",
+    "options": {
+      "A": "private IP address",
+      "B": "unique service key",
+      "C": "SSL certificate",
+      "D": "public IP address",
+      "E": "NAT ID"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "choose": 2,
+    "explanation": "unique service key; public IP address best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 216,
+    "domain": "Securing the Cloud",
+    "question": "What is a benefit of using Cisco CWS compared to an on-premises Cisco Secure",
+    "options": {
+      "A": "CWS eliminates the need to backhaul traffic through headquarters for remote workers whereas Secure Web Appliance does not.",
+      "B": "Content scanning for SAAS cloud applications is available through CWS and not available through Secure Web Appliance.",
+      "C": "CWS minimizes the load on the internal network and security infrastructure as compared to Secure Web Appliance.",
+      "D": "URL categories are updated more frequently on CWS than they are on Secure Web Appliance."
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "CWS eliminates the need to backhaul traffic through headquarters for remote workers whereas Secure Web Appliance does not. best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 217,
+    "domain": "Securing the Cloud",
+    "question": "304 Which Cisco solution secures the cloud users, data and applications with the",
+    "options": {
+      "A": "Cisco Appdynamics",
+      "B": "Cisco Umbrella",
+      "C": "Cisco CloudLock",
+      "D": "Cisco Secure Network Analytics"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "Cisco CloudLock best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 218,
+    "domain": "Securing the Cloud",
+    "question": "Which Cisco solution provides a comprehensive view of internet domains, IP addresses, and autonomous systems to help pinpoint attackers and malicious",
+    "options": {
+      "A": "Cisco Secure Workload Cloud",
+      "B": "Cisco Advanced Malware Investigate",
+      "C": "Cisco Threat Indication Database",
+      "D": "Cisco Umbrella Investigate"
+    },
+    "correct": [
+      "D"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Umbrella Investigate best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 219,
+    "domain": "Securing the Cloud",
+    "question": "Which Cisco security solution gives the most complete view of the relationships and evolution of Internet domains, IPs, and files, and helps to pinpoint attackers’",
+    "options": {
+      "A": "Cisco Umbrella Investigate",
+      "B": "Cisco Secure Network Analytics",
+      "C": "Cisco pxGrid",
+      "D": "Cisco Secure Cloud Analytics"
+    },
+    "correct": [
+      "A"
+    ],
+    "choose": 1,
+    "explanation": "Cisco Umbrella Investigate best matches the requirement described in the question.",
+    "status": "valid"
+  },
+  {
+    "id": 221,
+    "domain": "Securing the Cloud",
+    "question": "A company is planning to deploy an application to a secure cloud environment. The solution must meet these requirements: A third-party must control the underlying cloud infrastructure. The company must control the deployed ap- plications. A third-party must control networking components.Which cloud",
+    "options": {
+      "A": "SaaS",
+      "B": "IaaS",
+      "C": "PaaS",
+      "D": "private cloud"
+    },
+    "correct": [
+      "C"
+    ],
+    "choose": 1,
+    "explanation": "PaaS best matches the requirement described in the question.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  },
+  {
+    "id": 222,
+    "domain": "Securing the Cloud",
+    "question": "An engineer implements Cisco CloudLock to secure a Microsoft Oice 365 ap- plication in the cloud. The engineer must configure protection for corporate files in case of any incidents. Which two actions must be taken to complete the",
+    "options": {
+      "A": "Remove all users as collaborators on the files.",
+      "B": "Transfer ownership of the files to a specified owner and folder.",
+      "C": "Expire the public share URL.",
+      "D": "Disable the ability for commenters and viewers to download and copy the files.",
+      "E": "Send Cisco Webex message to specified users when an incident is triggered."
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "choose": 2,
+    "explanation": "Remove all users as collaborators on the files.; Expire the public share URL.. A CASB like Cloudlock provides visibility and control of cloud application usage and protects data via API-based enforcement.",
+    "status": "review",
+    "reason": "Truncated or incomplete question text"
+  }
+]
